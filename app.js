@@ -1,30 +1,40 @@
-// SİTEDEKİ KATEGORİLER
+// Kategoriler
 const SECTIONS = [
-  "ekonomi","hukumet","emlak","goc",
-  "spor","gelismeler","sosyalist","istihdam"
+  "ekonomi", "hukumet", "emlak", "goc",
+  "spor", "gelismeler", "sosyalist", "istihdam"
 ];
 
 const JSON_URL = "data/news.json?ts=" + Date.now();
 
-// Mini selector fonksiyonları
+// Küçük yardımcılar
 function $(s, r=document){ return r.querySelector(s); }
-function el(html){ const t=document.createElement("template"); t.innerHTML=html.trim(); return t.content.firstChild; }
+function $all(s, r=document){ return [...r.querySelectorAll(s)]; }
 
-// Haber kartı
+function fmtDate(t){
+  if(!t) return "";
+  try {
+    return new Date(t).toLocaleString("tr-TR", {
+      dateStyle:"medium",
+      timeStyle:"short"
+    });
+  } catch { return t; }
+}
+
+// Haber HTML kartı
 function itemView(n){
-  return el(`
+  return `
     <div class="item">
       <img loading="lazy" src="${n.image}" alt="">
       <div>
         <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
         <p>${n.summary || ""}</p>
-        <div class="meta pill">${n.published || ""}</div>
+        <div class="meta pill">${fmtDate(n.published)}</div>
       </div>
     </div>
-  `);
+  `;
 }
 
-// Tek kategoriyi doldur
+// Bölümleri doldur
 function renderSection(section, arr){
   const root = document.querySelector(`[data-section="${section}"]`);
   root.innerHTML = "";
@@ -34,15 +44,17 @@ function renderSection(section, arr){
     return;
   }
 
-  arr.forEach(n => root.appendChild(itemView(n)));
+  arr.forEach(n => {
+    root.insertAdjacentHTML("beforeend", itemView(n));
+  });
 }
 
-// Manşetler (ilk 6 haber)
+// Manşet (üst sağ sütun)
 function renderHeadlines(data){
   const mans = $("#mansetler");
   mans.innerHTML = "";
 
-  const merged = [
+  const all = [
     ...data.ekonomi,
     ...data.hukumet,
     ...data.emlak,
@@ -53,65 +65,62 @@ function renderHeadlines(data){
     ...data.istihdam
   ].slice(0, 6);
 
-  merged.forEach(n=>{
-    mans.appendChild(el(`
+  all.forEach(n => {
+    mans.insertAdjacentHTML("beforeend", `
       <div class="thumb">
-        <img loading="lazy" src="${n.image}" alt="">
+        <img src="${n.image}">
         <div><a href="${n.link}" target="_blank">${n.title}</a></div>
       </div>
-    `));
+    `);
   });
 }
 
 // JSON yükleme
-async function load(force=false){
-  try{
-    const res = await fetch(JSON_URL, {cache: force ? "reload" : "default"});
+async function load(){
+  try {
+    const res = await fetch(JSON_URL);
     const data = await res.json();
 
+    // Güncelleme zamanı
+    $("#last-updated").textContent = "Son güncelleme: " + (data.generated_at || "");
+
     // Kategorileri doldur
-    renderSection("ekonomi", data.ekonomi);
-    renderSection("hukumet", data.hukumet);
-    renderSection("emlak", data.emlak);
-    renderSection("goc", data.goc);
-    renderSection("spor", data.spor);
-    renderSection("gelismeler", data.gelismeler);
-    renderSection("sosyalist", data.sosyalist);
-    renderSection("istihdam", data.istihdam);
+    SECTIONS.forEach(sec => {
+      renderSection(sec, data[sec]);
+    });
 
     renderHeadlines(data);
 
-    $("#updatedAt").textContent = "Güncellendi: " + (data.generated_at || "");
   }catch(e){
-    console.error("JSON yüklenemedi:", e);
-    $("#updatedAt").textContent = "Veri yüklenemedi.";
+    console.error(e);
+    $("#last-updated").textContent = "Veri yüklenemedi.";
   }
 }
 
-// Sekme sistemi
+// Sekmeler
 function setupTabs(){
   const tabs = $("#tabs");
-  tabs.addEventListener("click", (e)=>{
+  tabs.addEventListener("click", e=>{
     const btn = e.target.closest(".tab");
     if(!btn) return;
 
-    tabs.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));
+    $all(".tab").forEach(t=>t.classList.remove("active"));
     btn.classList.add("active");
 
     const target = btn.dataset.target;
-    document.querySelectorAll(".section").forEach(s=>s.classList.remove("is-active"));
+    $all(".section").forEach(s=>s.classList.remove("is-active"));
     $("#"+target).classList.add("is-active");
   });
 }
 
-// Yenile butonu
+// Yenile
 function setupRefresh(){
-  $("#refreshBtn").addEventListener("click", ()=> load(true));
+  $("#refresh").addEventListener("click", ()=> load());
 }
 
-// Sayfa yüklendiğinde başlat
+// Sayfa hazır olunca
 document.addEventListener("DOMContentLoaded", ()=>{
   setupTabs();
   setupRefresh();
-  load(true);
+  load();
 });
