@@ -1,58 +1,47 @@
 // Kategoriler
 const SECTIONS = [
-  "ekonomi", "hukumet", "emlak", "goc",
-  "spor", "gelismeler", "sosyalist", "istihdam"
+  "ekonomi","hukumet","emlak","goc",
+  "spor","gelismeler","sosyalist","istihdam"
 ];
 
 const JSON_URL = "data/news.json?ts=" + Date.now();
 
-// Küçük yardımcılar
+// Selector kısa yolları
 function $(s, r=document){ return r.querySelector(s); }
 function $all(s, r=document){ return [...r.querySelectorAll(s)]; }
 
-function fmtDate(t){
-  if(!t) return "";
-  try {
-    return new Date(t).toLocaleString("tr-TR", {
-      dateStyle:"medium",
-      timeStyle:"short"
-    });
-  } catch { return t; }
-}
-
-// Haber HTML kartı
+// HTML şablonu
 function itemView(n){
   return `
     <div class="item">
-      <img loading="lazy" src="${n.image}" alt="">
+      <img src="${n.image}" alt="">
       <div>
         <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
         <p>${n.summary || ""}</p>
-        <div class="meta pill">${fmtDate(n.published)}</div>
+        <div class="pill">${n.published || ""}</div>
       </div>
     </div>
   `;
 }
 
-// Bölümleri doldur
-function renderSection(section, arr){
-  const root = document.querySelector(`[data-section="${section}"]`);
+// Haberleri bölüme bas
+function renderSection(key, arr){
+  const root = document.querySelector(`[data-section="${key}"]`);
+  if(!root) return;
   root.innerHTML = "";
 
   if(!arr || arr.length === 0){
-    root.innerHTML = `<p class="meta">Bu kategoride haber yok.</p>`;
+    root.innerHTML = `<p>Bu kategoride haber yok.</p>`;
     return;
   }
 
-  arr.forEach(n => {
-    root.insertAdjacentHTML("beforeend", itemView(n));
-  });
+  root.innerHTML = arr.map(itemView).join("");
 }
 
-// Manşet (üst sağ sütun)
+// Manşetleri doldur (en çok 6 haber)
 function renderHeadlines(data){
-  const mans = $("#mansetler");
-  mans.innerHTML = "";
+  const manset = $("#mansetler");
+  manset.innerHTML = "";
 
   const all = [
     ...data.ekonomi,
@@ -65,61 +54,55 @@ function renderHeadlines(data){
     ...data.istihdam
   ].slice(0, 6);
 
-  all.forEach(n => {
-    mans.insertAdjacentHTML("beforeend", `
-      <div class="thumb">
-        <img src="${n.image}">
-        <div><a href="${n.link}" target="_blank">${n.title}</a></div>
-      </div>
-    `);
-  });
+  manset.innerHTML = all.map(n => `
+    <div class="thumb">
+      <img src="${n.image}">
+      <div><a href="${n.link}" target="_blank">${n.title}</a></div>
+    </div>
+  `).join("");
 }
 
-// JSON yükleme
+// JSON yükle
 async function load(){
-  try {
+  try{
     const res = await fetch(JSON_URL);
     const data = await res.json();
 
-    // Güncelleme zamanı
-    $("#last-updated").textContent = "Son güncelleme: " + (data.generated_at || "");
+    $("#updatedAt").textContent = "Güncellendi: " + new Date().toLocaleString("tr-TR");
+    $("#year").textContent = new Date().getFullYear();
 
-    // Kategorileri doldur
-    SECTIONS.forEach(sec => {
-      renderSection(sec, data[sec]);
-    });
-
+    SECTIONS.forEach(k => renderSection(k, data[k]));
     renderHeadlines(data);
 
-  }catch(e){
-    console.error(e);
-    $("#last-updated").textContent = "Veri yüklenemedi.";
+  }catch(err){
+    $("#updatedAt").textContent = "Veri yüklenemedi!";
+    console.error(err);
   }
 }
 
 // Sekmeler
 function setupTabs(){
   const tabs = $("#tabs");
-  tabs.addEventListener("click", e=>{
+  tabs.addEventListener("click", e => {
     const btn = e.target.closest(".tab");
     if(!btn) return;
 
-    $all(".tab").forEach(t=>t.classList.remove("active"));
+    $all(".tab").forEach(t => t.classList.remove("active"));
     btn.classList.add("active");
 
     const target = btn.dataset.target;
-    $all(".section").forEach(s=>s.classList.remove("is-active"));
-    $("#"+target).classList.add("is-active");
+    $all(".section").forEach(s => s.classList.remove("is-active"));
+    $("#" + target).classList.add("is-active");
   });
 }
 
 // Yenile
 function setupRefresh(){
-  $("#refresh").addEventListener("click", ()=> load());
+  $("#refreshBtn").addEventListener("click", () => load());
 }
 
-// Sayfa hazır olunca
-document.addEventListener("DOMContentLoaded", ()=>{
+// Başlat
+document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
   setupRefresh();
   load();
