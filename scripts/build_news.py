@@ -1,112 +1,109 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-import json, os, time, datetime, re
-from urllib.parse import urlparse
 import feedparser
+import json
+import datetime
+import requests
 
-# KATEGORİ → RSS kaynakları (örnekler, dilediğin gibi ekleyip çıkarabilirsin)
-SOURCES = {
+# Eğer RSS görseli yoksa yedek görsel
+DEFAULT_IMAGE = "https://source.unsplash.com/800x600/?news,australia"
+
+# Ekstra: Türkçe çeviri (Google Translate API gibi)
+def translate_to_tr(text):
+    try:
+        url = "https://api.mymemory.translated.net/get"
+        params = {"q": text, "langpair": "en|tr"}
+        r = requests.get(url, params=params, timeout=5)
+        data = r.json()
+        return data.get("responseData", {}).get("translatedText", text)
+    except:
+        return text
+
+# RSS parser
+def parse_feed(url, limit=20):
+    feed = feedparser.parse(url)
+    items = []
+
+    for entry in feed.entries[:limit]:
+        title = entry.get("title", "")
+        summary = entry.get("summary", "")
+        link = entry.get("link", "")
+
+        # Görsel alanlarını kontrol et
+        image = None
+
+        # 1: media_thumbnail
+        if "media_thumbnail" in entry:
+            image = entry.media_thumbnail[0].get("url")
+
+        # 2: media_content
+        elif "media_content" in entry:
+            image = entry.media_content[0].get("url")
+
+        # 3: enclosure
+        elif "enclosures" in entry and len(entry.enclosures) > 0:
+            image = entry.enclosures[0].get("href")
+
+        # 4: görsel yoksa varsayılan görsel
+        if not image:
+            image = DEFAULT_IMAGE
+
+        items.append({
+            "title": translate_to_tr(title),
+            "summary": translate_to_tr(summary),
+            "link": link,
+            "image": image
+        })
+
+    return items
+
+# Haber kaynakları
+RSS_SOURCES = {
     "economy": [
-        "https://www.rba.gov.au/rss/rss.xml",
-        "https://www.afr.com/rss",
-        "https://www.abc.net.au/news/feed/2942460/rss.xml",
+        "https://www.abc.net.au/news/feed/45924/rss.xml",
+        "https://www.theguardian.com/australia-news/economy/rss",
+        "https://www.afr.com/rss"
     ],
     "government": [
-        "https://www.pm.gov.au/media/rss.xml",
-        "https://www.abc.net.au/news/politics/rss",
-        "https://minister.homeaffairs.gov.au/Pages/Media-Releases.aspx?rss=1",
+        "https://www.abc.net.au/news/politics/feed/45926/rss.xml",
+        "https://www.sbs.com.au/news/topic/politics/article/feed"
     ],
     "realestate": [
         "https://www.domain.com.au/news/feed/",
-        "https://www.realestate.com.au/news/feed/",
+        "https://www.realestate.com.au/news/feed/"
     ],
     "immigration": [
-        "https://immi.homeaffairs.gov.au/rss-feed",
-        "https://www.sbs.com.au/language/turkish/en/news/topic/migration/rss.xml",
+        "https://www.sbs.com.au/language/turkish/en/topic/migration/feed",
+        "https://www.sbs.com.au/news/topic/migration/article/feed"
     ],
     "tr_sports": [
-        "https://www.fanatik.com.tr/rss",
+        "https://www.trtspor.com.tr/rss/anasayfa.rss",
         "https://www.ntvspor.net/rss",
+        "https://www.fanatik.com.tr/rss"
     ],
     "new_developments": [
-        "https://www.abc.net.au/news/science/rss",
-        "https://www.abc.net.au/news/justin/rss",
+        "https://www.abc.net.au/news/feed/51120/rss.xml"
     ],
     "socialist": [
-        "https://www.greenleft.org.au/rss.xml",
+        "https://www.greenleft.org.au/taxonomy/term/1/feed",
+        "https://socialist-alliance.org/news/rss.xml"
     ],
     "jobs": [
-        "https://www.abs.gov.au/rss/media-releases",  # İş/işsizlik verileri
-        "https://www.abc.net.au/news/business/rss",
-    ],
+        "https://www.abc.net.au/news/business/jobs/feed/45918/rss.xml"
+    ]
 }
 
-OUT_DIR = os.path.join("data")
-OUT_FILE = os.path.join(OUT_DIR, "news.json")
+# Tüm RSS kaynaklarını işleme
+def build_json():
+    result = {"generated_at": str(datetime.datetime.utcnow())}
 
-def strip_html(s):
-    if not s: return ""
-    return re.sub(r"<[^>]+>", "", s)
+    for category, feeds in RSS_SOURCES.items():
+        merged = []
+        for feed in feeds:
+            merged.extend(parse_feed(feed, limit=10))
+        result[category] = merged
 
-def to_local_iso(ts_struct):
-    try:
-        # feedparser published_parsed → time.struct_time (UTC olabiliyor)
-        dt = datetime.datetime.fromtimestamp(time.mktime(ts_struct))
-        # Melbourne (Australia/Melbourne) ofsetini basit tutuyoruz:
-        # GitHub Actions UTC’de çalışır; ISO string yeterli.
-        return dt.isoformat(sep=" ", timespec="minutes")
-    except Exception:
-        return ""
-
-def parse_feed(url, limit=20):
-    d = feedparser.parse(url)
-    items = []
-    for e in d.entries[:limit]:
-        title = e.get("title", "").strip()
-        link = e.get("link", "")
-        summary = strip_html(e.get("summary", "") or e.get("description", ""))
-        published = ""
-        published_local = ""
-        if e.get("published_parsed"):
-            published = datetime.datetime.utcfromtimestamp(
-                time.mktime(e.published_parsed)
-            ).isoformat(sep=" ", timespec="minutes")
-            published_local = to_local_iso(e.published_parsed)
-        host = urlparse(link).netloc.replace("www.", "")
-        items.append({
-            "title": title,
-            "url": link,
-            "summary": summary,
-            "published": published,
-            "published_local": published_local,
-            "source": host or urlparse(url).netloc.replace("www.",""),
-        })
-    return items
-
-def build_all():
-    os.makedirs(OUT_DIR, exist_ok=True)
-    payload = {"generated_at": datetime.datetime.utcnow().isoformat() + "Z"}
-    for cat, feeds in SOURCES.items():
-        bucket = []
-        for f in feeds:
-            try:
-                bucket.extend(parse_feed(f))
-            except Exception as ex:
-                bucket.append({
-                    "title": f"Kaynak okunamadı: {f}",
-                    "url": f, "summary": str(ex), "source": "hata"
-                })
-        # basitçe başlığa göre benzersizleştir
-        seen = set(); uniq = []
-        for it in bucket:
-            key = (it.get("title") or "").strip()
-            if key and key not in seen:
-                uniq.append(it); seen.add(key)
-        payload[cat] = uniq
-    with open(OUT_FILE, "w", encoding="utf-8") as fp:
-        json.dump(payload, fp, ensure_ascii=False, indent=2)
-    print(f"Wrote {OUT_FILE} with {sum(len(payload[k]) for k in SOURCES.keys())} items.")
+    # JSON kaydet
+    with open("data/news.json", "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
-    build_all()
+    build_json()
