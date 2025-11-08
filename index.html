@@ -172,3 +172,89 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Avustralyadan Haberler</title>
+  <meta name="description" content="Avustralya Günlük Haber Özeti – Ekonomi, Hükümet, Emlak, Göçmenlik, İşsizlik ve daha fazlası." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" href="data/news.json" as="fetch" crossorigin="anonymous" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Avustralya Günlük Haber Özeti</h1>
+      <p class="tagline">“Avustralyadan Haberler” – Her gün tek sayfada özet.</p>
+      <nav class="tabs" id="tabs">
+        <button class="tab active" data-target="ekonomi">Ekonomi</button>
+        <button class="tab" data-target="hukumet">Hükümet & Devlet</button>
+        <button class="tab" data-target="emlak">Emlak</button>
+        <button class="tab" data-target="goc">Göçmenlik</button>
+        <button class="tab" data-target="spor">Türkiye Spor</button>
+        <button class="tab" data-target="gelismeler">Yeni Gelişmeler</button>
+        <button class="tab" data-target="sosyalist">Sosyalist Hareketler</button>
+        <button class="tab" data-target="istihdam">İş & İşsizlik</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="meta">
+      <span id="last-updated">Yükleniyor…</span>
+      <button id="refresh" class="refresh">Yenile</button>
+    </div>
+
+    <!-- Bölümler -->
+    <section id="ekonomi" class="section is-active">
+      <h2>Avustralya Ekonomi Haberleri</h2>
+      <div class="grid" data-section="ekonomi"></div>
+    </section>
+
+    <section id="hukumet" class="section">
+      <h2>Avustralya Hükümet ve Devlet Haberleri</h2>
+      <div class="grid" data-section="hukumet"></div>
+    </section>
+
+    <section id="emlak" class="section">
+      <h2>Avustralya Emlak Piyasa Haberleri</h2>
+      <div class="grid" data-section="emlak"></div>
+    </section>
+
+    <section id="goc" class="section">
+      <h2>Avustralya Göçmenlik Haberleri</h2>
+      <div class="grid" data-section="goc"></div>
+    </section>
+
+    <section id="spor" class="section">
+      <h2>Türkiye Spor Haberleri</h2>
+      <div class="grid" data-section="spor"></div>
+    </section>
+
+    <section id="gelismeler" class="section">
+      <h2>Avustralya’daki Yeni Gelişmeler</h2>
+      <div class="grid" data-section="gelismeler"></div>
+    </section>
+
+    <section id="sosyalist" class="section">
+      <h2>Avustralya Sosyalist Hareketleri Haberleri</h2>
+      <div class="grid" data-section="sosyalist"></div>
+    </section>
+
+    <section id="istihdam" class="section">
+      <h2>Avustralya İş ve İşsizlik Haberleri</h2>
+      <div class="grid" data-section="istihdam"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Avustralyadan Haberler © <span id="year"></span> · Mobil uyumlu ve reklamsız</p>
+      <p class="hint">İpucu: JSON güncellenince sayfa otomatik yenileniyor. “Yenile” butonu zorla tazeler.</p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
