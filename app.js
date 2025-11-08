@@ -1,91 +1,121 @@
-const JSON_URL = "data/news.json?ts=" + Date.now();
+// Hangi kategoriler var
+const SECTIONS = [
+  "ekonomi","hukumet","emlak","goc",
+  "spor","gelismeler","sosyalist","istihdam"
+];
 
-function $(s, r=document){ return r.querySelector(s); }
-function $all(s, r=document){ return [...r.querySelectorAll(s)]; }
+const state = {
+  url: "data/news.json",
+  data: null,
+  timer: null,
+  refreshMs: 60 * 60 * 1000 // SAATLİK otomatik kontrol
+};
 
-function itemHTML(n){
+function $(sel, root=document){ return root.querySelector(sel); }
+function $all(sel, root=document){ return [...root.querySelectorAll(sel)]; }
+
+function fmtDate(iso){
+  try{
+    const d = new Date(iso);
+    return d.toLocaleString("tr-TR", { dateStyle:"medium", timeStyle:"short" });
+  }catch{ return iso || ""; }
+}
+
+function cardHTML(item){
+  const img = item.image ? `<img loading="lazy" src="${item.image}" alt="">` : "";
+  const src = item.source_host ? `<span class="pill">${item.source_host}</span>` : "";
+  const sum = item.summary || "Özet bulunamadı.";
   return `
-    <div class="item">
-      <img loading="lazy" src="${n.image}" alt="">
+    <article class="item">
+      ${img}
       <div>
-        <h3><a href="${n.link}" target="_blank">${n.title}</a></h3>
-        <p>${n.summary}</p>
-        <div class="meta pill">${n.published || ""}</div>
-      </div>
-    </div>`;
-}
-
-function loadSection(section, arr){
-  const root = document.querySelector('[data-section="'+section+'"]');
-  if(!arr || arr.length === 0){
-    root.innerHTML = "<p>Bu kategoride haber yok.</p>";
-    return;
-  }
-  root.innerHTML = arr.map(itemHTML).join("");
-}
-
-async function loadJSON(){
-  try {
-    const res = await fetch(JSON_URL);
-    const data = await res.json();
-
-    // Başlıklar
-    const manset = document.getElementById("mansetler");
-    manset.innerHTML = "";
-    const merged = [
-      ...data.ekonomi,
-      ...data.hukumet,
-      ...data.emlak,
-      ...data.goc,
-      ...data.spor,
-      ...data.gelismeler,
-      ...data.sosyalist,
-      ...data.istihdam
-    ].slice(0, 8);
-
-    manset.innerHTML = merged
-      .map(n => `
-        <div class="thumb">
-          <img src="${n.image}">
-          <div><a href="${n.link}" target="_blank">${n.title}</a></div>
+        <h3>${item.title}</h3>
+        <p>${sum}</p>
+        <div class="meta">
+          ${src}
+          <span class="pill">${fmtDate(item.published)}</span>
+          ${item.link ? `<a class="pill" href="${item.link}" target="_blank" rel="noopener">Habere git →</a>` : ""}
         </div>
-      `)
-      .join("");
+      </div>
+    </article>
+  `;
+}
 
-    // Kategoriler
-    loadSection("ekonomi", data.ekonomi);
-    loadSection("hukumet", data.hukumet);
-    loadSection("emlak", data.emlak);
-    loadSection("goc", data.goc);
-    loadSection("spor", data.spor);
-    loadSection("gelismeler", data.gelismeler);
-    loadSection("sosyalist", data.sosyalist);
-    loadSection("istihdam", data.istihdam);
+function render(){
+  if(!state.data) return;
+  $("#year").textContent = new Date().getFullYear();
+  $("#updatedAt").textContent = `Güncellendi: ${fmtDate(state.data.updated_at)} (otomatik)`;
 
-    document.getElementById("updatedAt").textContent =
-      "Güncellendi: " + (data.updated_at || "");
+  // Manşetler (tüm kategorilerden ilk 6)
+  const mans = $("#mansetler");
+  if(mans){
+    const all = SECTIONS.flatMap(k => state.data[k] || []);
+    mans.innerHTML = "";
+    all.slice(0, 6).forEach(n=>{
+      const div = document.createElement("div");
+      div.className = "thumb";
+      div.innerHTML = `
+        ${n.image ? `<img loading="lazy" src="${n.image}" alt="">` : ""}
+        <div>
+          <div><strong>${n.title}</strong></div>
+          <div style="font-size:.9em;color:#666">${fmtDate(n.published)} · ${n.source_host||""}</div>
+        </div>
+      `;
+      mans.appendChild(div);
+    });
+  }
 
-  } catch (err) {
-    console.error("HATA:", err);
-    document.getElementById("updatedAt").textContent = "Veri yüklenemedi.";
+  // Kategoriler
+  SECTIONS.forEach(key=>{
+    const mount = document.querySelector(`.grid[data-section="${key}"]`);
+    const items = state.data[key] || [];
+    mount.innerHTML = items.length
+      ? items.map(cardHTML).join("")
+      : `<div class="item"><div><p>Şimdilik içerik yok.</p></div></div>`;
+  });
+}
+
+async function fetchJSON(force=false){
+  const url = state.url + (force ? `?t=${Date.now()}` : "");
+  const res = await fetch(url, {cache: force ? "reload" : "default"});
+  if(!res.ok) throw new Error("JSON indirilemedi");
+  return res.json();
+}
+
+async function load(force=false){
+  try{
+    const data = await fetchJSON(force);
+    state.data = data;
+    render();
+  }catch(e){
+    $("#updatedAt").textContent = "Veri yüklenemedi. (news.json yok mu?)";
+    console.error(e);
   }
 }
 
 function setupTabs(){
-  document.getElementById("tabs").addEventListener("click", e=>{
+  const tabs = $("#tabs");
+  tabs.addEventListener("click", (e)=>{
     const btn = e.target.closest(".tab");
     if(!btn) return;
-
-    $all(".tab").forEach(b => b.classList.remove("active"));
+    $all(".tab", tabs).forEach(b=>b.classList.remove("active"));
     btn.classList.add("active");
-
-    $all(".section").forEach(sec => sec.classList.remove("is-active"));
-    document.getElementById(btn.dataset.target).classList.add("is-active");
+    const target = btn.dataset.target;
+    $all(".section").forEach(s=>s.classList.remove("is-active"));
+    const sec = document.getElementById(target);
+    if(sec) sec.classList.add("is-active");
   });
+}
+
+function setupRefresh(){
+  const btn = $("#refreshBtn");
+  if(btn) btn.addEventListener("click", ()=> load(true));
+  if(state.timer) clearInterval(state.timer);
+  state.timer = setInterval(()=> load(true), state.refreshMs);
 }
 
 document.addEventListener("DOMContentLoaded", ()=>{
   setupTabs();
-  loadJSON();
-  document.getElementById("refreshBtn").addEventListener("click", ()=> loadJSON());
+  setupRefresh();
+  load(true);
 });
