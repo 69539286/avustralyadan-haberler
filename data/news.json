@@ -1,0 +1,28 @@
+{
+  "updated_at": "2025-11-08T09:00:00+11:00",
+  "ekonomi": [
+    {
+      "title": "RBA, enflasyon görünümünü değerlendirdi",
+      "summary": "Merkez Bankası, fiyat baskılarının hizmetlerde kalıcı olduğunu belirtti; piyasa, bir sonraki toplantıda değişim beklemiyor.",
+      "link": "https://example.com/rba",
+      "source": "Örnek Kaynak",
+      "published_at": "2025-11-08T07:30:00+11:00",
+      "tags": ["RBA","Enflasyon"]
+    }
+  ],
+  "hukumet": [],
+  "emlak": [],
+  "goc": [],
+  "spor": [
+    {
+      "title": "Türkiye milli takımı hazırlık maçında galip",
+      "summary": "Genç oyuncuların performansı dikkat çekti; teknik ekip rotasyona gitti.",
+      "link": "https://example.com/turkiye-spor",
+      "published_at": "2025-11-08T01:10:00+11:00",
+      "tags": ["Futbol"]
+    }
+  ],
+  "gelismeler": [],
+  "sosyalist": [],
+  "istihdam": []
+}
