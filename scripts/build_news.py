@@ -1,10 +1,33 @@
 import feedparser
+import requests
 import json
-from googletrans import Translator
-import re
+from bs4 import BeautifulSoup
+import html
+from datetime import datetime
+import urllib.parse
+import time
 
-translator = Translator()
+# --- Basit ve stabil çeviri sistemi ---
+def translate_safe(text):
+    """MyMemory ile çeviri yapar, hata olursa İngilizce döner."""
+    if not text:
+        return ""
+    try:
+        url = (
+            "https://api.mymemory.translated.net/get?q="
+            + urllib.parse.quote(text)
+            + "&langpair=en|tr"
+        )
+        res = requests.get(url, timeout=5).json()
+        tr = res.get("responseData", {}).get("translatedText")
+        if tr:
+            return tr
+        return text
+    except:
+        return text
 
+
+# --- RSS KAYNAKLARI ---
 RSS_FEEDS = {
     "ekonomi": [
         "https://news.google.com/rss/search?q=Australia+economy&hl=en-AU&gl=AU&ceid=AU:en"
@@ -12,69 +35,92 @@ RSS_FEEDS = {
     "hukumet": [
         "https://news.google.com/rss/search?q=Australia+government&hl=en-AU&gl=AU&ceid=AU:en"
     ],
-    "ev": [
-        "https://news.google.com/rss/search?q=Australia+housing+market&hl=en-AU&gl=AU&ceid=AU:en"
+    "emlak": [
+        "https://news.google.com/rss/search?q=Australia+real+estate&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "goc": [
         "https://news.google.com/rss/search?q=Australia+immigration&hl=en-AU&gl=AU&ceid=AU:en"
     ],
-    "gundem": [
+    "spor": [
+        "https://news.google.com/rss/search?q=Turkey+sports&hl=en-AU&gl=AU&ceid=AU:en"
+    ],
+    "gelismeler": [
         "https://news.google.com/rss/search?q=Australia+breaking+news&hl=en-AU&gl=AU&ceid=AU:en"
-    ]
+    ],
+    "sosyalist": [
+        "https://news.google.com/rss/search?q=Australia+socialist&hl=en-AU&gl=AU&ceid=AU:en"
+    ],
+    "istihdam": [
+        "https://news.google.com/rss/search?q=Australia+employment&hl=en-AU&gl=AU&ceid=AU:en"
+    ],
 }
 
+
+# --- TEMİZLEME FONKSİYONLARI ---
 def clean_html(text):
-    return re.sub('<[^<]+?>', '', text)
+    if not text:
+        return ""
+    text = html.unescape(text)
+    soup = BeautifulSoup(text, "html.parser")
+    return soup.get_text().strip()
 
-def summarize(text):
-    text = text.strip()
-    sentences = re.split(r'\. ', text)
-    if len(sentences) > 2:
-        return sentences[0] + ". " + sentences[1] + "."
-    return text
 
-def fetch_and_translate(entry):
-    title = clean_html(entry.get("title", ""))
-    summary = clean_html(entry.get("summary", ""))
-    link = entry.get("link", "")
+def get_image(entry):
+    if "media_content" in entry:
+        try:
+            return entry.media_content[0]["url"]
+        except:
+            pass
+    if "media_thumbnail" in entry:
+        try:
+            return entry.media_thumbnail[0]["url"]
+        except:
+            pass
+    return "https://via.placeholder.com/600x400?text=Haber"
 
-    # İngilizceyi Türkçeye çevir
-    try:
-        tr_title = translator.translate(title, dest="tr").text
-        tr_summary = translator.translate(summary, dest="tr").text
-    except:
-        tr_title = title
-        tr_summary = summary
 
-    # Özet oluştur
-    tr_summary = summarize(tr_summary)
+# --- HER KATEGORİYİ ÇEK ---
+def fetch_category(urls):
+    items = []
 
-    return {
-        "title": tr_title,
-        "link": link,
-        "summary": tr_summary,
-        "image": "https://via.placeholder.com/600x400?text=Haber"
-    }
+    for url in urls:
+        feed = feedparser.parse(url)
 
-def generate_news_json():
-    all_news = {}
+        for e in feed.entries[:20]:
+            title_en = clean_html(e.title)
+            summary_en = clean_html(e.get("summary", ""))
 
-    for category, feeds in RSS_FEEDS.items():
-        cat_news = []
+            # çeviri 1 saniye aralıklarla güvenli çalışır
+            tr_title = translate_safe(title_en)
+            time.sleep(1)
+            tr_summary = translate_safe(summary_en)
 
-        for url in feeds:
-            data = feedparser.parse(url)
+            items.append({
+                "title": tr_title,
+                "summary": tr_summary,
+                "link": e.link,
+                "published": e.get("published", ""),
+                "image": get_image(e)
+            })
 
-            for entry in data.entries[:10]:  # ilk 10 haber
-                item = fetch_and_translate(entry)
-                cat_news.append(item)
+    return items
 
-        all_news[category] = cat_news
 
-    all_news["generated_at"] = "otomatik"
+# --- JSON OLUŞTUR ---
+def build():
+    print("JSON oluşturuluyor...")
+
+    out = {"updated_at": datetime.utcnow().isoformat()}
+
+    for cat, urls in RSS_FEEDS.items():
+        print("Kategori işleniyor:", cat)
+        out[cat] = fetch_category(urls)
 
     with open("data/news.json", "w", encoding="utf-8") as f:
-        json.dump(all_news, f, indent=2, ensure_ascii=False)
+        json.dump(out, f, ensure_ascii=False, indent=2)
+
+    print("✅ Tamamlandı: data/news.json")
+
 
 if __name__ == "__main__":
-    generate_news_json()
+    build()
