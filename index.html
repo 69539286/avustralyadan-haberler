@@ -1,87 +1,122 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Avustralyadan Haberler – Günlük Haber Özeti</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avustralyadan Haberler</title>
 
-  <meta name="description" content="Avustralya Ekonomi, Hükümet, Emlak, Göçmenlik, İş, Sosyalist Hareketler ve Türkiye Spor haberlerinin günlük özeti.">
+  <style>
+    :root{
+      --bg:#0b5ba1;
+      --ink:#111;
+      --muted:#666;
+      --card:#fff;
+      --wash:#f6f7f9;
+      --ring:#dfe6ef;
+    }
+    body{margin:0;font-family:Arial, sans-serif;background:var(--wash);color:var(--ink)}
+    header{background:var(--bg);color:#fff;padding:20px;text-align:center}
+    header h1{margin:0;font-size:1.6rem}
 
-  <link rel="stylesheet" href="styles.css" />
+    nav.tabs{display:flex;overflow-x:auto;background:#fff;border-bottom:1px solid var(--ring)}
+    nav.tabs button{padding:10px 14px;border:0;background:none;cursor:pointer;white-space:nowrap}
+    nav.tabs .active{border-bottom:3px solid var(--bg);font-weight:bold;color:var(--bg)}
+
+    .container{max-width:1100px;margin:auto;padding:16px}
+
+    .meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+    .pill{background:#eef6ff;border:1px solid var(--ring);padding:4px 8px;border-radius:999px;font-size:.8rem;color:var(--bg)}
+
+    .grid{display:grid;gap:14px;grid-template-columns:1fr}
+    .item{display:grid;grid-template-columns:120px 1fr;gap:10px;background:#fff;
+      border:1px solid var(--ring);border-radius:10px;padding:10px}
+    .item img{width:120px;height:80px;object-fit:cover;border-radius:8px}
+
+    .thumb{display:grid;grid-template-columns:64px 1fr;gap:8px;margin:6px 0}
+    .thumb img{width:64px;height:48px;object-fit:cover;border-radius:6px}
+
+    footer{text-align:center;padding:20px;color:var(--muted);margin-top:40px}
+    .section{display:none}
+    .is-active{display:block}
+  </style>
+
   <script src="app.js" defer></script>
 </head>
-
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Avustralya Günlük Haber Özeti</h1>
-      <p class="tagline">Her gün Avustralya’dan kategorilere ayrılmış haberler.</p>
 
-      <nav class="tabs">
-        <button class="tab active" data-target="ekonomi">Ekonomi</button>
-        <button class="tab" data-target="hukumet">Hükümet & Devlet</button>
-        <button class="tab" data-target="emlak">Emlak</button>
-        <button class="tab" data-target="goc">Göçmenlik</button>
-        <button class="tab" data-target="spor">Türkiye Spor</button>
-        <button class="tab" data-target="gelismeler">Yeni Gelişmeler</button>
-        <button class="tab" data-target="sosyalist">Sosyalist Hareketler</button>
-        <button class="tab" data-target="istihdam">İş & İşsizlik</button>
-      </nav>
-    </div>
-  </header>
+<header>
+  <h1>Avustralyadan Haberler</h1>
+  <p>Kategorilere ayrılmış günlük haber özeti</p>
+</header>
 
-  <main class="container">
-    <div class="meta-top">
-      <span id="last-updated">Veri yükleniyor...</span>
-      <button id="refresh">Yenile</button>
-    </div>
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-target="ekonomi">Ekonomi</button>
+  <button class="tab" data-target="hukumet">Hükümet</button>
+  <button class="tab" data-target="emlak">Emlak</button>
+  <button class="tab" data-target="goc">Göç</button>
+  <button class="tab" data-target="spor">Spor</button>
+  <button class="tab" data-target="gelismeler">Gelişmeler</button>
+  <button class="tab" data-target="sosyalist">Sosyalist</button>
+  <button class="tab" data-target="istihdam">İstihdam</button>
+</nav>
 
-    <!-- KATEGORİ BÖLÜMLERİ -->
-    <section id="ekonomi" class="section is-active">
-      <h2>Avustralya Ekonomi Haberleri</h2>
-      <div class="grid" data-section="ekonomi"></div>
-    </section>
+<main class="container">
 
-    <section id="hukumet" class="section">
-      <h2>Hükümet ve Devlet Haberleri</h2>
-      <div class="grid" data-section="hukumet"></div>
-    </section>
+  <div class="meta">
+    <span id="updatedAt" class="pill">Yükleniyor...</span>
+    <button id="refreshBtn">Yenile</button>
+  </div>
 
-    <section id="emlak" class="section">
-      <h2>Emlak Piyasa Haberleri</h2>
-      <div class="grid" data-section="emlak"></div>
-    </section>
+  <section id="manset" class="section is-active">
+    <h2>Manşetler</h2>
+    <div id="mansetler"></div>
+  </section>
 
-    <section id="goc" class="section">
-      <h2>Göçmenlik Haberleri</h2>
-      <div class="grid" data-section="goc"></div>
-    </section>
+  <section id="ekonomi" class="section">
+    <h2>Ekonomi</h2>
+    <div class="grid" data-section="ekonomi"></div>
+  </section>
 
-    <section id="spor" class="section">
-      <h2>Türkiye Spor Haberleri</h2>
-      <div class="grid" data-section="spor"></div>
-    </section>
+  <section id="hukumet" class="section">
+    <h2>Hükümet</h2>
+    <div class="grid" data-section="hukumet"></div>
+  </section>
 
-    <section id="gelismeler" class="section">
-      <h2>Yeni Gelişmeler</h2>
-      <div class="grid" data-section="gelismeler"></div>
-    </section>
+  <section id="emlak" class="section">
+    <h2>Emlak</h2>
+    <div class="grid" data-section="emlak"></div>
+  </section>
 
-    <section id="sosyalist" class="section">
-      <h2>Sosyalist Hareketler</h2>
-      <div class="grid" data-section="sosyalist"></div>
-    </section>
+  <section id="goc" class="section">
+    <h2>Göç</h2>
+    <div class="grid" data-section="goc"></div>
+  </section>
 
-    <section id="istihdam" class="section">
-      <h2>İş & İşsizlik Haberleri</h2>
-      <div class="grid" data-section="istihdam"></div>
-    </section>
-  </main>
+  <section id="spor" class="section">
+    <h2>Spor</h2>
+    <div class="grid" data-section="spor"></div>
+  </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>Avustralyadan Haberler © 2025 – Günlük otomatik güncellenir.</p>
-    </div>
-  </footer>
+  <section id="gelismeler" class="section">
+    <h2>Gelişmeler</h2>
+    <div class="grid" data-section="gelismeler"></div>
+  </section>
+
+  <section id="sosyalist" class="section">
+    <h2>Sosyalist</h2>
+    <div class="grid" data-section="sosyalist"></div>
+  </section>
+
+  <section id="istihdam" class="section">
+    <h2>İstihdam</h2>
+    <div class="grid" data-section="istihdam"></div>
+  </section>
+
+</main>
+
+<footer>
+  Avustralyadan Haberler © <span id="year"></span>
+</footer>
+
 </body>
 </html>
