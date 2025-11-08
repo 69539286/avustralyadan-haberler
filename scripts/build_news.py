@@ -6,17 +6,18 @@ from datetime import datetime
 RSS_SOURCES = {
     "ekonomi": [
         "https://news.google.com/rss/search?q=Australia+economy&hl=en-AU&gl=AU&ceid=AU:en",
-        "https://www.reuters.com/markets/australia/rss"
+        "https://www.abc.net.au/news/feed/51120/rss.xml"
     ],
     "hukumet": [
         "https://news.google.com/rss/search?q=Australia+government&hl=en-AU&gl=AU&ceid=AU:en",
-        "https://www.reuters.com/world/asia-pacific/rss"
+        "https://www.abc.net.au/news/politics/feed.xml"
     ],
     "emlak": [
         "https://news.google.com/rss/search?q=Australia+housing+market&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "goc": [
-        "https://news.google.com/rss/search?q=Australia+immigration&hl=en-AU&gl=AU&ceid=AU:en"
+        "https://news.google.com/rss/search?q=Australia+immigration&hl=en-AU&gl=AU&ceid=AU:en",
+        "https://www.abc.net.au/news/topic/migration/feed.xml"
     ],
     "spor": [
         "https://www.trtspor.com.tr/rss/anasayfa.rss",
@@ -34,7 +35,6 @@ RSS_SOURCES = {
 }
 
 OUTPUT_FILE = "data/news.json"
-
 PLACEHOLDER_IMAGE = "https://via.placeholder.com/600x400?text=Haber"
 
 def get_image(entry):
@@ -69,7 +69,6 @@ def build():
             except:
                 pass
 
-        # En yeni haberler önde
         all_items.sort(key=lambda x: x.get("published", ""), reverse=True)
         output[kategori] = all_items[:20]
 
