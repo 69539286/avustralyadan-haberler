@@ -32,6 +32,11 @@ jobs:
       - name: Build JSON & images
         run: |
           python scripts/build_news.py
+          
+          - name: Test internet access
+  run: |
+    python scripts/test_request.py
+
 
       - name: Commit artifacts
         run: |
