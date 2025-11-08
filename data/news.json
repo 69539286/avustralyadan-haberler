@@ -1,11 +1,1299 @@
 {
-  "generated_at": "2025-11-08 00:00 UTC",
-  "ekonomi": [],
-  "hukumet": [],
-  "emlak": [],
-  "goc": [],
-  "spor": [],
-  "gelismeler": [],
-  "sosyalist": [],
-  "istihdam": []
+  "generated_at": "2025-11-08 05:47 UTC",
+  "ekonomi": [
+    {
+      "title": "Big tech says AI could boost Australia’s economy by $115 billion a year. Does the evidence stack up? - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc0F1Mkw4MjVPdnkxNHlHcTdXTTBxR1FkcXhqNmFIUElNaEdNdVZ6dmZ5QmE4STRXMjFXZ2NrZnNsZ3lIa1N6Z29rSm00eXdNdnpRTU10X05ZcldjU1NBaDVSemI0Y3BaZlp0b2wwRWFERnNDSVBaaXBtSVo0VG92Tk1lVUR1djhnemxtOW5uWVhBb21DVzdIMEZjdGZRWWZWUG9tcjdXOXVmYWZSamNIa3BRdW9NdmRaZnVEaHhrYWU3QkhRRG8yWmVBYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOc0F1Mkw4MjVPdnkxNHlHcTdXTTBxR1FkcXhqNmFIUElNaEdNdVZ6dmZ5QmE4STRXMjFXZ2NrZnNsZ3lIa1N6Z29rSm00eXdNdnpRTU10X05ZcldjU1NBaDVSemI0Y3BaZlp0b2wwRWFERnNDSVBaaXBtSVo0VG92Tk1lVUR1djhnemxtOW5uWVhBb21DVzdIMEZjdGZRWWZWUG9tcjdXOXVmYWZSamNIa3BRdW9NdmRaZnVEaHhrYWU3QkhRRG8yWmVBYw?oc=5\" target=\"_blank\">Big tech says AI could boost Australia’s economy by $115 billion a year. Does the evidence stack up?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "published": "Wed, 30 Jul 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia’s next boom won’t come from how much we dig or ship—but from how we meet human needs - PwC Australia",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tZlh1SVpiNnVudXFVX2w4MW9ORF9Na0lmck11bVlmU0RRRFJ4UU5JVWgwVXFveXNyLWdXLVV1MTdPczhPMUJkbU01V0NCMDNFOExHbmt5MS1sUXZkSVpia2d5TQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tZlh1SVpiNnVudXFVX2w4MW9ORF9Na0lmck11bVlmU0RRRFJ4UU5JVWgwVXFveXNyLWdXLVV1MTdPczhPMUJkbU01V0NCMDNFOExHbmt5MS1sUXZkSVpia2d5TQ?oc=5\" target=\"_blank\">Australia’s next boom won’t come from how much we dig or ship—but from how we meet human needs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PwC Australia</font>",
+      "published": "Wed, 30 Apr 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Comparing economic conditions in New Zealand and Australia - Westpac IQ",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjVjdDRGck9tV09QQ3pSbjFqUGhFRk5tMC1XX3hpcHZLNVgyYUxJZmgzdDRrYWM1V0J6MnhRVVF1LVBOcWVQZUdYRmw0NDFBblE2TWFxdE5ieTBVSVd0ZC1wNVdBTFkyNEZUWmVHODRSMHI0OE51ajZpaG82Vm5DclZHRGNYcFNLWFg1eE5JNGVOVjA3ajBfc2hoeS0xTkhQUFVxN245QVc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVjVjdDRGck9tV09QQ3pSbjFqUGhFRk5tMC1XX3hpcHZLNVgyYUxJZmgzdDRrYWM1V0J6MnhRVVF1LVBOcWVQZUdYRmw0NDFBblE2TWFxdE5ieTBVSVd0ZC1wNVdBTFkyNEZUWmVHODRSMHI0OE51ajZpaG82Vm5DclZHRGNYcFNLWFg1eE5JNGVOVjA3ajBfc2hoeS0xTkhQUFVxN245QVc?oc=5\" target=\"_blank\">Comparing economic conditions in New Zealand and Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Westpac IQ</font>",
+      "published": "Wed, 27 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia: a wealthy country in gentle decline, exposing itself to danger - The Strategist | ASPI's analysis and commentary site",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY0xkQ2xLcGY4RHdUSmZNdXFYX2U0Yk5kQnlkanA0NkxFaGxOSlA4VnVQRklYaml2aEZHUm5zLW03UUVOWm5ieWJjcnRWUEhkUHVQWGk5QV9la3piM1hjN19haUZva3pBMDV1ZVJIbWluVzNLMDd5NHpobEd1YzZlV1o4OEFvWGhzR0VybEtWRV9Td2xham9DUWtlN004M1U0MlZXNGV4VjFaZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY0xkQ2xLcGY4RHdUSmZNdXFYX2U0Yk5kQnlkanA0NkxFaGxOSlA4VnVQRklYaml2aEZHUm5zLW03UUVOWm5ieWJjcnRWUEhkUHVQWGk5QV9la3piM1hjN19haUZva3pBMDV1ZVJIbWluVzNLMDd5NHpobEd1YzZlV1o4OEFvWGhzR0VybEtWRV9Td2xham9DUWtlN004M1U0MlZXNGV4VjFaZw?oc=5\" target=\"_blank\">Australia: a wealthy country in gentle decline, exposing itself to danger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Strategist | ASPI's analysis and commentary site</font>",
+      "published": "Wed, 27 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia’s surprise unemployment spike suggests an economy not overheating but in need of stimulus | Greg Jericho - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVkJtSWJIcDZNd1lBZzN5V3JGZVlRZkx1VGhOWGJGc2RXa3BmakxYTHB1ZUN4bVRSREhsQVVxdEJPeE5sOVpBREV6M1lObEc3MFNwUV9nYkpfQ3JtbDgya21JTGRkcEt1QnpjbHI1NmFYV0g5SDdZVkZSOU1pNmJZVXVCa3J4QnZyZHNPMWxIMzgzdFJuWktBbjBtUlM0bUx6T3FnMXFuTTBsS09haWhjNDh1TEJ4X1hnZXg5dm5CaWJwd2loQVRkdmpnS0NVTFNWeV9LeFZrclc3Zl9XeWkweW92RUdnN2lXUDJESXVHVGg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVkJtSWJIcDZNd1lBZzN5V3JGZVlRZkx1VGhOWGJGc2RXa3BmakxYTHB1ZUN4bVRSREhsQVVxdEJPeE5sOVpBREV6M1lObEc3MFNwUV9nYkpfQ3JtbDgya21JTGRkcEt1QnpjbHI1NmFYV0g5SDdZVkZSOU1pNmJZVXVCa3J4QnZyZHNPMWxIMzgzdFJuWktBbjBtUlM0bUx6T3FnMXFuTTBsS09haWhjNDh1TEJ4X1hnZXg5dm5CaWJwd2loQVRkdmpnS0NVTFNWeV9LeFZrclc3Zl9XeWkweW92RUdnN2lXUDJESXVHVGg?oc=5\" target=\"_blank\">Australia’s surprise unemployment spike suggests an economy not overheating but in need of stimulus | Greg Jericho</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Commonwealth Bank issues stark warning to buckle up as Australia faces 'new economic era' - Yahoo Finance Australia",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQVAyLVdzSDFDMTdDVWFwU0d6TWNQUDk5a1p4YTdMSFBlZW1MYzVVQ28xUmRCME4zWXY2ZGliMk03SGVjZjZZQVY3TjFzeHljRWpLbmI0OUozM0dtaTlpOEFDaUcxMGdCZWF3Nmc0eFIyVVdvdjJLM1R3SFo0VUFabjJfbnNRY2RsQ1VITmZSUW5FQ196a0toTEVNU0Vac0w3NHZyLVpaMzVPT3M0XzNJZVQtcmZLbFhWMml4RzdwRWtRWE5YNEpJS01CLXY5UnJ1eEE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQVAyLVdzSDFDMTdDVWFwU0d6TWNQUDk5a1p4YTdMSFBlZW1MYzVVQ28xUmRCME4zWXY2ZGliMk03SGVjZjZZQVY3TjFzeHljRWpLbmI0OUozM0dtaTlpOEFDaUcxMGdCZWF3Nmc0eFIyVVdvdjJLM1R3SFo0VUFabjJfbnNRY2RsQ1VITmZSUW5FQ196a0toTEVNU0Vac0w3NHZyLVpaMzVPT3M0XzNJZVQtcmZLbFhWMml4RzdwRWtRWE5YNEpJS01CLXY5UnJ1eEE?oc=5\" target=\"_blank\">Commonwealth Bank issues stark warning to buckle up as Australia faces 'new economic era'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Australia</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Northern Australia: securing a developing economy to secure a developed nation - Australian Strategic Policy Institute",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORzZtYjhfVFRxa3N3OTNKZ09ZOEd4YXBPb0RTa3QzM1FnN2plWUhfSUpib0pnUTJnSnNIOEdraVBNem5aY2dwU0lWMHBmNDd6YW15SGlVOWsxdUNXdWcxTTRreTNwSl81X2UxV2tCWlJMcFlKeVNHREkzb3dhbk5GODg2SzBtMnNyT3RfUnpHeHljV1NTSm9QR2NfNGwzbVVVWG5EcnpiUVlrUDVybkE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxORzZtYjhfVFRxa3N3OTNKZ09ZOEd4YXBPb0RTa3QzM1FnN2plWUhfSUpib0pnUTJnSnNIOEdraVBNem5aY2dwU0lWMHBmNDd6YW15SGlVOWsxdUNXdWcxTTRreTNwSl81X2UxV2tCWlJMcFlKeVNHREkzb3dhbk5GODg2SzBtMnNyT3RfUnpHeHljV1NTSm9QR2NfNGwzbVVVWG5EcnpiUVlrUDVybkE?oc=5\" target=\"_blank\">Northern Australia: securing a developing economy to secure a developed nation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Strategic Policy Institute</font>",
+      "published": "Wed, 20 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Northern Australia: from developing economy to national powerhouse—if we choose to act - The Strategist | ASPI's analysis and commentary site",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbnBPZDF1ZE1DRmRjLXhnWDd4dFFNXzlDMUZheFZtaDd1UGdlUzV2YTlEeDBVb1BTSzNyN1NjeVFtVjZfM1ZoUjNzdUhWaGVEZWtrVmFpRlhZZjN2ZFVqUnBnOVQ4b0VlMTNZbXZpd01GcUxJVEtRMFZPRkRqWlhra2RTZVlkSXJmejg4WHprZVhNVzBlUElpbHQ3OWthNmFHMEpiUHVwS2NfeVlKSW5jWkhEek5KRVhiSWx5Ug?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQbnBPZDF1ZE1DRmRjLXhnWDd4dFFNXzlDMUZheFZtaDd1UGdlUzV2YTlEeDBVb1BTSzNyN1NjeVFtVjZfM1ZoUjNzdUhWaGVEZWtrVmFpRlhZZjN2ZFVqUnBnOVQ4b0VlMTNZbXZpd01GcUxJVEtRMFZPRkRqWlhra2RTZVlkSXJmejg4WHprZVhNVzBlUElpbHQ3OWthNmFHMEpiUHVwS2NfeVlKSW5jWkhEek5KRVhiSWx5Ug?oc=5\" target=\"_blank\">Northern Australia: from developing economy to national powerhouse—if we choose to act</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Strategist | ASPI's analysis and commentary site</font>",
+      "published": "Wed, 20 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Building boom drives Australia’s economic forecast - Build Australia",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTlFIaFBJSW5HblNNM1hYRmkzV3NWU3d5Uko1cmx5SVhEaHhvYjBuQTdWU2xDSWVRMXM0eWNEYkVhNnJSNEs0cy1SYVZNN2N6ejRkcHhSMXVXejdQMTdOWmEtUGJFei0zMWVPXzliWkZiRXlHTFN6d3Y3V1dkMUV1M3Z1NzAyaElhTm1HMXpiay1SS1NnSjlBcEdXemJIZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPTlFIaFBJSW5HblNNM1hYRmkzV3NWU3d5Uko1cmx5SVhEaHhvYjBuQTdWU2xDSWVRMXM0eWNEYkVhNnJSNEs0cy1SYVZNN2N6ejRkcHhSMXVXejdQMTdOWmEtUGJFei0zMWVPXzliWkZiRXlHTFN6d3Y3V1dkMUV1M3Z1NzAyaElhTm1HMXpiay1SS1NnSjlBcEdXemJIZw?oc=5\" target=\"_blank\">Building boom drives Australia’s economic forecast</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Build Australia</font>",
+      "published": "Wed, 17 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Economy to take a breather after recent surge in Australia - Oxford Economics",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQenZ3cERqeUhISW9DQ1J2SlpBTldEOXBnVEdEVTkzZXVOYUtJMDRTUGVfS2dsM3cxNjN4LUhIZ2xGUC1LR2pVZ1owM3lqX291U0dBa1AwZFgzdUxqTG1FV3RHSU5MUFN5ekc5SFFnV3JLdTRXSlNZS0xBemM1ZW1KdQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQenZ3cERqeUhISW9DQ1J2SlpBTldEOXBnVEdEVTkzZXVOYUtJMDRTUGVfS2dsM3cxNjN4LUhIZ2xGUC1LR2pVZ1owM3lqX291U0dBa1AwZFgzdUxqTG1FV3RHSU5MUFN5ekc5SFFnV3JLdTRXSlNZS0xBemM1ZW1KdQ?oc=5\" target=\"_blank\">Economy to take a breather after recent surge in Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oxford Economics</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Uncertain, tense and risky: Why economists chose these three words to describe 2026 - CommBank",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT0hQeElobnlMSDF4SDFCNTdfTEdmZXNmLXA2RXM4SW1qUmxNOFdWUWs3NU1CVTdPdmx6TTdCaERna09hOUJ0UWJxWDJzWTV6LWM1VlNwNmlhZXZDc0lxS210aUFxRFB4dDZHdE4wVUQyV3htNmRwZzliTjBjakZHaGljZDJCSU1KXzNvWGpaSFhlRFdMWUlsS2hEZVJFWFlYa1E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQT0hQeElobnlMSDF4SDFCNTdfTEdmZXNmLXA2RXM4SW1qUmxNOFdWUWs3NU1CVTdPdmx6TTdCaERna09hOUJ0UWJxWDJzWTV6LWM1VlNwNmlhZXZDc0lxS210aUFxRFB4dDZHdE4wVUQyV3htNmRwZzliTjBjakZHaGljZDJCSU1KXzNvWGpaSFhlRFdMWUlsS2hEZVJFWFlYa1E?oc=5\" target=\"_blank\">Uncertain, tense and risky: Why economists chose these three words to describe 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CommBank</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Trump tariff damage to Australia revealed - News.com.au",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNYnVfM0JlR1A4Z1lBRi1seXRfR25ZdVpWWmhvYmRfTjVmd2VwZGtkcURHNzloN3ZWMVpZb3hoekNNaW5mTS1FMEYyMnEtQ2RKMzg5Znp5bThubGI5NnlRMzZYaVRkUlQ4dDJLTy1VcUp4dWE2M2pYMEFLNVlkeW0wOWVyZWJ6YVNhdm9fOTdQcnB4WmZQQ3JELW9ReC1mQWw0YW5JZG0xSXNCOUVKbVRFclF5cnR1LTdJQVY2YVV5NS1HcC1KUGRnNkgtVlZHcVZQNG5ReEl1SGREMW9Pd3VTWGZaSmdaTHNVTDAyUWlHVVR3ZHh1bWZaVtIB_gFBVV95cUxQelR0NGVhbzBFcDk0UENpVXUyVFVuWXYwR0NZQi05cTRJYnhmZnFHdXlveE9Nd3Rxb1FJMGlEX3RSZFJHeWxZa05PRmFORndUSG9sSW42WHVqUmZObEh2RjFlR01ybkNZLWs2VXJiN1ZrUXhLdnE0OXhDdmhQaThwMUpwbl9ZRG16MEhBemlZcHI4elREeEtyckEyNFVUR25zM0xwVGtDOHd3eUZnNHZubFB6M24tRnQ0WG43M0k5OUVxbzVOeDIxZHlqSkl0cGVGQU1oSTA2ZExtU0tjMnhnVkQtYWZtRHZjNURwOEM4Y215MG54SFlqVFl0ekFpZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNYnVfM0JlR1A4Z1lBRi1seXRfR25ZdVpWWmhvYmRfTjVmd2VwZGtkcURHNzloN3ZWMVpZb3hoekNNaW5mTS1FMEYyMnEtQ2RKMzg5Znp5bThubGI5NnlRMzZYaVRkUlQ4dDJLTy1VcUp4dWE2M2pYMEFLNVlkeW0wOWVyZWJ6YVNhdm9fOTdQcnB4WmZQQ3JELW9ReC1mQWw0YW5JZG0xSXNCOUVKbVRFclF5cnR1LTdJQVY2YVV5NS1HcC1KUGRnNkgtVlZHcVZQNG5ReEl1SGREMW9Pd3VTWGZaSmdaTHNVTDAyUWlHVVR3ZHh1bWZaVtIB_gFBVV95cUxQelR0NGVhbzBFcDk0UENpVXUyVFVuWXYwR0NZQi05cTRJYnhmZnFHdXlveE9Nd3Rxb1FJMGlEX3RSZFJHeWxZa05PRmFORndUSG9sSW42WHVqUmZObEh2RjFlR01ybkNZLWs2VXJiN1ZrUXhLdnE0OXhDdmhQaThwMUpwbl9ZRG16MEhBemlZcHI4elREeEtyckEyNFVUR25zM0xwVGtDOHd3eUZnNHZubFB6M24tRnQ0WG43M0k5OUVxbzVOeDIxZHlqSkl0cGVGQU1oSTA2ZExtU0tjMnhnVkQtYWZtRHZjNURwOEM4Y215MG54SFlqVFl0ekFpZw?oc=5\" target=\"_blank\">Trump tariff damage to Australia revealed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News.com.au</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "New Zealand is ‘cooked’, is Australia next? - News.com.au",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUUdyN2xMNDh5bU1fdWNWQ21qdmFRaHp0U0xFQkJPcUtJUXRzV2U4T0hCNWpBQnZJZDNXb2Fua2VWUlV0ZjZkR1NqWERDRTM0V2lmbXFkc01zZDJ6TUVHVW5qY2VJcU9mX09iVmxIblhzcncyaWN1ZkJBRFRVZ2c1MWk5a3ZOQTJhcDlYb1RWRzVpNGM2TlJoZU56VDFYUGpSeFVuOXVtVTl5eFowUlVLUjNqdWF2R3JWU2V1SnJkdURUSnlpc1loNEp1OERYSFA3ZjdLRGEwSGpDUmVDSGZuYUQ5Nm5LSC1hWHNTTXdyYlRmMS1tbW1uZHhwbjRQMUlvRXJGUm4ydnbSAY4CQVVfeXFMTnd3ZHpaZjRiVEFVenpLZUc5Q0dYYmI2YzB1NkNtaHlucG9YQWJOcHl1YkRuTThMaUZYTC1NaENRY2J5QWdUOFNkMEhqQUROUmlxdWE1U3ZJWGhVaFlxSllUOEFmY3gwQlhGYm5CMWloTmlwVm84MC1sbk53M1JOYXczbEhXbUVySjhEeXNUdnV2NkE0am55NjRLMXlfWXl6NktrWEpaOWpEN0FlUFladGRCeTdhVmloRktDYjdubkt5REI5Q2JQZVRWZlFwQ0pBYUZBd0E3Y1N3TTBRZDlCdkI5Q0I1TzlxbDh2UTBBUDhPMUNzYlJEa0ZYOFV6SEd1YlRSZE1jZmhDdDlYWldn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUUdyN2xMNDh5bU1fdWNWQ21qdmFRaHp0U0xFQkJPcUtJUXRzV2U4T0hCNWpBQnZJZDNXb2Fua2VWUlV0ZjZkR1NqWERDRTM0V2lmbXFkc01zZDJ6TUVHVW5qY2VJcU9mX09iVmxIblhzcncyaWN1ZkJBRFRVZ2c1MWk5a3ZOQTJhcDlYb1RWRzVpNGM2TlJoZU56VDFYUGpSeFVuOXVtVTl5eFowUlVLUjNqdWF2R3JWU2V1SnJkdURUSnlpc1loNEp1OERYSFA3ZjdLRGEwSGpDUmVDSGZuYUQ5Nm5LSC1hWHNTTXdyYlRmMS1tbW1uZHhwbjRQMUlvRXJGUm4ydnbSAY4CQVVfeXFMTnd3ZHpaZjRiVEFVenpLZUc5Q0dYYmI2YzB1NkNtaHlucG9YQWJOcHl1YkRuTThMaUZYTC1NaENRY2J5QWdUOFNkMEhqQUROUmlxdWE1U3ZJWGhVaFlxSllUOEFmY3gwQlhGYm5CMWloTmlwVm84MC1sbk53M1JOYXczbEhXbUVySjhEeXNUdnV2NkE0am55NjRLMXlfWXl6NktrWEpaOWpEN0FlUFladGRCeTdhVmloRktDYjdubkt5REI5Q2JQZVRWZlFwQ0pBYUZBd0E3Y1N3TTBRZDlCdkI5Q0I1TzlxbDh2UTBBUDhPMUNzYlJEa0ZYOFV6SEd1YlRSZE1jZmhDdDlYWldn?oc=5\" target=\"_blank\">New Zealand is ‘cooked’, is Australia next?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News.com.au</font>",
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia’s economy is suddenly in too good a place - The Business Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjBQWHQ1WjFCVEs5elpma2EwZmJXekpDODZyMXVBczdwUmdmTUp3UFBuamFwVXk4ZFpxdXA5Z0pQWkdnX1hrNm54WDlONUcwc0FRQmlMdGN0dnl5NERScF9YVGxCN2Q0RldDTWVrY1hvRmgtcmZ5eG0zV2Z3Z2x6OEoyLWJ0TXowZDdFR2JJcUxTZl9iQUlN?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjBQWHQ1WjFCVEs5elpma2EwZmJXekpDODZyMXVBczdwUmdmTUp3UFBuamFwVXk4ZFpxdXA5Z0pQWkdnX1hrNm54WDlONUcwc0FRQmlMdGN0dnl5NERScF9YVGxCN2Q0RldDTWVrY1hvRmgtcmZ5eG0zV2Z3Z2x6OEoyLWJ0TXowZDdFR2JJcUxTZl9iQUlN?oc=5\" target=\"_blank\">Australia’s economy is suddenly in too good a place</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Business Times</font>",
+      "published": "Wed, 05 Nov 2025 22:30:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "COP30 and COP31 will test middle powers in a climate of opportunity - Lowy Institute",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpBcEtuZElyTV9fbkZQd0ZZVV9iVDlIeHdYbDdaUjk5b0xtMVdhZ0dTY2Zvd0gzbUNnRW05RTdVdW40WEx5MlB6UWdsWUZPM1ZHUXBnRVhmM2tfbGRzUHZRZWg2ZF9KbXd5MHg2LVdjOWhpaHpCUVpoX1Zjc1lPQnJLN1I5NDF1eXg4UW96cUJvZUVkbldRVXUyc2p3emlXZTNB?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpBcEtuZElyTV9fbkZQd0ZZVV9iVDlIeHdYbDdaUjk5b0xtMVdhZ0dTY2Zvd0gzbUNnRW05RTdVdW40WEx5MlB6UWdsWUZPM1ZHUXBnRVhmM2tfbGRzUHZRZWg2ZF9KbXd5MHg2LVdjOWhpaHpCUVpoX1Zjc1lPQnJLN1I5NDF1eXg4UW96cUJvZUVkbldRVXUyc2p3emlXZTNB?oc=5\" target=\"_blank\">COP30 and COP31 will test middle powers in a climate of opportunity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lowy Institute</font>",
+      "published": "Wed, 05 Nov 2025 16:04:37 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia’s low economic growth speed limit may already be broken - AFR",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM1FockRNMmVldUZRNWJPOGltdmwyMmJqaF9IS3lfWnUzX2NLVDhEeXhCbVhWd1pBaHhtaUw2M2tWYng3dFZwNUQwYUlfeGJta09TcWJxdTRvX080VmVVem1Db1BCWERucDdRVWsyR3J4QzVqczR4bFZVbHg3YVdVMEdzUk41TFdsTHVTVkw1cjNYc2Q0Umc0dkZoTFlrZG4xTkdxREFDekNPdmhFODVHX3laYXN4T2s?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNM1FockRNMmVldUZRNWJPOGltdmwyMmJqaF9IS3lfWnUzX2NLVDhEeXhCbVhWd1pBaHhtaUw2M2tWYng3dFZwNUQwYUlfeGJta09TcWJxdTRvX080VmVVem1Db1BCWERucDdRVWsyR3J4QzVqczR4bFZVbHg3YVdVMEdzUk41TFdsTHVTVkw1cjNYc2Q0Umc0dkZoTFlrZG4xTkdxREFDekNPdmhFODVHX3laYXN4T2s?oc=5\" target=\"_blank\">Australia’s low economic growth speed limit may already be broken</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AFR</font>",
+      "published": "Wed, 05 Nov 2025 09:01:00 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia’s housing recession - MacroBusiness",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sWVF3dldQMzBmQXF3NmxwYVZtQ3J6U3k5MUhuOVZ0TmZKZ2wxNUtXTHVGWlVKNFUxdHM2bXEwbWR2NGVuRlg1VnIzTHR5Uks2Vkl2MG9XSkhYWWFxZU1FS3RHRnhhN2FCSE43Z0hXMVVjRjhTUkhPZVNn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1sWVF3dldQMzBmQXF3NmxwYVZtQ3J6U3k5MUhuOVZ0TmZKZ2wxNUtXTHVGWlVKNFUxdHM2bXEwbWR2NGVuRlg1VnIzTHR5Uks2Vkl2MG9XSkhYWWFxZU1FS3RHRnhhN2FCSE43Z0hXMVVjRjhTUkhPZVNn?oc=5\" target=\"_blank\">Australia’s housing recession</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MacroBusiness</font>",
+      "published": "Wed, 05 Nov 2025 05:00:27 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Report finds Lockheed Martin contributes significantly to national economic growth - defenceconnect.com.au",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTDNqNEJ4QlpUak1BTUJVbDU2d2R1LU1zTlZmSTZ1MjRGRGRRWDJ3RExTX1owSGp3aUJjcFF3S01UUm95ckktZTlLVUVNVUdsejd3TGtNZlY2ZFF1NHhhSlQwTkhpVTlZSUl2ekRJMkhXdjhBTHl1TW5DTXc5R3kwZkNZaGp4Q2JKc2tzNm9lTERGV092NjVCSVhMUDFzQzB3cC1WMkVHUnhfS01NbXVMZkkzZ3dUT01fRjBHaFV6Q3dIOXVQQUlV?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNTDNqNEJ4QlpUak1BTUJVbDU2d2R1LU1zTlZmSTZ1MjRGRGRRWDJ3RExTX1owSGp3aUJjcFF3S01UUm95ckktZTlLVUVNVUdsejd3TGtNZlY2ZFF1NHhhSlQwTkhpVTlZSUl2ekRJMkhXdjhBTHl1TW5DTXc5R3kwZkNZaGp4Q2JKc2tzNm9lTERGV092NjVCSVhMUDFzQzB3cC1WMkVHUnhfS01NbXVMZkkzZ3dUT01fRjBHaFV6Q3dIOXVQQUlV?oc=5\" target=\"_blank\">Report finds Lockheed Martin contributes significantly to national economic growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">defenceconnect.com.au</font>",
+      "published": "Wed, 05 Nov 2025 02:43:06 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "25-264MR A roadmap for capital markets to grow our economy - ASIC",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM0loWmJjQjU2amVQZHhjV1p2WTA1QmJncUEzRlRteFp2QVh0cERWdG9QNVdvLWFUT003OGRCREY0WHhqVTVCT2paSnlMM0xzaTV2Z2NwQ1NGTDdVQkJuZEk0X1pISFpNNUVSQUZpYm5CWVRPc2tGV1FXN2JCNU1NQk5WalRibUV3eWZmeFZaOU5qRTFaZUkwekQ4VjMzTmxBYWpza3MzRGJfQWlpUmdlS19BYXZOdXBJR0hVYnk3aXppUmY3aUdqQmJ3RzRJLUtoOXlRaUZNeWQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM0loWmJjQjU2amVQZHhjV1p2WTA1QmJncUEzRlRteFp2QVh0cERWdG9QNVdvLWFUT003OGRCREY0WHhqVTVCT2paSnlMM0xzaTV2Z2NwQ1NGTDdVQkJuZEk0X1pISFpNNUVSQUZpYm5CWVRPc2tGV1FXN2JCNU1NQk5WalRibUV3eWZmeFZaOU5qRTFaZUkwekQ4VjMzTmxBYWpza3MzRGJfQWlpUmdlS19BYXZOdXBJR0hVYnk3aXppUmY3aUdqQmJ3RzRJLUtoOXlRaUZNeWQ?oc=5\" target=\"_blank\">25-264MR A roadmap for capital markets to grow our economy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ASIC</font>",
+      "published": "Wed, 05 Nov 2025 01:25:37 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australian National Accounts June 2025: Australia’s economy improves, but needs business investment boost - EY",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWpRd1NKaWt0MzBEYmVSdHNaZHlkUnlYZjI4dDdfMXM5RzdEZmFveEpSMUxhNHRnMzltVUVrRGtFRjZRMzJkTmdPNFg4UkZua0RDdkZRUS0xUVNoQV9VNWoxcEI5Q2ZTS1JSUjhEZDdadUxDYkp0YmFyU2M4X0JRdnF4YlZiZ3NEV1E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWpRd1NKaWt0MzBEYmVSdHNaZHlkUnlYZjI4dDdfMXM5RzdEZmFveEpSMUxhNHRnMzltVUVrRGtFRjZRMzJkTmdPNFg4UkZua0RDdkZRUS0xUVNoQV9VNWoxcEI5Q2ZTS1JSUjhEZDdadUxDYkp0YmFyU2M4X0JRdnF4YlZiZ3NEV1E?oc=5\" target=\"_blank\">Australian National Accounts June 2025: Australia’s economy improves, but needs business investment boost</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EY</font>",
+      "published": "Wed, 03 Sep 2025 11:13:46 GMT",
+      "source": "\"Australia economy\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ],
+  "hukumet": [
+    {
+      "title": "News archive - Department of Home Affairs Website",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5kaHE1d2xBbmplX2FCZUdSRWpWNVVEZ0ZGRUxGWWxIbk85OThHQ09LUHVHMHJtcG13S3VQNjF1eVNQWDRUWTMxYnpESzVOazVzdmJLVVZRTFM0cWIyY2t4SWFjcFhRX3BVTFBqdlY5Um53bzhFX3h1aw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5kaHE1d2xBbmplX2FCZUdSRWpWNVVEZ0ZGRUxGWWxIbk85OThHQ09LUHVHMHJtcG13S3VQNjF1eVNQWDRUWTMxYnpESzVOazVzdmJLVVZRTFM0cWIyY2t4SWFjcFhRX3BVTFBqdlY5Um53bzhFX3h1aw?oc=5\" target=\"_blank\">News archive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Department of Home Affairs Website</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Ecuador Travel Advice & Safety - Smartraveller",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBma3YxQng3bS13TkxhajJHNUNEYlpIZ1VvZ3VpRHhLWTBCaVRkOFhrUndPN3FKMEVnQzVObnJKalVlQ3BZYUI2MGgzeXQ0TTY5OWRNb2x1SC0zSkozY0pUbENRSFl0QXR5NzFWMHVUOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBma3YxQng3bS13TkxhajJHNUNEYlpIZ1VvZ3VpRHhLWTBCaVRkOFhrUndPN3FKMEVnQzVObnJKalVlQ3BZYUI2MGgzeXQ0TTY5OWRNb2x1SC0zSkozY0pUbENRSFl0QXR5NzFWMHVUOA?oc=5\" target=\"_blank\">Ecuador Travel Advice & Safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smartraveller</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Department of the Premier and Cabinet - www.wa.gov.au",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xNXhzSnFac2lsTUVwSTd1R0ZYZXFpdkZDSlN2Yl9iTF9oUFQ2VTk1N19fc29PeExJVDJwaGMtSXllTE04YzVZbEhZbGRBVEV1OVNtc3R1WEhwLTh6LWgyNTVIU1MyQTZva3ZxODUzZ2hueWMwdlIwRnA4eVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5xNXhzSnFac2lsTUVwSTd1R0ZYZXFpdkZDSlN2Yl9iTF9oUFQ2VTk1N19fc29PeExJVDJwaGMtSXllTE04YzVZbEhZbGRBVEV1OVNtc3R1WEhwLTh6LWgyNTVIU1MyQTZva3ZxODUzZ2hueWMwdlIwRnA4eVE?oc=5\" target=\"_blank\">Department of the Premier and Cabinet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www.wa.gov.au</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Digital Government in Australia - OECD",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaE1JZFc1MmFQZk4ydEJJVk10ejFvTmduVmRsXzFoOWFRX0ZUT3RVMUlidlRRckJKLVBZSXRkLUZkZ0hYUGE4X2dydFlsVzZQVUlidDJ1Um5EcXpHZGNRWFl4MEp2XzlIemx5U2xwOG5aYkctTmhJTkIyTmdzSlNEWEEzNGdPRmVhUF9ITFFn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNaE1JZFc1MmFQZk4ydEJJVk10ejFvTmduVmRsXzFoOWFRX0ZUT3RVMUlidlRRckJKLVBZSXRkLUZkZ0hYUGE4X2dydFlsVzZQVUlidDJ1Um5EcXpHZGNRWFl4MEp2XzlIemx5U2xwOG5aYkctTmhJTkIyTmdzSlNEWEEzNGdPRmVhUF9ITFFn?oc=5\" target=\"_blank\">Digital Government in Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OECD</font>",
+      "published": "Wed, 06 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "It’s official – Australia’s new Centre for Disease Control becomes law - Australian Government Department of Health, Disability and Ageing",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBd0dadGQxckh2UGV3OXhyTkF6blNtWHpOREgwOUxscmdiRGk5SGpFSlhvWHdBMENBZkRhb3dRVHphUnZxODBENGZkR1RCZloxeml1SHA4dDhsdkVpOXFQVXB2SVYwMGVXelNuNDZ3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBBd0dadGQxckh2UGV3OXhyTkF6blNtWHpOREgwOUxscmdiRGk5SGpFSlhvWHdBMENBZkRhb3dRVHphUnZxODBENGZkR1RCZloxeml1SHA4dDhsdkVpOXFQVXB2SVYwMGVXelNuNDZ3?oc=5\" target=\"_blank\">It’s official – Australia’s new Centre for Disease Control becomes law</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Government Department of Health, Disability and Ageing</font>",
+      "published": "Wed, 05 Nov 2025 23:59:25 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Urgent action on climate change essential for human rights - Australian Human Rights Commission",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHAwTThoczF6UUdZTEVpX0ZiOVRhRFRBMnM2cm1oQTJsdW9lZEtwYkZfSDRTRFduc2F6czhSblFNcWFNdlR5U21rWmlCWEEzSWEwcW16c092MG1oaG13SDlUZ0toZnBHTzhCZThybFVtS1J0U1hiOXRWSlJaWExnbVNxejUxTk9RaDg4RHZsR2wyZkVfU1lvdHdFbjVPTjlSTldHTXFYMA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxONHAwTThoczF6UUdZTEVpX0ZiOVRhRFRBMnM2cm1oQTJsdW9lZEtwYkZfSDRTRFduc2F6czhSblFNcWFNdlR5U21rWmlCWEEzSWEwcW16c092MG1oaG13SDlUZ0toZnBHTzhCZThybFVtS1J0U1hiOXRWSlJaWExnbVNxejUxTk9RaDg4RHZsR2wyZkVfU1lvdHdFbjVPTjlSTldHTXFYMA?oc=5\" target=\"_blank\">Urgent action on climate change essential for human rights</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Human Rights Commission</font>",
+      "published": "Wed, 05 Nov 2025 23:57:01 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Confidential Western Australian government report warns gas exports risk slowing Asia’s move to clean energy - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNG1wLV9fQ1hoOUlCanpsRi1MajdpQVJrZjFVajNyUk1XNXY2dGwtX2N1Ym5RcG16cDloMzZCVXpDcEpqY1FQSjYtbnB5N2pHcS1kMzY5c3FyMkFYUUxickdqRVMxS1d5b29nYmxZaFJfSUk1UUpfYVRVcW05TnVyMU1KNS1ramNzTnh0LUUxNVl5eVBlMngzODRaeTUtQWJyX281WExMY1FwV0xkTlVYX3ZRZnZWNWkxMGlaYWUzZFRFeTFZb1BNc2V1bXNkMlBBbVV5VFhxUGZUWGJOX1RWcC13NzVMek53SzN6N0d2MWxmTW83?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNG1wLV9fQ1hoOUlCanpsRi1MajdpQVJrZjFVajNyUk1XNXY2dGwtX2N1Ym5RcG16cDloMzZCVXpDcEpqY1FQSjYtbnB5N2pHcS1kMzY5c3FyMkFYUUxickdqRVMxS1d5b29nYmxZaFJfSUk1UUpfYVRVcW05TnVyMU1KNS1ramNzTnh0LUUxNVl5eVBlMngzODRaeTUtQWJyX281WExMY1FwV0xkTlVYX3ZRZnZWNWkxMGlaYWUzZFRFeTFZb1BNc2V1bXNkMlBBbVV5VFhxUGZUWGJOX1RWcC13NzVMek53SzN6N0d2MWxmTW83?oc=5\" target=\"_blank\">Confidential Western Australian government report warns gas exports risk slowing Asia’s move to clean energy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 05 Nov 2025 20:35:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "36 days, $14b and 42 million hungry: Inside a record-breaking US shutdown - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0tBdVplZk1aNTliWG9SMEgycnZyUkt6V2JXc1hGbG9FdlhUaUFvRC1Xdmsxd1c0V1VzSlExcTg3Zm93ZzktRmk5U2Q5aGlWWllkcUE5MkZuSkNqOElqMzRGUzhfdDZReU9aaFFmbVI0R0kxeTNKYnpYZ29XbWJ5WnFudGhQZ3poR2NrZg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0tBdVplZk1aNTliWG9SMEgycnZyUkt6V2JXc1hGbG9FdlhUaUFvRC1Xdmsxd1c0V1VzSlExcTg3Zm93ZzktRmk5U2Q5aGlWWllkcUE5MkZuSkNqOElqMzRGUzhfdDZReU9aaFFmbVI0R0kxeTNKYnpYZ29XbWJ5WnFudGhQZ3poR2NrZg?oc=5\" target=\"_blank\">36 days, $14b and 42 million hungry: Inside a record-breaking US shutdown</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 20:26:47 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Sanctions on cyber criminals funding North Korean weapons of mass destruction - Australian Minister for Foreign Affairs",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVjZSWTJ6Q2I1SHRJbzJ2WXBkR183SHExNUl6M25iNlU5Z2dZbXlfR0hqRnNNY2JtaXRfZnVQOG9iU1FWbE9XOXlDQzdGNTREbkF2S0wzd09lNVNqY0lTdXROaVlRYmdpeENwUW81MExyZ05lV2d2TUI1b0l3eDgyNFItX0RvZ2NTdmNwNk1zeldjVzJXczF4bUdWYkI2QjVYYmYxQzNqTlFFUDVSRFhKbDljYVBDazhPYjNqUks3YjRGUmlqeGtsN2U0b3hyOXJhRGdzOHF5cw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVjZSWTJ6Q2I1SHRJbzJ2WXBkR183SHExNUl6M25iNlU5Z2dZbXlfR0hqRnNNY2JtaXRfZnVQOG9iU1FWbE9XOXlDQzdGNTREbkF2S0wzd09lNVNqY0lTdXROaVlRYmdpeENwUW81MExyZ05lV2d2TUI1b0l3eDgyNFItX0RvZ2NTdmNwNk1zeldjVzJXczF4bUdWYkI2QjVYYmYxQzNqTlFFUDVSRFhKbDljYVBDazhPYjNqUks3YjRGUmlqeGtsN2U0b3hyOXJhRGdzOHF5cw?oc=5\" target=\"_blank\">Sanctions on cyber criminals funding North Korean weapons of mass destruction</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Minister for Foreign Affairs</font>",
+      "published": "Wed, 05 Nov 2025 19:18:14 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Planning isn't the only reason Australia isn't adding enough homes, builders say - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZkNtbldpcl92WHRWb0IwZjJ1Si1INzFVZm9laFQ5Q2o0bFFZQzhXclJBZFpNWU5FbXpQLWx4YU5pTVFqeUZ0N3ZLZGszVktWUG5SSEtoYlNfV3htaU0yS0tiVmxDOHA3V2xWS2VKSGc3RGZSRC1fS3p1QXo3OWR2QTlFbmtiMkJjUkxsOXd1aDBmZzVMSlRDZkw3VlZHLW9JN2gzVGl4eVdJOE0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZkNtbldpcl92WHRWb0IwZjJ1Si1INzFVZm9laFQ5Q2o0bFFZQzhXclJBZFpNWU5FbXpQLWx4YU5pTVFqeUZ0N3ZLZGszVktWUG5SSEtoYlNfV3htaU0yS0tiVmxDOHA3V2xWS2VKSGc3RGZSRC1fS3p1QXo3OWR2QTlFbmtiMkJjUkxsOXd1aDBmZzVMSlRDZkw3VlZHLW9JN2gzVGl4eVdJOE0?oc=5\" target=\"_blank\">Planning isn't the only reason Australia isn't adding enough homes, builders say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 18:58:11 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Secret report challenges government claim WA gas will help world decarbonise - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaElJUzRHZ2k0X3BVbnZyV0RDbFhkQzB0OUxDT3RDemZGOUJtS1NKazFyZ0YwaDI3S3Y3VFpud2RBMUJ5X3NqdTJzendROWVpRFkzdFoza0Y0X0p0cjd6M1gybjFnbERLV0VpOGNTY3Q4UDV3YmVIM0FWeEFZSFRVM29fT2FZZGRidVRocTItTW9MWUlyNG5UcnNVeFFLREJnRjV3SE9Rcmkwdk5jZmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOaElJUzRHZ2k0X3BVbnZyV0RDbFhkQzB0OUxDT3RDemZGOUJtS1NKazFyZ0YwaDI3S3Y3VFpud2RBMUJ5X3NqdTJzendROWVpRFkzdFoza0Y0X0p0cjd6M1gybjFnbERLV0VpOGNTY3Q4UDV3YmVIM0FWeEFZSFRVM29fT2FZZGRidVRocTItTW9MWUlyNG5UcnNVeFFLREJnRjV3SE9Rcmkwdk5jZmc?oc=5\" target=\"_blank\">Secret report challenges government claim WA gas will help world decarbonise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 18:49:03 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Television interview with Minister Rae, ABC 730 – 5 November 2025 - Australian Government Department of Health, Disability and Ageing",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdkR1N3E3cGRtMzFBZk5BS3d0aGdLb0RZT1JRWU9VZ1pZdHBmX0RaMW1PZXFSUTE0TnJ0QUROblVCN3hCQjE5VFJPTWw5S2RWNi1zV2txYmgwQmdRVExkRkFlTDNrYks0Rkp4YUREaFY4VWVfSVI3dmF1RjhCMTZEdi03QjYyZDNra2g2bkMwUW5ybXE0XzUyWEI5eXlNck9RVDFLVlJKeXdqbUo4R1JXZkhMR01Dc3VrcDRxQUwwODA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdkR1N3E3cGRtMzFBZk5BS3d0aGdLb0RZT1JRWU9VZ1pZdHBmX0RaMW1PZXFSUTE0TnJ0QUROblVCN3hCQjE5VFJPTWw5S2RWNi1zV2txYmgwQmdRVExkRkFlTDNrYks0Rkp4YUREaFY4VWVfSVI3dmF1RjhCMTZEdi03QjYyZDNra2g2bkMwUW5ybXE0XzUyWEI5eXlNck9RVDFLVlJKeXdqbUo4R1JXZkhMR01Dc3VrcDRxQUwwODA?oc=5\" target=\"_blank\">Television interview with Minister Rae, ABC 730 – 5 November 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Government Department of Health, Disability and Ageing</font>",
+      "published": "Wed, 05 Nov 2025 10:23:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Government Announces Streaming Services To Invest In Australian Content - thescoop.au",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaFdGWnFucWFLX2hHZGZTckI1VTlOMmxhSE1VY01zM2EzVDdFX1l4N1hUUmk3Y1l4MEI3ZGNyanJpcnJYVnl6WXNfajJ6R1ljVG5FVHYyekloem1YakVtcm90MWJ0Zm9WZWY2UW9EXzVTZHI3RUQ2N05TTkVoZnViZnlOaVZSU2NqTFdaUFIzUzg0TGJCT0dZ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNaFdGWnFucWFLX2hHZGZTckI1VTlOMmxhSE1VY01zM2EzVDdFX1l4N1hUUmk3Y1l4MEI3ZGNyanJpcnJYVnl6WXNfajJ6R1ljVG5FVHYyekloem1YakVtcm90MWJ0Zm9WZWY2UW9EXzVTZHI3RUQ2N05TTkVoZnViZnlOaVZSU2NqTFdaUFIzUzg0TGJCT0dZ?oc=5\" target=\"_blank\">Government Announces Streaming Services To Invest In Australian Content</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thescoop.au</font>",
+      "published": "Wed, 05 Nov 2025 09:27:36 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australian Council for International Development National Conference - Australian Minister for Foreign Affairs",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ2RhRDBhLXc4UEhVZjM2cFBIRl9nZmlwVGRTVVhCTWlnZEJaV3VJR2ZFejd0Y3pGUnhsNHdTeFA0ZXVSSFBGanN1ZXRYbmxQVlhuQ1Y5QXBOQmloLVlfVVYzZjFPVUdXdHptalVIYnRlWkhHTERVQjVwUGlhNVVGTi1lSXJIYkJGd0owM1pHNUNtdGJ4ckh4enJQZ2ZoWUdkNFBTQkFBU19CaklFbDYzSWZLNzZBbzJpUURiN2s1Um5EeEdr?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ2RhRDBhLXc4UEhVZjM2cFBIRl9nZmlwVGRTVVhCTWlnZEJaV3VJR2ZFejd0Y3pGUnhsNHdTeFA0ZXVSSFBGanN1ZXRYbmxQVlhuQ1Y5QXBOQmloLVlfVVYzZjFPVUdXdHptalVIYnRlWkhHTERVQjVwUGlhNVVGTi1lSXJIYkJGd0owM1pHNUNtdGJ4ckh4enJQZ2ZoWUdkNFBTQkFBU19CaklFbDYzSWZLNzZBbzJpUURiN2s1Um5EeEdr?oc=5\" target=\"_blank\">Australian Council for International Development National Conference</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Minister for Foreign Affairs</font>",
+      "published": "Wed, 05 Nov 2025 08:33:04 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Optus’ $1.5b government contracts in doubt - AFR",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMmlGNGZPdUhJR3JlbkFNYlExYUI1QnV5Y1FNaGpTVnJoQVBpdTdiNHloWWw2N3FVNU1FUUlrcmx0a0VZMWYxaDB1NTdkNzZFNVV2eUkxTnNzYWRxSktUMkxWMFV0a1FBQlJXWnV0Si03VUtDM1hzb29kcUpwRHlucTRjTlBGWUoyRUZlcGtScVEzVlJYdmRmOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPMmlGNGZPdUhJR3JlbkFNYlExYUI1QnV5Y1FNaGpTVnJoQVBpdTdiNHloWWw2N3FVNU1FUUlrcmx0a0VZMWYxaDB1NTdkNzZFNVV2eUkxTnNzYWRxSktUMkxWMFV0a1FBQlJXWnV0Si03VUtDM1hzb29kcUpwRHlucTRjTlBGWUoyRUZlcGtScVEzVlJYdmRmOA?oc=5\" target=\"_blank\">Optus’ $1.5b government contracts in doubt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AFR</font>",
+      "published": "Wed, 05 Nov 2025 08:05:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Busy building ties and trust throughout the region - defence.gov.au",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmhyTEVvdFBxUENEMW15ZWI5ZnRXQjE5T0pLSnZVamtOMWRBejhQT1c5ckc4clpnZWhjWU9aUTE0YmR0MGxNdlpmODF5WUNiTmJYSHlaWk81YkFKLXdKRV9yVHpmdGtGX3NiVjYzV3N4TEVoQTJfZlNJdk5ZaDFpczFaLXhSai1MY2hmanZObWkwUXpzV1B4emdUV0hTZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPUmhyTEVvdFBxUENEMW15ZWI5ZnRXQjE5T0pLSnZVamtOMWRBejhQT1c5ckc4clpnZWhjWU9aUTE0YmR0MGxNdlpmODF5WUNiTmJYSHlaWk81YkFKLXdKRV9yVHpmdGtGX3NiVjYzV3N4TEVoQTJfZlNJdk5ZaDFpczFaLXhSai1MY2hmanZObWkwUXpzV1B4emdUV0hTZw?oc=5\" target=\"_blank\">Busy building ties and trust throughout the region</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">defence.gov.au</font>",
+      "published": "Wed, 05 Nov 2025 08:00:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "One in 10 homes bought using first home buyer incentive in October - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVRZU0RDZHF0YWM1WHFTV0RmRC0xMmJDRG5rVkVyQVBxeVdYempySzR3MHhLVW9odlVYQ2ppYkRaZnZUVDZIWC1KM1dobVJxXy1janc0SmF3M2QwVUxVcmhwQjFnQmNJbFJIVUh2STljSElfZnJSZ0FYTzdsczVGdDVXRTBwRlI4d3JlNmY1Um91MTctWEhBQ2lYU1pVNkdUNVQ5dmNjQldPRm1OYkE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVRZU0RDZHF0YWM1WHFTV0RmRC0xMmJDRG5rVkVyQVBxeVdYempySzR3MHhLVW9odlVYQ2ppYkRaZnZUVDZIWC1KM1dobVJxXy1janc0SmF3M2QwVUxVcmhwQjFnQmNJbFJIVUh2STljSElfZnJSZ0FYTzdsczVGdDVXRTBwRlI4d3JlNmY1Um91MTctWEhBQ2lYU1pVNkdUNVQ5dmNjQldPRm1OYkE?oc=5\" target=\"_blank\">One in 10 homes bought using first home buyer incentive in October</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 07:56:28 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Calls to clamp down on illegal e-motorbike 'crisis' - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcml0eWxmSlBZSDlQZENmN2d4RXVoelEyQUd3dldmT1RPeVdPUlRhS215MnlCX2JRcXgweGhBOHZmYjQtcHMzQXNhVEt2bmUtcEFCQ3llbnNTV0ZRQkhkRmlfSjhxX0FSbTRfS1VrRmNrMjN5d09IYVpmaFg0Y1Q0Y1ZDMGZ0enVIX3BBN3o5QW5NQS1wUTUwWnE3RG50bnFsRF9CUlJWU0NjWDhyX0hrTQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPcml0eWxmSlBZSDlQZENmN2d4RXVoelEyQUd3dldmT1RPeVdPUlRhS215MnlCX2JRcXgweGhBOHZmYjQtcHMzQXNhVEt2bmUtcEFCQ3llbnNTV0ZRQkhkRmlfSjhxX0FSbTRfS1VrRmNrMjN5d09IYVpmaFg0Y1Q0Y1ZDMGZ0enVIX3BBN3o5QW5NQS1wUTUwWnE3RG50bnFsRF9CUlJWU0NjWDhyX0hrTQ?oc=5\" target=\"_blank\">Calls to clamp down on illegal e-motorbike 'crisis'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 05:51:24 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Pocock slams government over leaky roof housing $5b national collection - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRjdwbnNDTWZJY2pUajZlcldDSk53dDZVa0dkYVFOZ1lPSzdudEMzZmEtNUNTeE5DNjQ4dU04eHh2ZjRhTGdGcHYycUoySTExbmlMOWp2Q2VGSElsTGt5Z0Q0Uy03a2t5b1RSZVNUaTNNT0RXYUhKY0w5aFVDVmRscjM2Qng5ZGltRDZUamw5ZWNHN2xRSzVRRmF5SkJ2MkhHcFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPRjdwbnNDTWZJY2pUajZlcldDSk53dDZVa0dkYVFOZ1lPSzdudEMzZmEtNUNTeE5DNjQ4dU04eHh2ZjRhTGdGcHYycUoySTExbmlMOWp2Q2VGSElsTGt5Z0Q0Uy03a2t5b1RSZVNUaTNNT0RXYUhKY0w5aFVDVmRscjM2Qng5ZGltRDZUamw5ZWNHN2xRSzVRRmF5SkJ2MkhHcFE?oc=5\" target=\"_blank\">Pocock slams government over leaky roof housing $5b national collection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 05:03:27 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Expanded Australian Government 5% Deposit Scheme to support more Australians into home ownership - Housing Australia",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWFY3dW80OHdncUlBaXVjX3JzNkpINjkwbzRlYXJtYW9DX2VsNFZxZTVEV2N0Umswd1RYZ09LUlk0Y3JCcEdWbTVsTjJZVWpyOFh3RXdiVmtWNFBwNzhDd080c0hTbU5GbVVDUUowVUZXRi13S1RKTmdVMGhsMTRPVkF2Rzk5cXVyZHBaNXdFRlNaSHVfQ09rUnpfd2c1blhpdlV1dklyUWhvTlJiQkY3THU4MWk2Z1FEVUdNS2JVSjdLZldRSFpQRw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWFY3dW80OHdncUlBaXVjX3JzNkpINjkwbzRlYXJtYW9DX2VsNFZxZTVEV2N0Umswd1RYZ09LUlk0Y3JCcEdWbTVsTjJZVWpyOFh3RXdiVmtWNFBwNzhDd080c0hTbU5GbVVDUUowVUZXRi13S1RKTmdVMGhsMTRPVkF2Rzk5cXVyZHBaNXdFRlNaSHVfQ09rUnpfd2c1blhpdlV1dklyUWhvTlJiQkY3THU4MWk2Z1FEVUdNS2JVSjdLZldRSFpQRw?oc=5\" target=\"_blank\">Expanded Australian Government 5% Deposit Scheme to support more Australians into home ownership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Housing Australia</font>",
+      "published": "Wed, 01 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia government\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ],
+  "emlak": [
+    {
+      "title": "Australian house prices rising at fastest rate in nearly four years, data shows - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcmxnbGUyam55Q2JGUzZUYjd1TE5CLTZ1LUxwdy1waHJvZXVHN2M2SlAyRldGRlFZRWlqTWt5OFJKbFBFalliMVFyNHNrSzdFcDVwZTVfaDlCTVlrT2ZYbnlJaERfdGx2ODNMT0lIeXd0dDIxQ0tFWEpWbTRBeHEtRzBTS0E2WnlUWGFScHlaRFZVY2l4NEh5UXk4dVBaWWM3TFdIVHRXeEt0RllrVjZqNGdNbEVRNTBEcU5vVFUwZGpuX2RUNkJKSXJkdGY4QQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQcmxnbGUyam55Q2JGUzZUYjd1TE5CLTZ1LUxwdy1waHJvZXVHN2M2SlAyRldGRlFZRWlqTWt5OFJKbFBFalliMVFyNHNrSzdFcDVwZTVfaDlCTVlrT2ZYbnlJaERfdGx2ODNMT0lIeXd0dDIxQ0tFWEpWbTRBeHEtRzBTS0E2WnlUWGFScHlaRFZVY2l4NEh5UXk4dVBaWWM3TFdIVHRXeEt0RllrVjZqNGdNbEVRNTBEcU5vVFUwZGpuX2RUNkJKSXJkdGY4QQ?oc=5\" target=\"_blank\">Australian house prices rising at fastest rate in nearly four years, data shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Brisbane leads surge in million-dollar suburbs - CommBank",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObXpDVU9rVDFPMEN0WENjb2V0YUNFOG1sNXJWdW9Gd0ZVQTFxeEF1bnZVQVdwNHRXS1FzT1BSc3NqQXd5S0FWei1pTFZoODlYRTVkSEtFd0tNb1E3Z1kwMnFNUU1xZV9rVlhnQk42MUxzS3V5VzdDNDBWX05CQ01NV3NVVk9mVjQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxObXpDVU9rVDFPMEN0WENjb2V0YUNFOG1sNXJWdW9Gd0ZVQTFxeEF1bnZVQVdwNHRXS1FzT1BSc3NqQXd5S0FWei1pTFZoODlYRTVkSEtFd0tNb1E3Z1kwMnFNUU1xZV9rVlhnQk42MUxzS3V5VzdDNDBWX05CQ01NV3NVVk9mVjQ?oc=5\" target=\"_blank\">Brisbane leads surge in million-dollar suburbs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CommBank</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australian house prices are rising at their fastest rate in four years - Domain",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONTVFQlNISVVoSS1HZmFkWi1ZaDBvd2JRdW9NbGRaUUNlSFJ1bmZ1cXQ3YWduTHY4dUo4NjhoOTdKS24xZEMwNjN1S0RNUDBKUDlGaE9rWHJMVnNiam1hWElUU2RZeVFsNzU2QzhSR2pTR3gyZG9qUHEwQlg2U0dhTHFSbTEyTnR1WDhyRVRuNEhyV2s1ZXVPRnY0RDE5MzBHN3c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxONTVFQlNISVVoSS1HZmFkWi1ZaDBvd2JRdW9NbGRaUUNlSFJ1bmZ1cXQ3YWduTHY4dUo4NjhoOTdKS24xZEMwNjN1S0RNUDBKUDlGaE9rWHJMVnNiam1hWElUU2RZeVFsNzU2QzhSR2pTR3gyZG9qUHEwQlg2U0dhTHFSbTEyTnR1WDhyRVRuNEhyV2s1ZXVPRnY0RDE5MzBHN3c?oc=5\" target=\"_blank\">Australian house prices are rising at their fastest rate in four years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Domain</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "How Australia’s Housing Market Is Reshaping Relationships - Your Investment Property Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUkxRd25xZkdQYzRHM2NJYm5YNWE2RDNiTXh5SDJlWDhzenpLZzlCVFJrTVVFSlJ0QmdDVUlTcXQ5akRqeHE5R3pJWjRRUTJHVkMzZjZWTFNBdGlfM2xVUXZiT3A3TmVwc0w1RTFLMWNPY1hhRWl4Q2M2ZG9DQVo5ai1adjZDc0dLNGxmTTR0SzFlclB0MlVKM2s0a3RwSW0teHFDS1RsQ0Zudy1lUVlyUzF0eVk2Y0lxTWVncjdKcWY?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUkxRd25xZkdQYzRHM2NJYm5YNWE2RDNiTXh5SDJlWDhzenpLZzlCVFJrTVVFSlJ0QmdDVUlTcXQ5akRqeHE5R3pJWjRRUTJHVkMzZjZWTFNBdGlfM2xVUXZiT3A3TmVwc0w1RTFLMWNPY1hhRWl4Q2M2ZG9DQVo5ai1adjZDc0dLNGxmTTR0SzFlclB0MlVKM2s0a3RwSW0teHFDS1RsQ0Zudy1lUVlyUzF0eVk2Y0lxTWVncjdKcWY?oc=5\" target=\"_blank\">How Australia’s Housing Market Is Reshaping Relationships</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Your Investment Property Magazine</font>",
+      "published": "Wed, 22 Oct 2025 03:30:50 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "A simple reform to help owner-occupiers compete with investors in the housing market - The Australia Institute",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYlpBY3F1N1JYdnZKdGFCekFteGJkbGs4QzBMQkt3UTlzUjBud1lWOFIxU2E4aWV3dThhaGVOY0MxVnRHOHd2aUY2bjNZQWZQMHNGZ3VIQkhuNk1wMEZrd2V3U3dJU1FNc0NLUjZ2UjJ6S3dLSEhRMFJxVW9NS3hEbHFQSWRCWWZkcXh3dWZTb0VKclBvY3U4UlpXQkFhcWtpSTlaemJNeXZYaFRDOGRZQmFGRXhUX0htdDZldEhMWVlOQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYlpBY3F1N1JYdnZKdGFCekFteGJkbGs4QzBMQkt3UTlzUjBud1lWOFIxU2E4aWV3dThhaGVOY0MxVnRHOHd2aUY2bjNZQWZQMHNGZ3VIQkhuNk1wMEZrd2V3U3dJU1FNc0NLUjZ2UjJ6S3dLSEhRMFJxVW9NS3hEbHFQSWRCWWZkcXh3dWZTb0VKclBvY3U4UlpXQkFhcWtpSTlaemJNeXZYaFRDOGRZQmFGRXhUX0htdDZldEhMWVlOQQ?oc=5\" target=\"_blank\">A simple reform to help owner-occupiers compete with investors in the housing market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Australia Institute</font>",
+      "published": "Wed, 21 May 2025 07:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "First home buyer warning as triple threat fuels predictions of Aussie house price 're-acceleration' - Yahoo Finance Australia",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQmFseWc0Rnl5RkxYVnRXdUptSTZickZjQmZUb0xXNXZmeGswQW8xclkzbjUxVHJkeGduQmtGSmV1ZjJmWWJDMno3NGI1a0ZWcHpITW5JTncwV05hekUxRzZFcTA4d1l5anBNWVhWNGUwMnlXQjViZXBnV0xqX0o4aDZwaWFXWjZTN0ZIWUxtQzcyc2hxcUFXdHkyLU1rYmxLMW5WZjh3a09sTlI1MUdRajdsaWdyS3dteF84VUdZSnp4ZDF3aTNxZUR5NTBrNGNtbmgzbHVKczh5cjliMmk0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQmFseWc0Rnl5RkxYVnRXdUptSTZickZjQmZUb0xXNXZmeGswQW8xclkzbjUxVHJkeGduQmtGSmV1ZjJmWWJDMno3NGI1a0ZWcHpITW5JTncwV05hekUxRzZFcTA4d1l5anBNWVhWNGUwMnlXQjViZXBnV0xqX0o4aDZwaWFXWjZTN0ZIWUxtQzcyc2hxcUFXdHkyLU1rYmxLMW5WZjh3a09sTlI1MUdRajdsaWdyS3dteF84VUdZSnp4ZDF3aTNxZUR5NTBrNGNtbmgzbHVKczh5cjliMmk0?oc=5\" target=\"_blank\">First home buyer warning as triple threat fuels predictions of Aussie house price 're-acceleration'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance Australia</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Suburbs where homes got cheaper when they weren’t supposed to - The Sydney Morning Herald",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNTNkOVNCT3FuLS1nSlpzeTFTUEtobmItNWptNUtkSUt1XzE2NzZzcnEzMjBja1FJRUU4TjhZNHcyVkhRMG9QOFZiTThmSy1QR0tHbV9qNG9IMVZSSXIwS21zdThjNk9QYTQ2dzlPVXVIVlhocXRwa3l6YXZTZkJKSURXOFJabklFbnNTMlRFSElQTm1EYjRpTTZHRm5lcGQxWUFXN2taMzF3bkt5YXEyYmd2OGN6dmFjTktJ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNTNkOVNCT3FuLS1nSlpzeTFTUEtobmItNWptNUtkSUt1XzE2NzZzcnEzMjBja1FJRUU4TjhZNHcyVkhRMG9QOFZiTThmSy1QR0tHbV9qNG9IMVZSSXIwS21zdThjNk9QYTQ2dzlPVXVIVlhocXRwa3l6YXZTZkJKSURXOFJabklFbnNTMlRFSElQTm1EYjRpTTZHRm5lcGQxWUFXN2taMzF3bkt5YXEyYmd2OGN6dmFjTktJ?oc=5\" target=\"_blank\">Suburbs where homes got cheaper when they weren’t supposed to</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sydney Morning Herald</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Top property buying tactics in a booming market - The Australian",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTHFYb25iOThmSUc3anlKTVQ1cGwwSGVaVnh5NU5oOEg4RjBQMG1RNGFmVWRjWmd0OUMzRTZYdEE1SkZ1OEtFSU41SkpMdEVydUJSdDlHaDZjblNGNVcyQU8xdnNQaVVjdUhsVE1KdE1JTkQ3akdNU0E5ZkRfUjg5b29WSk1YQ2VMd1NYOXBobEVOREozRlZGMlhrak5oWmNJeW5ObWxEMi05QjVrVVl4eTVZYjZSLVpjbkFWcF8ydnZOYm1EVTdDYXdnOW9ndXBPTzBrdjFZMS1ZZC0tSGNweTFSUHEwbUxjbVlzWnJkNkVFdjI5Y3N1UEUwRmFjZlnSAYQCQVVfeXFMUFFQRGJuMy1BVlFtQjZURmdQRFpwamFhZVFUR09rNkRuM1dqNzJORWxNbnJSajdDS3l0UTkyUjVRNGI3TmVXanZyMlJqNmliUnh0S0tOWWZwRUJ4UEZfNEN1Z2k5RndzZ1RzWmhwMkpHeW1peUJzaGswOUl2RFJpdHM1bHZoVnFoODljNnkyYjNvZlRnaFFZVGhwWDVTcndUU0VmQVdLXzJEemZ0Y2lZdzB3cG43eV9KMGVsZ0R1cFduXzdfMDl6SmhBWHl2blNIWDBva3otSEZTWXNnd3ZnVDJQLWUtTG9QX1owb0tORUhtMnVxbXVVSUxrU09uYkRqSTFOYXk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxPTHFYb25iOThmSUc3anlKTVQ1cGwwSGVaVnh5NU5oOEg4RjBQMG1RNGFmVWRjWmd0OUMzRTZYdEE1SkZ1OEtFSU41SkpMdEVydUJSdDlHaDZjblNGNVcyQU8xdnNQaVVjdUhsVE1KdE1JTkQ3akdNU0E5ZkRfUjg5b29WSk1YQ2VMd1NYOXBobEVOREozRlZGMlhrak5oWmNJeW5ObWxEMi05QjVrVVl4eTVZYjZSLVpjbkFWcF8ydnZOYm1EVTdDYXdnOW9ndXBPTzBrdjFZMS1ZZC0tSGNweTFSUHEwbUxjbVlzWnJkNkVFdjI5Y3N1UEUwRmFjZlnSAYQCQVVfeXFMUFFQRGJuMy1BVlFtQjZURmdQRFpwamFhZVFUR09rNkRuM1dqNzJORWxNbnJSajdDS3l0UTkyUjVRNGI3TmVXanZyMlJqNmliUnh0S0tOWWZwRUJ4UEZfNEN1Z2k5RndzZ1RzWmhwMkpHeW1peUJzaGswOUl2RFJpdHM1bHZoVnFoODljNnkyYjNvZlRnaFFZVGhwWDVTcndUU0VmQVdLXzJEemZ0Y2lZdzB3cG43eV9KMGVsZ0R1cFduXzdfMDl6SmhBWHl2blNIWDBva3otSEZTWXNnd3ZnVDJQLWUtTG9QX1owb0tORUhtMnVxbXVVSUxrU09uYkRqSTFOYXk?oc=5\" target=\"_blank\">Top property buying tactics in a booming market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Australian</font>",
+      "published": "Wed, 05 Nov 2025 22:53:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "First-home buyer surge reshapes housing market amid record demand - Australian Broker",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVEdXcUVsdlgyZktYTTRaM051MWVJU1lDZ0FrS1Zuc1QzV0thQmdOQzNKb2NGejBmUlBhVXNFQlgzazJKemp4VmdLb3hTOXh3R0ZwWTJvR3gwZVpyOVpxWjR5bHFmMnB5TGJnWnRSTTY2aDZTeG13VFB4NmlmSXl4Zk1PVWFhQXVUTVpFNC0xTlBxY0dLVXNoalNOMk8xaDZnMEc3dDdDRVdSTG16aEpkYm5BMk90RTkxd3lFenZHRUtTTkU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVEdXcUVsdlgyZktYTTRaM051MWVJU1lDZ0FrS1Zuc1QzV0thQmdOQzNKb2NGejBmUlBhVXNFQlgzazJKemp4VmdLb3hTOXh3R0ZwWTJvR3gwZVpyOVpxWjR5bHFmMnB5TGJnWnRSTTY2aDZTeG13VFB4NmlmSXl4Zk1PVWFhQXVUTVpFNC0xTlBxY0dLVXNoalNOMk8xaDZnMEc3dDdDRVdSTG16aEpkYm5BMk90RTkxd3lFenZHRUtTTkU?oc=5\" target=\"_blank\">First-home buyer surge reshapes housing market amid record demand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broker</font>",
+      "published": "Wed, 05 Nov 2025 21:37:03 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Perth leads national housing upswing as sales and prices climb - Australian Broker",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZWg3QWFkZlNoYy1qWllsUGhWUV9jS1l2MDRoRGk3RUY4VHBlaXhCTXYwNzRSX2NNLVV3MGt2QmtmTkxtRjFEUk81MXpnbGtaWkd3WnU5V193NmQ0RE80aFlkNjNjRi1yVFRFYjk1M2V3XzJpWTVVdGhrbVNUNF9rSmVvNzdVM3N4RWNGVXJjVlVFRjFzVnJzN3JZRGJ5Z1BsYXJRN09Gc1BKVjVOemZURVlRckZCRVhONkdUdzQwRUg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZWg3QWFkZlNoYy1qWllsUGhWUV9jS1l2MDRoRGk3RUY4VHBlaXhCTXYwNzRSX2NNLVV3MGt2QmtmTkxtRjFEUk81MXpnbGtaWkd3WnU5V193NmQ0RE80aFlkNjNjRi1yVFRFYjk1M2V3XzJpWTVVdGhrbVNUNF9rSmVvNzdVM3N4RWNGVXJjVlVFRjFzVnJzN3JZRGJ5Z1BsYXJRN09Gc1BKVjVOemZURVlRckZCRVhONkdUdzQwRUg?oc=5\" target=\"_blank\">Perth leads national housing upswing as sales and prices climb</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broker</font>",
+      "published": "Wed, 05 Nov 2025 21:34:42 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Climate risk is repricing Australia’s property market — and mortgages - Australian Broker",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNndXZHB4YlJ2Q1hiX2FrY21QMUN2R29Vai04Rl9UMGMyY2NnZkM1ZzgwVVBhQ3FGQWFKX0hRa3BDVllzX2FTeURQTi1JZzdLMzR3cXFpeG9yLTJrSnVBNDRXaHZWOFdmaDh6M0JjYXVmVjRHQ3dtRUxGZUc4OS0waWM0bDFvWGRWZmJuNW8zQ05lQ0VjVTYwVlloVjJZeEVjV0NiVzRYR28zNXBOQUt1TTk1VG1fLVhIb3FIR0tTckxzaWRDd0lV?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPNndXZHB4YlJ2Q1hiX2FrY21QMUN2R29Vai04Rl9UMGMyY2NnZkM1ZzgwVVBhQ3FGQWFKX0hRa3BDVllzX2FTeURQTi1JZzdLMzR3cXFpeG9yLTJrSnVBNDRXaHZWOFdmaDh6M0JjYXVmVjRHQ3dtRUxGZUc4OS0waWM0bDFvWGRWZmJuNW8zQ05lQ0VjVTYwVlloVjJZeEVjV0NiVzRYR28zNXBOQUt1TTk1VG1fLVhIb3FIR0tTckxzaWRDd0lV?oc=5\" target=\"_blank\">Climate risk is repricing Australia’s property market — and mortgages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broker</font>",
+      "published": "Wed, 05 Nov 2025 21:32:02 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Simple city zoning change could lower rents, house prices, report finds - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWnJFMkpBaG1IcXVCN1lQWjBZNjNxUHdIQlF4Unduekl6TDFTUmc1MWxWME44bFN3bU9zRzZJY3VseVZoQk4wTjRCSDJ5dUdZS25Jcl9jWWtlYUFNeTFfOVhqQUdGMDNUTE1rQzlzbE1LZDVfUDdJNFhjZjIzMnR2aUpyemRSTzlsYTlNUFZpYkNBZDNWZVdEdVpmWU9jVk9MZFdnc1AtWVR1TkVzdGZv?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQWnJFMkpBaG1IcXVCN1lQWjBZNjNxUHdIQlF4Unduekl6TDFTUmc1MWxWME44bFN3bU9zRzZJY3VseVZoQk4wTjRCSDJ5dUdZS25Jcl9jWWtlYUFNeTFfOVhqQUdGMDNUTE1rQzlzbE1LZDVfUDdJNFhjZjIzMnR2aUpyemRSTzlsYTlNUFZpYkNBZDNWZVdEdVpmWU9jVk9MZFdnc1AtWVR1TkVzdGZv?oc=5\" target=\"_blank\">Simple city zoning change could lower rents, house prices, report finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 20:00:21 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Planning isn't the only reason Australia isn't adding enough homes, builders say - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZkNtbldpcl92WHRWb0IwZjJ1Si1INzFVZm9laFQ5Q2o0bFFZQzhXclJBZFpNWU5FbXpQLWx4YU5pTVFqeUZ0N3ZLZGszVktWUG5SSEtoYlNfV3htaU0yS0tiVmxDOHA3V2xWS2VKSGc3RGZSRC1fS3p1QXo3OWR2QTlFbmtiMkJjUkxsOXd1aDBmZzVMSlRDZkw3VlZHLW9JN2gzVGl4eVdJOE0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZkNtbldpcl92WHRWb0IwZjJ1Si1INzFVZm9laFQ5Q2o0bFFZQzhXclJBZFpNWU5FbXpQLWx4YU5pTVFqeUZ0N3ZLZGszVktWUG5SSEtoYlNfV3htaU0yS0tiVmxDOHA3V2xWS2VKSGc3RGZSRC1fS3p1QXo3OWR2QTlFbmtiMkJjUkxsOXd1aDBmZzVMSlRDZkw3VlZHLW9JN2gzVGl4eVdJOE0?oc=5\" target=\"_blank\">Planning isn't the only reason Australia isn't adding enough homes, builders say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 18:58:11 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Why a rate hold is good news for the property market - Domain",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWXJtSFdsTkdFY19WZlFtNUI3dndhRHMwSTVWVWowdlBteWYwM2FJWHF0LVhrNmlrTmo3MHhHbE9zcEpPMVRJVHp6UkhmWm5ENTdrZ09NMEtwYWpuWk10eTRVNGhtcmJnNmhLdnZjYWtpT2FhZ2FjVzdqZFRrb1BFVWIyZmlJMGpCRnNVRU9BX0FFazRrRlg2bmRTVWF1NGotVTF6NnhzbEZSaWtsd3p6ek5wRkVEbXJTNWlGZTJ5cXRRUFNxX3ZGQTFTYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPWXJtSFdsTkdFY19WZlFtNUI3dndhRHMwSTVWVWowdlBteWYwM2FJWHF0LVhrNmlrTmo3MHhHbE9zcEpPMVRJVHp6UkhmWm5ENTdrZ09NMEtwYWpuWk10eTRVNGhtcmJnNmhLdnZjYWtpT2FhZ2FjVzdqZFRrb1BFVWIyZmlJMGpCRnNVRU9BX0FFazRrRlg2bmRTVWF1NGotVTF6NnhzbEZSaWtsd3p6ek5wRkVEbXJTNWlGZTJ5cXRRUFNxX3ZGQTFTYw?oc=5\" target=\"_blank\">Why a rate hold is good news for the property market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Domain</font>",
+      "published": "Wed, 05 Nov 2025 13:48:04 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "‘I'm devastated’: Brooke learns the hard truth of Australia’s ruthless housing market - Domain",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS0M1ZnJvRzRyZzZUc0tYbXhHTkhHcnVub2NDeXNkQk1SVXpFYjQxV2tFLTB2LU43ZV9QMmo4RFBwR09FUTZsTFhZS1pZZndkZllNdDNRS3lSX19taWtQNnNLemM2VTFILVh2REIyNDJmbTNSdFotcm8zbGhOQnRWRGgtcEtFd3FZMzI2cENMLVVFUFdrNWQ5eXVnWXVWSVdRSFozV01XRUtjYmZWdDFwWXktRXh2VThScGZVOQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNS0M1ZnJvRzRyZzZUc0tYbXhHTkhHcnVub2NDeXNkQk1SVXpFYjQxV2tFLTB2LU43ZV9QMmo4RFBwR09FUTZsTFhZS1pZZndkZllNdDNRS3lSX19taWtQNnNLemM2VTFILVh2REIyNDJmbTNSdFotcm8zbGhOQnRWRGgtcEtFd3FZMzI2cENMLVVFUFdrNWQ5eXVnWXVWSVdRSFozV01XRUtjYmZWdDFwWXktRXh2VThScGZVOQ?oc=5\" target=\"_blank\">‘I'm devastated’: Brooke learns the hard truth of Australia’s ruthless housing market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Domain</font>",
+      "published": "Wed, 05 Nov 2025 13:14:34 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Radical plan to revamp nation’s capital cities – and shave $100,000 off house prices - The Sydney Morning Herald",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeVJqWmgyWFJtSkZBTmp4OWxGYmtKd2VTdlQ2YjduYlBWOWkwYVZqbFdKbWhyZEJ2WnpXdkhQLV9idXF6cnVENl9pb191N3FGd09Ea0NCOVJBXzB1LU9RQjhTbFhQVFpkZmZtODZobkJSekZRX3o4M1Rtdm9nOXg1WG5xXzRwc19EeUpYNEkzQjdIWU52SlZJajF6RnhPYnJsUTRLQVd4Mm12V2RiZnJ0RjVobEVXVnBkdnU0XzRFUUFSYkJNclZDc216cjFDOTd1akE0aUhrLW5FUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeVJqWmgyWFJtSkZBTmp4OWxGYmtKd2VTdlQ2YjduYlBWOWkwYVZqbFdKbWhyZEJ2WnpXdkhQLV9idXF6cnVENl9pb191N3FGd09Ea0NCOVJBXzB1LU9RQjhTbFhQVFpkZmZtODZobkJSekZRX3o4M1Rtdm9nOXg1WG5xXzRwc19EeUpYNEkzQjdIWU52SlZJajF6RnhPYnJsUTRLQVd4Mm12V2RiZnJ0RjVobEVXVnBkdnU0XzRFUUFSYkJNclZDc216cjFDOTd1akE0aUhrLW5FUQ?oc=5\" target=\"_blank\">Radical plan to revamp nation’s capital cities – and shave $100,000 off house prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sydney Morning Herald</font>",
+      "published": "Wed, 05 Nov 2025 10:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Property market set for busy Summer, despite RBA rates hold - Australian Property Update",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQamVpTHVqY1hGV1l6SFpsdi1JWFdPSUdPYVpZVDBMOEZ2dnEzYkR3NGRzWVZEM3BtQWVrWE5IdHJzbjRKSXVUbDR1T3dGNkZwdmljemlMeTQ3Yjd2Wk82Yk5EN3lzaE9CcU5KUjFGYXRJY2NORERneUlXRHJRc1BVMGwxNzFjUjlUeUd4WVM2WmlWV0UxUGpHUDFTQXYySW94NnhUVNIBtAFBVV95cUxOYkpiRThaX1RxbXR0RXNIVnBId1RtbUpHLTFqZG1wLXN5RnR2dXN6cHFxSjF4b1ZKTE9PSktEZVkxbnhjY3I1MG0ya18tNHZiRlZXRk9TWFFEUEc1YU1jSFhTb3I0X2hyelZzTmlMcmVxVzBXeHJFZDhGN08tRUVhLThacm53UEVVV2FaRE1NRXl5TUZQZ3MwRnlWSDhSLW40RlVoVGtwdzdsV1dWRHl4ejJQZk8?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQamVpTHVqY1hGV1l6SFpsdi1JWFdPSUdPYVpZVDBMOEZ2dnEzYkR3NGRzWVZEM3BtQWVrWE5IdHJzbjRKSXVUbDR1T3dGNkZwdmljemlMeTQ3Yjd2Wk82Yk5EN3lzaE9CcU5KUjFGYXRJY2NORERneUlXRHJRc1BVMGwxNzFjUjlUeUd4WVM2WmlWV0UxUGpHUDFTQXYySW94NnhUVNIBtAFBVV95cUxOYkpiRThaX1RxbXR0RXNIVnBId1RtbUpHLTFqZG1wLXN5RnR2dXN6cHFxSjF4b1ZKTE9PSktEZVkxbnhjY3I1MG0ya18tNHZiRlZXRk9TWFFEUEc1YU1jSFhTb3I0X2hyelZzTmlMcmVxVzBXeHJFZDhGN08tRUVhLThacm53UEVVV2FaRE1NRXl5TUZQZ3MwRnlWSDhSLW40RlVoVGtwdzdsV1dWRHl4ejJQZk8?oc=5\" target=\"_blank\">Property market set for busy Summer, despite RBA rates hold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Property Update</font>",
+      "published": "Wed, 05 Nov 2025 09:35:48 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Is Melbourne’s housing market a ‘basket case’ or ‘beacon of hope’ for Australia? - Property Update",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZGdqWDFrd19tZkdJVkdQa3lYRXo0b1lZcWZ0WmdDQTA4cXdQNWFMQjNtTG1TQkJnYzN1dW8xbFNjNUNnTGdZNVdLVTZmVTVDWGhTSFZFMjVPdF90NGhDSlVZek52clo0ZFhwRnpVOTl6b041TDJuMzNramNDRVlUZ0l0dXVSUG9vYnBCME5xMWdwWXNPSGljODlZaUlDazdTODI1aFh5VXQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZGdqWDFrd19tZkdJVkdQa3lYRXo0b1lZcWZ0WmdDQTA4cXdQNWFMQjNtTG1TQkJnYzN1dW8xbFNjNUNnTGdZNVdLVTZmVTVDWGhTSFZFMjVPdF90NGhDSlVZek52clo0ZFhwRnpVOTl6b041TDJuMzNramNDRVlUZ0l0dXVSUG9vYnBCME5xMWdwWXNPSGljODlZaUlDazdTODI1aFh5VXQ?oc=5\" target=\"_blank\">Is Melbourne’s housing market a ‘basket case’ or ‘beacon of hope’ for Australia?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Property Update</font>",
+      "published": "Wed, 05 Nov 2025 08:00:00 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "One in 10 homes bought using first home buyer incentive in October - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVRZU0RDZHF0YWM1WHFTV0RmRC0xMmJDRG5rVkVyQVBxeVdYempySzR3MHhLVW9odlVYQ2ppYkRaZnZUVDZIWC1KM1dobVJxXy1janc0SmF3M2QwVUxVcmhwQjFnQmNJbFJIVUh2STljSElfZnJSZ0FYTzdsczVGdDVXRTBwRlI4d3JlNmY1Um91MTctWEhBQ2lYU1pVNkdUNVQ5dmNjQldPRm1OYkE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQOVRZU0RDZHF0YWM1WHFTV0RmRC0xMmJDRG5rVkVyQVBxeVdYempySzR3MHhLVW9odlVYQ2ppYkRaZnZUVDZIWC1KM1dobVJxXy1janc0SmF3M2QwVUxVcmhwQjFnQmNJbFJIVUh2STljSElfZnJSZ0FYTzdsczVGdDVXRTBwRlI4d3JlNmY1Um91MTctWEhBQ2lYU1pVNkdUNVQ5dmNjQldPRm1OYkE?oc=5\" target=\"_blank\">One in 10 homes bought using first home buyer incentive in October</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 07:56:28 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Stealth wealth: 24 unassuming suburbs with surprisingly high house prices - realestate.com.au",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU0VMLXhtVGtUcnZxMVdqczF3NzduOEd5aXhyZDA3OUJId3JSSlJWWkhnX3VZZVVzVC05V05RX2E4TUpfTHQ3cWNLTTFmLXcyY296TXdhWFQzQ21oM184TjBTVE5hNjlmcndpSTJLZk9RUE83SzUtUFRYY1Z2dm1LYl94bVhrSnJXQTFodW5aYi1FanJYSnpMcFZmS2xyZVludlp4ek85YWo1Wncy?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNU0VMLXhtVGtUcnZxMVdqczF3NzduOEd5aXhyZDA3OUJId3JSSlJWWkhnX3VZZVVzVC05V05RX2E4TUpfTHQ3cWNLTTFmLXcyY296TXdhWFQzQ21oM184TjBTVE5hNjlmcndpSTJLZk9RUE83SzUtUFRYY1Z2dm1LYl94bVhrSnJXQTFodW5aYi1FanJYSnpMcFZmS2xyZVludlp4ek85YWo1Wncy?oc=5\" target=\"_blank\">Stealth wealth: 24 unassuming suburbs with surprisingly high house prices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">realestate.com.au</font>",
+      "published": "Wed, 05 Nov 2025 05:55:02 GMT",
+      "source": "\"Australia housing market\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ],
+  "goc": [
+    {
+      "title": "Race Commissioner says anti-migration rhetoric distracts from real causes of inequality - Australian Human Rights Commission",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbHlBd0RfbnNoZlRVVEJLZi0zNHRQS2l5dFg1WEtQLVJCUVhOQ1RBcjRZVXp6UWZLRFFsRXNGUjlEeUdraVZTOVNFajlLandZZm9JTjVWZVZrTTUwQXVGblQ4bGR3T1FqWFRLcXhKRU1ON1VLcUVNTUhiWVVISEVtR3liQjg0WVkweFJaU3NFTXYwS1hza0VNMFdvMmZoZGtsMVFhRk5qd2tZSmJhalFHYWNtYXdqT1p3c1dSSE1B?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPbHlBd0RfbnNoZlRVVEJLZi0zNHRQS2l5dFg1WEtQLVJCUVhOQ1RBcjRZVXp6UWZLRFFsRXNGUjlEeUdraVZTOVNFajlLandZZm9JTjVWZVZrTTUwQXVGblQ4bGR3T1FqWFRLcXhKRU1ON1VLcUVNTUhiWVVISEVtR3liQjg0WVkweFJaU3NFTXYwS1hza0VNMFdvMmZoZGtsMVFhRk5qd2tZSmJhalFHYWNtYXdqT1p3c1dSSE1B?oc=5\" target=\"_blank\">Race Commissioner says anti-migration rhetoric distracts from real causes of inequality</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Human Rights Commission</font>",
+      "published": "Wed, 27 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Hastie taunted over claim that Australians are 'strangers in our own home' - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeXZibUpwMEg5MjVnNGVTWHFCUnRVaGlFZmRpRjQzclJLVFlTd19xNk5yOExlWGJYV3FYclB2ODhDQ2FnS2xSenJCU2xWNnNsQzcyXzBNVUtzSlJCREpsMS00dElVWGo1TERIUHRJQWdrMG43aUFwRUlBR2MxN2JVQTBzTlR4elNTTldNd0VrWktVaFIw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOeXZibUpwMEg5MjVnNGVTWHFCUnRVaGlFZmRpRjQzclJLVFlTd19xNk5yOExlWGJYV3FYclB2ODhDQ2FnS2xSenJCU2xWNnNsQzcyXzBNVUtzSlJCREpsMS00dElVWGo1TERIUHRJQWdrMG43aUFwRUlBR2MxN2JVQTBzTlR4elNTTldNd0VrWktVaFIw?oc=5\" target=\"_blank\">Hastie taunted over claim that Australians are 'strangers in our own home'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 24 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "March for Australia Demonstrators Appeared to Harbour Racist Sentiment, Despite Denials - Sydney Criminal Lawyers",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMmpNOGl1YWp1d1pIQXhVTmEyR0RVTHpOVjNmLU92MTh5RnFuVGpfcmRPU0pibjNISENmWkk3VGlsQ19Sb3FRUVdJTTRkTlNaakhfSkxiT3ZlUXVtd1VkS2FzdlR0eWU0b2REX2pYZ1JLUHdXZHpZcnpjT05zN0tLcmVjaFFYR25MZDlGMVhiMjJzNWltejFZejJjMnRaN2ticFAxLXM5NmlGdVRXTFBmVVJvaWZjNlVzQmxYZ3dpR18zT01wVmhHUTFEa1pmZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPMmpNOGl1YWp1d1pIQXhVTmEyR0RVTHpOVjNmLU92MTh5RnFuVGpfcmRPU0pibjNISENmWkk3VGlsQ19Sb3FRUVdJTTRkTlNaakhfSkxiT3ZlUXVtd1VkS2FzdlR0eWU0b2REX2pYZ1JLUHdXZHpZcnpjT05zN0tLcmVjaFFYR25MZDlGMVhiMjJzNWltejFZejJjMnRaN2ticFAxLXM5NmlGdVRXTFBmVVJvaWZjNlVzQmxYZ3dpR18zT01wVmhHUTFEa1pmZw?oc=5\" target=\"_blank\">March for Australia Demonstrators Appeared to Harbour Racist Sentiment, Despite Denials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sydney Criminal Lawyers</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Most Australians agree there’s a housing crisis. But they differ on what’s causing it – and how to fix it - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbk5DMmRpTVhYU25Remh5S0RLQnA2ZjNKQ3FYQWJSWkpOTzdydmk3WnF0Q3JWLWdTQXRrRUVGbWFXQkd2cGRERmw2dWJrck94U1JjQ3ZPR3A3TTlKcFlud3BnNWx2dG9tVm10YVNETXp1ek9Salc3Vl95QWRndmhmbUhKSGJscjM2cFlUVUZTSkRhbWtKX1pwUWRhcWtQUkdzNnBqQzltWEZrZGF6WW9qT0FXTzZ2NWZiZ0xGYXBZcWl6SEFXZlVsU2dxdW1ZelU0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbk5DMmRpTVhYU25Remh5S0RLQnA2ZjNKQ3FYQWJSWkpOTzdydmk3WnF0Q3JWLWdTQXRrRUVGbWFXQkd2cGRERmw2dWJrck94U1JjQ3ZPR3A3TTlKcFlud3BnNWx2dG9tVm10YVNETXp1ek9Salc3Vl95QWRndmhmbUhKSGJscjM2cFlUVUZTSkRhbWtKX1pwUWRhcWtQUkdzNnBqQzltWEZrZGF6WW9qT0FXTzZ2NWZiZ0xGYXBZcWl6SEFXZlVsU2dxdW1ZelU0?oc=5\" target=\"_blank\">Most Australians agree there’s a housing crisis. But they differ on what’s causing it – and how to fix it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Immigration pressures build as net migration stabilises - Independent Australia",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT01xendRR3d4MGNIRjZlSDViR1pTbFJZTHViaE84SVYzQkE2eHdlLXlMWVBWOGUtMVJBbWFwR29zbEgzVExyaEgtOVBDTFZpaEZZMUgxRXdRSERGbXNpSzlEa3FyZzNwMXY5ZURZV3FLS0o0ZzJfNDdQMXVoNHFVYmdPUUE4X1FFRDBhSWI4OG5STEJFRmFGaFdPYzJPZXJzZmsxQzJ1emtQRXBhZXVTYkowYk9kdWFXdHd4UQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQT01xendRR3d4MGNIRjZlSDViR1pTbFJZTHViaE84SVYzQkE2eHdlLXlMWVBWOGUtMVJBbWFwR29zbEgzVExyaEgtOVBDTFZpaEZZMUgxRXdRSERGbXNpSzlEa3FyZzNwMXY5ZURZV3FLS0o0ZzJfNDdQMXVoNHFVYmdPUUE4X1FFRDBhSWI4OG5STEJFRmFGaFdPYzJPZXJzZmsxQzJ1emtQRXBhZXVTYkowYk9kdWFXdHd4UQ?oc=5\" target=\"_blank\">Immigration pressures build as net migration stabilises</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Independent Australia</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "IPA Poll: Attitude Towards Mass Migration In Australia – 2025 - The Institute Of Public Affairs",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNXp2Ry16MU9CdFEydGQ5SGJOOXhyWlVsMmVRWDJPWmw2eVhkcXA4UldWaVRzellwNktzUjlBUmcyWEFsMER1VjVQcEVjajlZTXVSWFoyaHFNOFZtU0RGb2Q5UnMxQlUtREgwaUh2WGxpRVpxMTVjZURmcHZTa0lhWHhpN1BndFZhMHc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPNXp2Ry16MU9CdFEydGQ5SGJOOXhyWlVsMmVRWDJPWmw2eVhkcXA4UldWaVRzellwNktzUjlBUmcyWEFsMER1VjVQcEVjajlZTXVSWFoyaHFNOFZtU0RGb2Q5UnMxQlUtREgwaUh2WGxpRVpxMTVjZURmcHZTa0lhWHhpN1BndFZhMHc?oc=5\" target=\"_blank\">IPA Poll: Attitude Towards Mass Migration In Australia – 2025</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Institute Of Public Affairs</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Immigration unease soars among Aus youth - News.com.au",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPYm5YV3pZb3NYRXFUdFgxa2dFekZFbEctMDdxWkxCQnJOZXlrTWljU182UklHdVFEQzRqWTEtdmdTYVo3MllkbE5yaHZaUEFSZUcwUi1FRm5nLXlmdzZjS2h0TFNucEpvdk04RElWZ1NoUnFIT1h0QjlFSklaQXVrRlN1S211U3FYWlBUbFdiaDAtV3prbFFZNGREcEhpbmtIcGJMV1NTVkwxaDRkQ2duM3h4X0pqS3hsN25RT1JJMTBsQTZfY2R4dGpRZXB2X3hycGhuTk14T1lkandJLU9Db2tZZ2Z1cVZmeTNHbHZZOGpzZGhyRVdJRWlPZUxtbWFvVnk2OUhGc3FqcHdNcmY4UNIBlgJBVV95cUxPS3VnN3N5ejFWVmI1MmV4bUZyM1llOUJ5UUxNUi0wd19PU1RLS1ZVMEFvcjlYR1lHRDdkOGRIOG01SWJMYlRuT1hpNGo0V1FEMXlWVE1FVFNCTW93ZjVXRWR2U2FrajZ1ZlRZYTBtVzVjTWI5T0ZYS0phWVNwMklwT3IySnhQZVFnRC1iSnNHUkNsRlV2VjVaRWJra0p3QThUV0xxeUxWNktxR2ZTajFpQm4zVmMzZEFMRTRjLXpJblA0VzZGT0VzS1F0TmZuVTd4VDJNVFUwX3dBZkh2UV81VEFCMkFkczRGVThLc1hYam0ybkJLZUVBZk5RVTBfU1dyQW9JSnNXLVJxU2J0OVI2SG1BTVlUUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxPYm5YV3pZb3NYRXFUdFgxa2dFekZFbEctMDdxWkxCQnJOZXlrTWljU182UklHdVFEQzRqWTEtdmdTYVo3MllkbE5yaHZaUEFSZUcwUi1FRm5nLXlmdzZjS2h0TFNucEpvdk04RElWZ1NoUnFIT1h0QjlFSklaQXVrRlN1S211U3FYWlBUbFdiaDAtV3prbFFZNGREcEhpbmtIcGJMV1NTVkwxaDRkQ2duM3h4X0pqS3hsN25RT1JJMTBsQTZfY2R4dGpRZXB2X3hycGhuTk14T1lkandJLU9Db2tZZ2Z1cVZmeTNHbHZZOGpzZGhyRVdJRWlPZUxtbWFvVnk2OUhGc3FqcHdNcmY4UNIBlgJBVV95cUxPS3VnN3N5ejFWVmI1MmV4bUZyM1llOUJ5UUxNUi0wd19PU1RLS1ZVMEFvcjlYR1lHRDdkOGRIOG01SWJMYlRuT1hpNGo0V1FEMXlWVE1FVFNCTW93ZjVXRWR2U2FrajZ1ZlRZYTBtVzVjTWI5T0ZYS0phWVNwMklwT3IySnhQZVFnRC1iSnNHUkNsRlV2VjVaRWJra0p3QThUV0xxeUxWNktxR2ZTajFpQm4zVmMzZEFMRTRjLXpJblA0VzZGT0VzS1F0TmZuVTd4VDJNVFUwX3dBZkh2UV81VEFCMkFkczRGVThLc1hYam0ybkJLZUVBZk5RVTBfU1dyQW9JSnNXLVJxU2J0OVI2SG1BTVlUUQ?oc=5\" target=\"_blank\">Immigration unease soars among Aus youth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News.com.au</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Slashing migration would actually lead to higher house prices in Australia. Here’s why - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQXBFcjZOdzNPLW41S0g1UGg4U19jNmthb2dCNXlrNThWYXV5aWxFblg2T1Q2MVBxWmxRUUQ2eV9hZFdFTWViaTNGdHM3OGFSLTJXNHR1OUdBcjlkYm94bzRwTHJBeG1UYVRuZUVpMHF5T2cyZnBNWHh6VXFnNHBXTEl2TV94cHNhbWlieVk2TU1OOVFWakVBTEk2UXBRMWZIanRuNnJsUk5KNjFGckttNzdCNm9BZkN3TWxIa1JNc193UjI0amNLMUEwTG5WUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPQXBFcjZOdzNPLW41S0g1UGg4U19jNmthb2dCNXlrNThWYXV5aWxFblg2T1Q2MVBxWmxRUUQ2eV9hZFdFTWViaTNGdHM3OGFSLTJXNHR1OUdBcjlkYm94bzRwTHJBeG1UYVRuZUVpMHF5T2cyZnBNWHh6VXFnNHBXTEl2TV94cHNhbWlieVk2TU1OOVFWakVBTEk2UXBRMWZIanRuNnJsUk5KNjFGckttNzdCNm9BZkN3TWxIa1JNc193UjI0amNLMUEwTG5WUQ?oc=5\" target=\"_blank\">Slashing migration would actually lead to higher house prices in Australia. Here’s why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 10 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "‘Net-negative arrivals’: The unlikely country Australia can borrow its immigration policy from - Sky News Australia",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNSjhnTThCUk9KUlcyNE1JNW0xTng5SWhYYmJpeDI0TGhUMERvZVpWZ3dxRk1mYjUtUmRRSDRTT0lhVGZnNUJOQVRSamFvRGo0UndZUzVNNTRkOXo2MWtKV0pGdGFaVWpya1JVQkg0NVh2b2FjU0dDMG43VnRTOG0ybGYzT3ZENHlUY3VZaDh6bl9iZFN5X0Jlb1ZnNWJTQ0VCWDlmUjVUaGltajBmTE9FVzVGVXRPeC14QXcxNlFqM1JGY2xqbnkydW41aEpoRW9HRnZLVTFiMWIxRjFWMFc2bWZwSDFDclJkamxEZ09aSW54MUFrRzUwSlRqT2dMTDluY2xxNGNlZENoTUhzYm1nZnluM045OXdROWhYQWdlWUpoS0NaU2Qxc200aVpJUWdtNThNRDVvTmNQZlVoeXhja9IBxgJBVV95cUxOQVd3LU1EdW45aWdLMlMxTktKRjMyaTFhcFpoTW5heHZyR1BabmpMcURZZ25XZS1BTXg1WEdEUmF5cGVLNkJiTTIwdDFoN0QtWmFSY2gwdlU2bUdNeW5TRVZLZkc3RldSSWtjb1VFcFlGYjFpSkNxV1V2dW1HS2h5OElXUzJ0TGV6TFU1Tm9aVVhlUVVkRHBJOGNHNWhjR1Z4ZmxOWEZZeEhmeE5oZExteWl3S0pucVBXRzIzXzIxWTlMczhGUUpFSjJQalZSbHpFSVhFaHZOMXg2R0gtMTk1alpydGZoQWswQ0ZhREttTnUzUWVlMUltak54N2ZYLVE5NEJLcGFkWHZRMmVTa2NSTDZGWFJaQ29HY0ZJR1lackR6VTJMVlBnTkU0UW0yNlVrYTVOQkprd1Q0ZzJmSDBiUnFNdGpVUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAJBVV95cUxNSjhnTThCUk9KUlcyNE1JNW0xTng5SWhYYmJpeDI0TGhUMERvZVpWZ3dxRk1mYjUtUmRRSDRTT0lhVGZnNUJOQVRSamFvRGo0UndZUzVNNTRkOXo2MWtKV0pGdGFaVWpya1JVQkg0NVh2b2FjU0dDMG43VnRTOG0ybGYzT3ZENHlUY3VZaDh6bl9iZFN5X0Jlb1ZnNWJTQ0VCWDlmUjVUaGltajBmTE9FVzVGVXRPeC14QXcxNlFqM1JGY2xqbnkydW41aEpoRW9HRnZLVTFiMWIxRjFWMFc2bWZwSDFDclJkamxEZ09aSW54MUFrRzUwSlRqT2dMTDluY2xxNGNlZENoTUhzYm1nZnluM045OXdROWhYQWdlWUpoS0NaU2Qxc200aVpJUWdtNThNRDVvTmNQZlVoeXhja9IBxgJBVV95cUxOQVd3LU1EdW45aWdLMlMxTktKRjMyaTFhcFpoTW5heHZyR1BabmpMcURZZ25XZS1BTXg1WEdEUmF5cGVLNkJiTTIwdDFoN0QtWmFSY2gwdlU2bUdNeW5TRVZLZkc3RldSSWtjb1VFcFlGYjFpSkNxV1V2dW1HS2h5OElXUzJ0TGV6TFU1Tm9aVVhlUVVkRHBJOGNHNWhjR1Z4ZmxOWEZZeEhmeE5oZExteWl3S0pucVBXRzIzXzIxWTlMczhGUUpFSjJQalZSbHpFSVhFaHZOMXg2R0gtMTk1alpydGZoQWswQ0ZhREttTnUzUWVlMUltak54N2ZYLVE5NEJLcGFkWHZRMmVTa2NSTDZGWFJaQ29HY0ZJR1lackR6VTJMVlBnTkU0UW0yNlVrYTVOQkprd1Q0ZzJmSDBiUnFNdGpVUQ?oc=5\" target=\"_blank\">‘Net-negative arrivals’: The unlikely country Australia can borrow its immigration policy from</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News Australia</font>",
+      "published": "Wed, 05 Nov 2025 18:00:38 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Ben Small doubles down on anti-immigration in housing debate - South Western Times",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY2hTWDloSGd5OE9fNTBzVnBVMEdMWldENDlBUldNLUZZeDFyQnhrakVRMGJFdEQ2M2dUSlJZQy1GOGIteU5HRzFURVhKZnVWeTdYN21aTGVGdmhodzc0S01hdlo4MjB4ZG9ybU5MX2pBMXdfeEF3ZHpBaVBYNExwQ2FZU05nM2VDZm91UG5rMENHM2lhZGpKLUo1S3B2M2w1SHVUcFBINXV1U0pmeVZoWkQ2bHg0LUZKTnBLWjFzWHJ0WWNySmprME9mZzF6RUdfZm9uaUtaVkJOSEZYYXYzSzlmLTloLXZWVzJR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY2hTWDloSGd5OE9fNTBzVnBVMEdMWldENDlBUldNLUZZeDFyQnhrakVRMGJFdEQ2M2dUSlJZQy1GOGIteU5HRzFURVhKZnVWeTdYN21aTGVGdmhodzc0S01hdlo4MjB4ZG9ybU5MX2pBMXdfeEF3ZHpBaVBYNExwQ2FZU05nM2VDZm91UG5rMENHM2lhZGpKLUo1S3B2M2w1SHVUcFBINXV1U0pmeVZoWkQ2bHg0LUZKTnBLWjFzWHJ0WWNySmprME9mZzF6RUdfZm9uaUtaVkJOSEZYYXYzSzlmLTloLXZWVzJR?oc=5\" target=\"_blank\">Ben Small doubles down on anti-immigration in housing debate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">South Western Times</font>",
+      "published": "Wed, 05 Nov 2025 09:53:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australians are fed up with high immigration - MacroBusiness",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVWNLWGxSc1pLX3V0Z3Z3OXJVdi0yZ3JQNzU3U2xlUmNVUElCczZtZDg1aDBnWVdtYmhYNzFpUHVuZWV6dEp3OHhlRGFqUHRybmxtYjRDMi1EV3hhRXZ1aUk0eThCNldNanJUNG1pV2o3cnlaSF94QXVGd0lrUmFhT21PSTVxVHVSOTVmb1ExQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQVWNLWGxSc1pLX3V0Z3Z3OXJVdi0yZ3JQNzU3U2xlUmNVUElCczZtZDg1aDBnWVdtYmhYNzFpUHVuZWV6dEp3OHhlRGFqUHRybmxtYjRDMi1EV3hhRXZ1aUk0eThCNldNanJUNG1pV2o3cnlaSF94QXVGd0lrUmFhT21PSTVxVHVSOTVmb1ExQQ?oc=5\" target=\"_blank\">Australians are fed up with high immigration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MacroBusiness</font>",
+      "published": "Wed, 05 Nov 2025 03:04:25 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "I’m the son of an immigrant and my mother is Indigenous. This is the racism I experienced photographing a March for Australia rally - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkVkREpWbWdmWDBZRDZra2d2SEdrRXBLMHpHam1hMV9ma1lYLVVjWVViNVF2bUtERGp5aUhsNVhaZ1N5NGhQMVhpMWVPc19uQk1xdS1YVUNfQkRoZ29aOExnY0J3RDZWVzF6SVhKcTYwRlZHZFVIZjA5c2k4Q0RWOVkzQ0VraXlhblFLRzhPSHc4aXN5WldvWXZpUTZLMDFfbEphaU5UMEZ5VTVuY1E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkVkREpWbWdmWDBZRDZra2d2SEdrRXBLMHpHam1hMV9ma1lYLVVjWVViNVF2bUtERGp5aUhsNVhaZ1N5NGhQMVhpMWVPc19uQk1xdS1YVUNfQkRoZ29aOExnY0J3RDZWVzF6SVhKcTYwRlZHZFVIZjA5c2k4Q0RWOVkzQ0VraXlhblFLRzhPSHc4aXN5WldvWXZpUTZLMDFfbEphaU5UMEZ5VTVuY1E?oc=5\" target=\"_blank\">I’m the son of an immigrant and my mother is Indigenous. This is the racism I experienced photographing a March for Australia rally</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Husic rebukes PM’s assertion ‘good people’ went to March for Australia rallies as Nampijinpa Price walks back immigration claim - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNb051UE1UZnRWeGNRTjZlcGJBYmIwTEhFSDdxNkhQN1hZTFJxcDJyYWl6emE5TU03NVJVaU9RTDBOdlE1LXJjTWdiOWwyRFRNcFE0R3hHOG5MWmNPeXZDOTRrMGZxbm81b2FBaHQ0ODNpY0wweW5DLWpIT19LQy1zUm5YeUZMYk85OF9GM19XR3R2TFV3UWUwRU9QOUNwdmQwenJ3QXZqeDcyLUJTTndZNVA3SXZuVEhScmJSbnFuWHlCZmhLT0M1WmtTY3I2LWNIRVJEZlQyS2JWQm1Bb0NBaW9fWnVUYnJE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNb051UE1UZnRWeGNRTjZlcGJBYmIwTEhFSDdxNkhQN1hZTFJxcDJyYWl6emE5TU03NVJVaU9RTDBOdlE1LXJjTWdiOWwyRFRNcFE0R3hHOG5MWmNPeXZDOTRrMGZxbm81b2FBaHQ0ODNpY0wweW5DLWpIT19LQy1zUm5YeUZMYk85OF9GM19XR3R2TFV3UWUwRU9QOUNwdmQwenJ3QXZqeDcyLUJTTndZNVA3SXZuVEhScmJSbnFuWHlCZmhLT0M1WmtTY3I2LWNIRVJEZlQyS2JWQm1Bb0NBaW9fWnVUYnJE?oc=5\" target=\"_blank\">Husic rebukes PM’s assertion ‘good people’ went to March for Australia rallies as Nampijinpa Price walks back immigration claim</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Beyond immigration: the real drivers of Australia’s housing shortage - Absolute Immigration",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTnd0S01UbEg4VUhhRVhpbjdjY3h0dm1ja1lwTXhyNWdVVWVqTkIxRnJXd21pSG5pZHE4SFIyYmJwVHRGampXTk1vajBLMEZuZ0tZcnllQmFUaWtRSUNIaEN3ZjctWmZBUUJRMF9RcU12LWRRT0pCbFdHS0lHdUFnQ3RRaHZsUXhMbjA5eA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNTnd0S01UbEg4VUhhRVhpbjdjY3h0dm1ja1lwTXhyNWdVVWVqTkIxRnJXd21pSG5pZHE4SFIyYmJwVHRGampXTk1vajBLMEZuZ0tZcnllQmFUaWtRSUNIaEN3ZjctWmZBUUJRMF9RcU12LWRRT0pCbFdHS0lHdUFnQ3RRaHZsUXhMbjA5eA?oc=5\" target=\"_blank\">Beyond immigration: the real drivers of Australia’s housing shortage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Absolute Immigration</font>",
+      "published": "Tue, 27 May 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Stop immigration, start building stuff: Time for a stronger Australia - Sky News Australia",
+      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNRzAyRlA3MUVjZU1BSkxMZW1mTjlvaGpIQ215eFhGb1N2M2ZxZFZmeWdESjIzN2lqNGVuOEJYazc5bXRmbDhwdjFsV0owQTFaU05xWXVPNnJ5bzQ1XzAxS2JSUXFqX0pwN3hKcVJBcUxsYmtMNkpJV1d1X1FWWXM0Z0g1ZTAxdERXNUpYczZaWG1oZWdFaUUyamg1amVTMGZORlRaWVVQcWJGUkF2SjAweUNCM3licXEyajQzYUdtZUpFUmdoX2RGVjJLUERnZGw0MVhHX25YVVpZR1dMdW15V2VUbC1nM2VxaVFpczFfVVNyWmJkcnVhSTJIQjl6eHlNMEkyYkl6dHd4QVVVd0x3RmpyVXpDSzVhRkI2TC1XZUxjMVZ1YmlDSjlDRThqcU1wUVBxenNYdXZueXZ6UVFjbXprazRPSDFueUUw0gHQAkFVX3lxTE52VkZoT3RiMHRkMWlEMlZ0c21XVkdCLTRSc0N3MmROZWtZckloQU1pNDhoMzl0aHI5SXN5UUNQLUNTaHU4SmhIOHBTZ08xN3JjOEgyWVU3TDJ4WmZyTWlseTNtRkVrTXY2YXJNRkJHVzI3Qk5NWkRlUE5JMVVqcGh5d2dFMnNLclpVSGw2c2h2dEhTS21MT0NMVTRuSGFOTkU4X24wUUNJam9WVnYycVFubU5GTGtLTHk1RDRUcmlwLWNzQVVaLUg1Wkc0RG5URWpuSVRTWVFuOERQSW0xVy1WMnNISnN6UVFDUmd5QmI1VVBGMVFDWWdxR193YU1LZVQwdkhFY3BINzA5c3JXa0dCLVRRbDVnejAydGFrRklCd0E5eVQ3dV9lVkc2dk1BNGMxUHlCQkFHbzlXN1E1Z2djanBfQXMtR3ZYYU5IQVIzbA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywJBVV95cUxNRzAyRlA3MUVjZU1BSkxMZW1mTjlvaGpIQ215eFhGb1N2M2ZxZFZmeWdESjIzN2lqNGVuOEJYazc5bXRmbDhwdjFsV0owQTFaU05xWXVPNnJ5bzQ1XzAxS2JSUXFqX0pwN3hKcVJBcUxsYmtMNkpJV1d1X1FWWXM0Z0g1ZTAxdERXNUpYczZaWG1oZWdFaUUyamg1amVTMGZORlRaWVVQcWJGUkF2SjAweUNCM3licXEyajQzYUdtZUpFUmdoX2RGVjJLUERnZGw0MVhHX25YVVpZR1dMdW15V2VUbC1nM2VxaVFpczFfVVNyWmJkcnVhSTJIQjl6eHlNMEkyYkl6dHd4QVVVd0x3RmpyVXpDSzVhRkI2TC1XZUxjMVZ1YmlDSjlDRThqcU1wUVBxenNYdXZueXZ6UVFjbXprazRPSDFueUUw0gHQAkFVX3lxTE52VkZoT3RiMHRkMWlEMlZ0c21XVkdCLTRSc0N3MmROZWtZckloQU1pNDhoMzl0aHI5SXN5UUNQLUNTaHU4SmhIOHBTZ08xN3JjOEgyWVU3TDJ4WmZyTWlseTNtRkVrTXY2YXJNRkJHVzI3Qk5NWkRlUE5JMVVqcGh5d2dFMnNLclpVSGw2c2h2dEhTS21MT0NMVTRuSGFOTkU4X24wUUNJam9WVnYycVFubU5GTGtLTHk1RDRUcmlwLWNzQVVaLUg1Wkc0RG5URWpuSVRTWVFuOERQSW0xVy1WMnNISnN6UVFDUmd5QmI1VVBGMVFDWWdxR193YU1LZVQwdkhFY3BINzA5c3JXa0dCLVRRbDVnejAydGFrRklCd0E5eVQ3dV9lVkc2dk1BNGMxUHlCQkFHbzlXN1E1Z2djanBfQXMtR3ZYYU5IQVIzbA?oc=5\" target=\"_blank\">Stop immigration, start building stuff: Time for a stronger Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News Australia</font>",
+      "published": "Tue, 21 Oct 2025 18:01:01 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Palestinians in Gaza with Australian visas remain trapped as Israel keeps borders closed - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc01qUTNPOTctTlRVVHRocHhGZVprTXV4MWJCMWZfcUxWNHUxS2hsZS1TYjMtY1UwMWxBNnFQaHNMX3kwdjJpNENmY215RDZuS2RZa0pxb1h4N3FfTTZYdGxjdEpLWUdJNEdhLUF4QnBVSDE3dEtYTjJnNlJhUHJadEJ6dzAxUTQtVnNZakhOSDhfV1VmYTZ4MDB2bXk5Nm5ITzlXSmVsajVEbndvdHVKckhLT2NSem1oZHpCWVVVU0dZZzBwVVM5aUs3WHFHSUhUNFZLTUZESEEwSzQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc01qUTNPOTctTlRVVHRocHhGZVprTXV4MWJCMWZfcUxWNHUxS2hsZS1TYjMtY1UwMWxBNnFQaHNMX3kwdjJpNENmY215RDZuS2RZa0pxb1h4N3FfTTZYdGxjdEpLWUdJNEdhLUF4QnBVSDE3dEtYTjJnNlJhUHJadEJ6dzAxUTQtVnNZakhOSDhfV1VmYTZ4MDB2bXk5Nm5ITzlXSmVsajVEbndvdHVKckhLT2NSem1oZHpCWVVVU0dZZzBwVVM5aUs3WHFHSUhUNFZLTUZESEEwSzQ?oc=5\" target=\"_blank\">Palestinians in Gaza with Australian visas remain trapped as Israel keeps borders closed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Immigration update: Which Australian states have reopened their skilled migration programs for 2025–26? - SBS Australia",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcTNOQVlKang2MlRIZ0wzaTVBWUNUdkJMZjRNbGlIZ1pnWDdKXzRxWFpWcWRJYk5aTWFYRU5Pa3Jza0NnMmg5eEFWYUdjR1lVMVA1Q1R5TGk3aEtfMElfQ1VTRlRCNi1nSjd0WE80RGZ3bmxUZHktd01OUFlQVDlWck0ybkl2XzVER25rYVJuOXdiQk1RalJQV193ZHVMbUN3b3BiVUFrTFdEeHJNV2FUWWVaR21pVGRyb3NvMlpCV3UwS3JnSU5ZZ2NPdUFmeDFrMmM5OXBfVlgzWlJQQk55RUxkQ3dXTC1xWmhYeThGWVRHTjRzQlJ3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcTNOQVlKang2MlRIZ0wzaTVBWUNUdkJMZjRNbGlIZ1pnWDdKXzRxWFpWcWRJYk5aTWFYRU5Pa3Jza0NnMmg5eEFWYUdjR1lVMVA1Q1R5TGk3aEtfMElfQ1VTRlRCNi1nSjd0WE80RGZ3bmxUZHktd01OUFlQVDlWck0ybkl2XzVER25rYVJuOXdiQk1RalJQV193ZHVMbUN3b3BiVUFrTFdEeHJNV2FUWWVaR21pVGRyb3NvMlpCV3UwS3JnSU5ZZ2NPdUFmeDFrMmM5OXBfVlgzWlJQQk55RUxkQ3dXTC1xWmhYeThGWVRHTjRzQlJ3?oc=5\" target=\"_blank\">Immigration update: Which Australian states have reopened their skilled migration programs for 2025–26?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SBS Australia</font>",
+      "published": "Tue, 21 Oct 2025 01:26:08 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Migration concerns surge ‘post-pandemic’ – almost returning to pre-pandemic levels - Roy Morgan Research",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnR0V2J1RkNtNTJNZWxnV0ZFQ0JIY1B5T19pRk5YRVFhMDlJNndzX0FaVlNwNG9YM21yWTNWcEVQWjJfcVV1cldrQmI2ODl0V3FBa2Vpa1BpUkRaN2xubXE0THdGajFIQ29mRnRyY3RLOUZJcjBWYk43dGRvRUkzSG1yZUdsV1l2QUJlTjA2LVlsNWduZ3pZLQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnR0V2J1RkNtNTJNZWxnV0ZFQ0JIY1B5T19pRk5YRVFhMDlJNndzX0FaVlNwNG9YM21yWTNWcEVQWjJfcVV1cldrQmI2ODl0V3FBa2Vpa1BpUkRaN2xubXE0THdGajFIQ29mRnRyY3RLOUZJcjBWYk43dGRvRUkzSG1yZUdsV1l2QUJlTjA2LVlsNWduZ3pZLQ?oc=5\" target=\"_blank\">Migration concerns surge ‘post-pandemic’ – almost returning to pre-pandemic levels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Roy Morgan Research</font>",
+      "published": "Tue, 16 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "The paradox at the heart of calls to end 'mass migration' in Australia - SBS Australia",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZkRmb1ZLTXpjOXhvRXJ6VVRESTNoX2pRdEtGNE43R2k0R0YtMGd6QnVETGJWUHBQc0VkQUJoc2RjdHQ2aVRieEZKbno0Uk03WldNZ0RaWFZ6LWpsandPdkJTV1ZobVFPZjQ4STJBWVVUeUR2TXZ4RWJRai1YU1pIclp1TEhRUFQxMXU5dGNrRndWYzUxREpvaHFvWmZPR19qOFV4T2hTYWp2a0Fuay0temd0OUw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPZkRmb1ZLTXpjOXhvRXJ6VVRESTNoX2pRdEtGNE43R2k0R0YtMGd6QnVETGJWUHBQc0VkQUJoc2RjdHQ2aVRieEZKbno0Uk03WldNZ0RaWFZ6LWpsandPdkJTV1ZobVFPZjQ4STJBWVVUeUR2TXZ4RWJRai1YU1pIclp1TEhRUFQxMXU5dGNrRndWYzUxREpvaHFvWmZPR19qOFV4T2hTYWp2a0Fuay0temd0OUw?oc=5\" target=\"_blank\">The paradox at the heart of calls to end 'mass migration' in Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SBS Australia</font>",
+      "published": "Tue, 16 Sep 2025 00:31:52 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Another record migration intake - The Institute Of Public Affairs",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByYWVRamVKQmNaZTAxVDIza3VkdWxHcnVhb2lVdGpNU3FZbVJWOFlXaEVKdUVzRV9UeS1yTWNldGlINDRwSGlFN2xxdjJEXzlQVFphY29OZ3ZGdFRYWENXZ2hoWVFKUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFByYWVRamVKQmNaZTAxVDIza3VkdWxHcnVhb2lVdGpNU3FZbVJWOFlXaEVKdUVzRV9UeS1yTWNldGlINDRwSGlFN2xxdjJEXzlQVFphY29OZ3ZGdFRYWENXZ2hoWVFKUQ?oc=5\" target=\"_blank\">Another record migration intake</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Institute Of Public Affairs</font>",
+      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia immigration\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ],
+  "spor": [
+    {
+      "title": "Türkiye'nin, ABD ve Meksika ile oynayacağı özel maçların aday kadrosu açıklandı - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNktMVzZ3QVNtUW9ramVxWU9lTXgwTGlINEVrVG9Hbk5PbGdQMlBoV1Y0emRNQXNuQVFPZzdVTTJzbTJkaW1sOURGbEdRSVZ1RklCQWhlQVplZUpCRm5DaldBNjhhdmRMa05rekhuMklKUzJrOV9LYnRxTXZxSlVpNjRjeTZVVGwzYUdPcXdqcUt3enZ0d1hWOUdwMFlXNnB2NEJsNGpubDl2NEozN0d2XzZ2MzF6OVpG?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNktMVzZ3QVNtUW9ramVxWU9lTXgwTGlINEVrVG9Hbk5PbGdQMlBoV1Y0emRNQXNuQVFPZzdVTTJzbTJkaW1sOURGbEdRSVZ1RklCQWhlQVplZUpCRm5DaldBNjhhdmRMa05rekhuMklKUzJrOV9LYnRxTXZxSlVpNjRjeTZVVGwzYUdPcXdqcUt3enZ0d1hWOUdwMFlXNnB2NEJsNGpubDl2NEozN0d2XzZ2MzF6OVpG?oc=5\" target=\"_blank\">Türkiye'nin, ABD ve Meksika ile oynayacağı özel maçların aday kadrosu açıklandı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "published": "Wed, 28 May 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Turkish football body announces promotion, relegation rules for next season - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1FXWjVQNURBNGVJRjRUVnBjOXhRZ1ZJVF9RWmhDTm5NUEVyZzRHSldzSzRUQTBnNkdyb2ZFeVdOQ1NBQ1VmN2lfY09Oa3YxMDRneFhqTTkyR0xja1JkQnczcEVTdFVFVHNpWFhQeC1sUTdHNVJRTzJjMDhpU3ROdnN2WU5LZW9GZjFlU2M1N1pFVk1ld0d2a0RxM1VPZ01pbFJiVUNuLXBCWmd3QlJEZi1lSFA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1FXWjVQNURBNGVJRjRUVnBjOXhRZ1ZJVF9RWmhDTm5NUEVyZzRHSldzSzRUQTBnNkdyb2ZFeVdOQ1NBQ1VmN2lfY09Oa3YxMDRneFhqTTkyR0xja1JkQnczcEVTdFVFVHNpWFhQeC1sUTdHNVJRTzJjMDhpU3ROdnN2WU5LZW9GZjFlU2M1N1pFVk1ld0d2a0RxM1VPZ01pbFJiVUNuLXBCWmd3QlJEZi1lSFA?oc=5\" target=\"_blank\">Turkish football body announces promotion, relegation rules for next season</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "published": "Wed, 22 Mar 2023 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Türkiye falls 3-1 to Montenegro in UEFA Nations League B group finale - Türkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaXZnenpVempyMmlZLVp5VDgyRWZ1X0J3Z2VsQlFqR1NHRDJwM1ZDb29FV2sxTlBlRlY4ZEk4MGg2cEZ0SFl4TUYwa2lGdzY2dHNEYWJEWkQtM1pFbVJYMzFHU2ZkLVBoaW1iZ3ZmQjJEcDZLTWlaX0Z3QWNjeG11VE1zT1JjaC15Uks3RzY2X2l3dXhZNWQ1UDE2cElUZ0dVY3BWZWh5dU9LUDFuemEtUA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPaXZnenpVempyMmlZLVp5VDgyRWZ1X0J3Z2VsQlFqR1NHRDJwM1ZDb29FV2sxTlBlRlY4ZEk4MGg2cEZ0SFl4TUYwa2lGdzY2dHNEYWJEWkQtM1pFbVJYMzFHU2ZkLVBoaW1iZ3ZmQjJEcDZLTWlaX0Z3QWNjeG11VE1zT1JjaC15Uks3RzY2X2l3dXhZNWQ1UDE2cElUZ0dVY3BWZWh5dU9LUDFuemEtUA?oc=5\" target=\"_blank\">Türkiye falls 3-1 to Montenegro in UEFA Nations League B group finale</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Türkiye Today</font>",
+      "published": "Wed, 20 Nov 2024 08:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Türkiye A Ligi'ne yükselme fırsatını kullanamadı - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNmNYa25iYllGN2ZudkpLU2JId0dIdjZ0cTAxUXpCQ1VFQ2RjOWY0T05FLWRoNjRGcTdsUEYxWWg3OF9mRWZtMzNlNUlpa084eDZsc3VySkNOd0hCSUpMWWMzQWNHZFFoZVZIbzFnR05uejJaajlPMG40cDgzV3NtczZBUFktYlVaVXF6eXFxYmU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQNmNYa25iYllGN2ZudkpLU2JId0dIdjZ0cTAxUXpCQ1VFQ2RjOWY0T05FLWRoNjRGcTdsUEYxWWg3OF9mRWZtMzNlNUlpa084eDZsc3VySkNOd0hCSUpMWWMzQWNHZFFoZVZIbzFnR05uejJaajlPMG40cDgzV3NtczZBUFktYlVaVXF6eXFxYmU?oc=5\" target=\"_blank\">Türkiye A Ligi'ne yükselme fırsatını kullanamadı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "published": "Wed, 20 Nov 2024 08:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Ancelotti, Karadağ-Türkiye maçında çılgına döndü! Arda Güler krizi... - beinsports.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSHhKOTRYSFhuUC1ZazYwVUpsQ01GUTRvTVZXZTBHUFNQTlJ1bW9JMnZjVG1yZWNZU3lKSS1BNmZ5cGtlNGxPN1dGWld4a0NJdktDekNPQy1zX2dlOFB2UG5ScEtNQzBudkRGdjlGOHdLMk5WWlRCbl9wc1FweXJpUlpiRUh2REVCcV9fbU1feW5GdmR2b3ZQZjYwazU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNSHhKOTRYSFhuUC1ZazYwVUpsQ01GUTRvTVZXZTBHUFNQTlJ1bW9JMnZjVG1yZWNZU3lKSS1BNmZ5cGtlNGxPN1dGWld4a0NJdktDekNPQy1zX2dlOFB2UG5ScEtNQzBudkRGdjlGOHdLMk5WWlRCbl9wc1FweXJpUlpiRUh2REVCcV9fbU1feW5GdmR2b3ZQZjYwazU?oc=5\" target=\"_blank\">Ancelotti, Karadağ-Türkiye maçında çılgına döndü! Arda Güler krizi...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">beinsports.com.tr</font>",
+      "published": "Wed, 20 Nov 2024 08:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Gürcistan - Türkiye Maçının Genel Bilet Satışları Başladı - TFF",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Wa2xLTWJvVFBjWm9hMWtRb3FRcThKdE9WdVhvZmR1M3poSGItM2djMXdfWWp4Ui1qbmx6WjF5WU45TU1BYU9LODF5Qk9XT0tsTmY4bTZ6OE5WdGs5UkZ4eVh3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Wa2xLTWJvVFBjWm9hMWtRb3FRcThKdE9WdVhvZmR1M3poSGItM2djMXdfWWp4Ui1qbmx6WjF5WU45TU1BYU9LODF5Qk9XT0tsTmY4bTZ6OE5WdGs5UkZ4eVh3?oc=5\" target=\"_blank\">Gürcistan - Türkiye Maçının Genel Bilet Satışları Başladı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TFF</font>",
+      "published": "Wed, 20 Aug 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Dünya Kupası aşkına! Bizim Çocuklar gümbür gümbür geliyor - beinsports.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFU0Y2OHFZUkZvWC1CT3kyMEtkclNoQzdSZ1lnemM4aGgyRVRSbmZaY1c0b09zTXV2bXl2TDdaVmV2akxPTVNXdjZhcTNuT3lqd2M0ZnRfbGpEd2hwX0kxcA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFU0Y2OHFZUkZvWC1CT3kyMEtkclNoQzdSZ1lnemM4aGgyRVRSbmZaY1c0b09zTXV2bXl2TDdaVmV2akxPTVNXdjZhcTNuT3lqd2M0ZnRfbGpEd2hwX0kxcA?oc=5\" target=\"_blank\">Dünya Kupası aşkına! Bizim Çocuklar gümbür gümbür geliyor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">beinsports.com.tr</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Türkiye A Milli Kadın Futbol Takımı'nın Kosova maçları kadrosu belli oldu - Oxu.Az",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX2s1VWJhSGladXgtU3lRV05wQTRQR05GejJxVUhtSWxnSFF5ZE9QV0JMU3ZKdW5fN3lNQjJOLVd5cTVvbWUyUDdsRFZFSlp5YUtfa2lVbTFJTEd3X2tBQzU3V0V4UzF2dlRKX0UzSXhPa0dLUHktZVlBS294d3NYdGhuUkxsd2c1X2luTFRoeENRWHFGbVl4X01XVjg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNX2s1VWJhSGladXgtU3lRV05wQTRQR05GejJxVUhtSWxnSFF5ZE9QV0JMU3ZKdW5fN3lNQjJOLVd5cTVvbWUyUDdsRFZFSlp5YUtfa2lVbTFJTEd3X2tBQzU3V0V4UzF2dlRKX0UzSXhPa0dLUHktZVlBS294d3NYdGhuUkxsd2c1X2luTFRoeENRWHFGbVl4X01XVjg?oc=5\" target=\"_blank\">Türkiye A Milli Kadın Futbol Takımı'nın Kosova maçları kadrosu belli oldu</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oxu.Az</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Türkiye-Macaristan maçının biletleri satışa çıktı - beinsports.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX1ZnLTg0dmhiN3U0ejFoUVZ6YUpkX05TLS1WemZrMzRsYl9vNnRvOTVkMmlkTzJUd0RYN0pRWnIwRjk3TVRHR3ltY0dJZFg3WG04XzRLaGYxQ1RjdEkwWUhSM3ZSdkxJQVJQWi04MTg5QUZkZ2NCaWJYWHRGamVxaHBDQ2ZLdU1N?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX1ZnLTg0dmhiN3U0ejFoUVZ6YUpkX05TLS1WemZrMzRsYl9vNnRvOTVkMmlkTzJUd0RYN0pRWnIwRjk3TVRHR3ltY0dJZFg3WG04XzRLaGYxQ1RjdEkwWUhSM3ZSdkxJQVJQWi04MTg5QUZkZ2NCaWJYWHRGamVxaHBDQ2ZLdU1N?oc=5\" target=\"_blank\">Türkiye-Macaristan maçının biletleri satışa çıktı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">beinsports.com.tr</font>",
+      "published": "Wed, 12 Mar 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "A Milli Futbol Takımı, Dünya Kupası yolunda ilk maçına Gürcistan deplasmanında çıkacak - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFRhdVlvdHd0THZTcE9qWXRBYUVDTms2Y2Q5RHVGVW83Ykd5N1lrVVE1Rkwxd1Z0SW54R2hZTDVsU0toWEthZnJ1R3kwQ3kyQ0VzMjBrRWF4eWlYNGdsa3RRUUtwMVpLTEJBWFlUMUx0S3VSN1NBeVpSRV9KcDk1NERhR3YxRGlJeEJtRzlOemZkYnI2a0ZuVUpFb2dGRHNOdjZHaDZHTkpPMzY1cDhWYUl5ODlienNNYW03WHBxRUVmcHc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFRhdVlvdHd0THZTcE9qWXRBYUVDTms2Y2Q5RHVGVW83Ykd5N1lrVVE1Rkwxd1Z0SW54R2hZTDVsU0toWEthZnJ1R3kwQ3kyQ0VzMjBrRWF4eWlYNGdsa3RRUUtwMVpLTEJBWFlUMUx0S3VSN1NBeVpSRV9KcDk1NERhR3YxRGlJeEJtRzlOemZkYnI2a0ZuVUpFb2dGRHNOdjZHaDZHTkpPMzY1cDhWYUl5ODlienNNYW03WHBxRUVmcHc?oc=5\" target=\"_blank\">A Milli Futbol Takımı, Dünya Kupası yolunda ilk maçına Gürcistan deplasmanında çıkacak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "U15 Türkiye Şampiyonu, Erciyesgücü Futbol Kulübü Oldu - TFF",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPOTRNYlJVU1dEaHpCelotX3c3UHN2XzNHODI3OTVnUXNwTndsS3VkT3hhdTdfTEFiclpsZkREOXBkNkRXODJpS1owZU9BNERzd3dMaXJvRUtVWDFBdjVzZC1nM1BiOTA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPOTRNYlJVU1dEaHpCelotX3c3UHN2XzNHODI3OTVnUXNwTndsS3VkT3hhdTdfTEFiclpsZkREOXBkNkRXODJpS1owZU9BNERzd3dMaXJvRUtVWDFBdjVzZC1nM1BiOTA?oc=5\" target=\"_blank\">U15 Türkiye Şampiyonu, Erciyesgücü Futbol Kulübü Oldu</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TFF</font>",
+      "published": "Wed, 02 Jul 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Austria 6-1 Türkiye - TFF",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1TzJ0YzZRUkdxdU52NjUzRldNeldBelY3eEV3R1pUWmtDNnU3RFl6RFkyRkpHY1pCdUJFazJvX2NCMko0Tms3ak1kMWdYcWlHRGVRbHNsT1hzdzdwOEwzR2lYVmRvV3M?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1TzJ0YzZRUkdxdU52NjUzRldNeldBelY3eEV3R1pUWmtDNnU3RFl6RFkyRkpHY1pCdUJFazJvX2NCMko0Tms3ak1kMWdYcWlHRGVRbHNsT1hzdzdwOEwzR2lYVmRvV3M?oc=5\" target=\"_blank\">Austria 6-1 Türkiye</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TFF</font>",
+      "published": "Tue, 26 Mar 2024 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Bulgaristan - Türkiye Maçının Genel Bilet Satışları Başladı - TFF",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yUFUyb1l1MVlvNmdUc3ZDRngtNkJZSjNhV092SklldnJoemFhbl9GS0lqS2RtSXhhTFFvb3pzMGFEc0xqSEd2elZkcFdXZXozZ2FubzRYeUFRZWVPR2xYN1J0bFpiMGM?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yUFUyb1l1MVlvNmdUc3ZDRngtNkJZSjNhV092SklldnJoemFhbl9GS0lqS2RtSXhhTFFvb3pzMGFEc0xqSEd2elZkcFdXZXozZ2FubzRYeUFRZWVPR2xYN1J0bFpiMGM?oc=5\" target=\"_blank\">Bulgaristan - Türkiye Maçının Genel Bilet Satışları Başladı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TFF</font>",
+      "published": "Tue, 23 Sep 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Football: Turkey starts 2022 World Cup journey in quals - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLWlmR0ljdlVUcjYxY21pS1FmUjNSY2tneVdqNjVBcC1QSWtFQzU0M2tUa21pTTZjek9YZ3pjb0NzYm95SkwzVUQtb05uY2dIcS1UNGtPWkVZRGxYbUd3Qm5OdmJpQkFhck9MVElPamxWSEpmWGltMEYzdDR4cU9JZUtxNzRDX0hCNEtqNjU5djl5d295YmZ1cnRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPLWlmR0ljdlVUcjYxY21pS1FmUjNSY2tneVdqNjVBcC1QSWtFQzU0M2tUa21pTTZjek9YZ3pjb0NzYm95SkwzVUQtb05uY2dIcS1UNGtPWkVZRGxYbUd3Qm5OdmJpQkFhck9MVElPamxWSEpmWGltMEYzdDR4cU9JZUtxNzRDX0hCNEtqNjU5djl5d295YmZ1cnRn?oc=5\" target=\"_blank\">Football: Turkey starts 2022 World Cup journey in quals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "published": "Tue, 23 Mar 2021 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Türkiye Futbol Federasyonu Yönetim Kurulu'nda yeni görevlendirme - Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTE91TUhzYVc5TzlZdHFIeTZMcXNNMGNXeE5rdG80QWRyaU9YNzlVZUcwc3U1XzdRNUMxZnRhT1ZDM1pRRGMxT2wwaFRtN3lDM0NPU3ZGYmZQSnRnTUo1QzVhQ2xybXJic2MzYTBPSFVjMndkOUItMTM0VGdkRkF5SG5RUnJiV20yRFZTMHlzOW5qZVMyWGxPNDFGZXprWTJicGxR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNTE91TUhzYVc5TzlZdHFIeTZMcXNNMGNXeE5rdG80QWRyaU9YNzlVZUcwc3U1XzdRNUMxZnRhT1ZDM1pRRGMxT2wwaFRtN3lDM0NPU3ZGYmZQSnRnTUo1QzVhQ2xybXJic2MzYTBPSFVjMndkOUItMTM0VGdkRkF5SG5RUnJiV20yRFZTMHlzOW5qZVMyWGxPNDFGZXprWTJicGxR?oc=5\" target=\"_blank\">Türkiye Futbol Federasyonu Yönetim Kurulu'nda yeni görevlendirme</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "published": "Tue, 22 Apr 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Türkiye triumphs over Iceland 4-2 for historic away victory - Türkiye Today",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZlZ0eWY0bE44NGtCTDhnR1I0UXVMS1czWXhkajd1d1BCWWx1Z25VMDZRZTBGYUtXY1hNNWIweXF4NjRnVzNBSzdCOXZYMHhmeW96SWgyWnBkMVluRkI0LVNpb3ZPcWxmS1ZtTzFpQXN5REdFMVJoTkYyTjJHdmN4Q0hTZmVtUU1HN3dsZXlHVDNYUDlrSU1ULWthdl8?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNZlZ0eWY0bE44NGtCTDhnR1I0UXVMS1czWXhkajd1d1BCWWx1Z25VMDZRZTBGYUtXY1hNNWIweXF4NjRnVzNBSzdCOXZYMHhmeW96SWgyWnBkMVluRkI0LVNpb3ZPcWxmS1ZtTzFpQXN5REdFMVJoTkYyTjJHdmN4Q0hTZmVtUU1HN3dsZXlHVDNYUDlrSU1ULWthdl8?oc=5\" target=\"_blank\">Türkiye triumphs over Iceland 4-2 for historic away victory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Türkiye Today</font>",
+      "published": "Tue, 15 Oct 2024 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Filistinli çocuklar, Türk milli takım formasıyla sahaya çıktı! - beinsports.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcmJGZ1p5c2NUWllHX1NFc3ZJTzlfTnBHM3dTMl9XRXg0Q0xSNVpmaldwRVVwS0JsN2JxaElLSklmQVVrUmh4SHliT3pkWmpfM2tiM2dWX3A3UjR4ZlpFOGJlMlh6NDRYcUFxN0lhdnk2VFY2MVN0YUdHYkVyak83LXFDQlNCdjNic3RmNF9BQ3NhSHlHWjJR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQcmJGZ1p5c2NUWllHX1NFc3ZJTzlfTnBHM3dTMl9XRXg0Q0xSNVpmaldwRVVwS0JsN2JxaElLSklmQVVrUmh4SHliT3pkWmpfM2tiM2dWX3A3UjR4ZlpFOGJlMlh6NDRYcUFxN0lhdnk2VFY2MVN0YUdHYkVyak83LXFDQlNCdjNic3RmNF9BQ3NhSHlHWjJR?oc=5\" target=\"_blank\">Filistinli çocuklar, Türk milli takım formasıyla sahaya çıktı!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">beinsports.com.tr</font>",
+      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "eMillî Takımımız, UEFA eEURO 2025 Elemeleri Hazırlıklarına Başladı - TFF",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pMkRRODFiczRLU19lMFNLOVlISVdFWnZYWUpNSG9NLWJ6X2dJUDgzZzNielhlNjNJX0Itdy1jZllwdkIya0dJVnEwQ1R0YS1mbUpIZHJPWUN0anNhdENUZ2JwUXZzQmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pMkRRODFiczRLU19lMFNLOVlISVdFWnZYWUpNSG9NLWJ6X2dJUDgzZzNielhlNjNJX0Itdy1jZllwdkIya0dJVnEwQ1R0YS1mbUpIZHJPWUN0anNhdENUZ2JwUXZzQmc?oc=5\" target=\"_blank\">eMillî Takımımız, UEFA eEURO 2025 Elemeleri Hazırlıklarına Başladı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TFF</font>",
+      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "TFF ile MAD Parfumeur Arasında Resmi Sponsorluk Anlaşması İmzalandı - TFF",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ES3U3d1E1dFRrZUFfdzBMcVEzeGxOXy03dFI5ZGhhU1k2SFhRb1dObnVEclZaQ1VLMEVublNzNjBISkFfRGRHRlJ2Q01hQ3RLTk5ka1NKazVVMmdLb3NUTmRFekYtM3M?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ES3U3d1E1dFRrZUFfdzBMcVEzeGxOXy03dFI5ZGhhU1k2SFhRb1dObnVEclZaQ1VLMEVublNzNjBISkFfRGRHRlJ2Q01hQ3RLTk5ka1NKazVVMmdLb3NUTmRFekYtM3M?oc=5\" target=\"_blank\">TFF ile MAD Parfumeur Arasında Resmi Sponsorluk Anlaşması İmzalandı</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TFF</font>",
+      "published": "Tue, 11 Mar 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Oyun güzel, sonuç kötü! Meksika'ya diş geçiremedik - beinsports.com.tr",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01TTJSeTJXVFB5WmNSV1ZoSkJRZ1h0R0ZDYlUwNHBDamN4YXhIRFVQZnhaa1hiMXNvUnVqaVB3QlN2aTZqWGUxU1pFMmU0bllDNWo0RXdXV2FaaUE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE01TTJSeTJXVFB5WmNSV1ZoSkJRZ1h0R0ZDYlUwNHBDamN4YXhIRFVQZnhaa1hiMXNvUnVqaVB3QlN2aTZqWGUxU1pFMmU0bllDNWo0RXdXV2FaaUE?oc=5\" target=\"_blank\">Oyun güzel, sonuç kötü! Meksika'ya diş geçiremedik</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">beinsports.com.tr</font>",
+      "published": "Tue, 10 Jun 2025 07:00:00 GMT",
+      "source": "\"Turkey football\" - Google Haberler",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ],
+  "gelismeler": [
+    {
+      "title": "Australia to ban under-16s from YouTube - News.com.au",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSHhTTEJlZ1dPM0d1UFFNaWxjeEh1S2FqdjJxaWR5dnNZZHNqaTItUUMzV2oweGw3TEFQQU84TGxia1RnazZDdTVwcDEtMG1Xa21RMTJvLXBPemFnaW40UU9Rc3E2T1F1NUE4Wlg0ZkwzNVRTbWROaC1VUktuellwRmNkVDRYSWpGTUdvVlZlTEFKcFhzSGlMWm9BSktuTG93WXgyVkJaY1NMcy1QV2tjN2l0ekpsN3kzeHRMc9IBwgFBVV95cUxNMHg2RUNLci1EVGJLci0wRHgzZ2dNQmoyME1XTFpza0NQN09JR2I5UXFlV3Q3ZnRWbllrYzktOXNvQ29jb2FqSG1Wd0VjNFpIajFIVWxSNFZreHJ5WXppVHk0M3prTExHSXJSck5pWmNCRnJ5bV9EaG1PRnRVazRzZm9LVzhEdjBfZUxNcUpVeUt2WTJpRU5Od0U0MXNzZmx6TGtrQ2ZidW5tejRHUnM5ZkZuY2hsb2ZOMlVIRkpTY3h0UQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQSHhTTEJlZ1dPM0d1UFFNaWxjeEh1S2FqdjJxaWR5dnNZZHNqaTItUUMzV2oweGw3TEFQQU84TGxia1RnazZDdTVwcDEtMG1Xa21RMTJvLXBPemFnaW40UU9Rc3E2T1F1NUE4Wlg0ZkwzNVRTbWROaC1VUktuellwRmNkVDRYSWpGTUdvVlZlTEFKcFhzSGlMWm9BSktuTG93WXgyVkJaY1NMcy1QV2tjN2l0ekpsN3kzeHRMc9IBwgFBVV95cUxNMHg2RUNLci1EVGJLci0wRHgzZ2dNQmoyME1XTFpza0NQN09JR2I5UXFlV3Q3ZnRWbllrYzktOXNvQ29jb2FqSG1Wd0VjNFpIajFIVWxSNFZreHJ5WXppVHk0M3prTExHSXJSck5pWmNCRnJ5bV9EaG1PRnRVazRzZm9LVzhEdjBfZUxNcUpVeUt2WTJpRU5Od0U0MXNzZmx6TGtrQ2ZidW5tejRHUnM5ZkZuY2hsb2ZOMlVIRkpTY3h0UQ?oc=5\" target=\"_blank\">Australia to ban under-16s from YouTube</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News.com.au</font>",
+      "published": "Wed, 30 Jul 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "How China's heavy-handed rare earths threat backfired - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUXFlR2JDYUo5bWE1MjRjMW9UR3lVTGpwM2h6VzZWZldZV2h4cjhEcFNkSjc1LWo3bWVJeVNNTGI1ZGNfUW5OLW5GZzhCRVFUQmlDOGx5QTFtUlo4QmxsWTBwa1QwYjdaN0ZyWGJYazRpVW5ERi1UenNJQUZDUU4zQ1hwWUxNTUw1dGdmWnZSbEkxTlh6YXprdjFYeXRwbm9hSHpGaE1nR3N1REFidC1BYg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPUXFlR2JDYUo5bWE1MjRjMW9UR3lVTGpwM2h6VzZWZldZV2h4cjhEcFNkSjc1LWo3bWVJeVNNTGI1ZGNfUW5OLW5GZzhCRVFUQmlDOGx5QTFtUlo4QmxsWTBwa1QwYjdaN0ZyWGJYazRpVW5ERi1UenNJQUZDUU4zQ1hwWUxNTUw1dGdmWnZSbEkxTlh6YXprdjFYeXRwbm9hSHpGaE1nR3N1REFidC1BYg?oc=5\" target=\"_blank\">How China's heavy-handed rare earths threat backfired</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Queensland government blames police for overstated figures on drop in crime – as it happened | Australia news - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOdlp0Qy1HLXF2MERjaFIwdkxnU2g0UDh5dUtWN2lZdHZ2ZF91cm05UHFoUVhjblZzbHdPV0kxU003WTBoWlZBUXN3aWtGVkdVVzIyODV4RWFiYnBUeHFDcS0ydkJQT0lPOW4wQ1Vra2pOQmFrWEVsUFZKdEVDbG9IYkdOVWhOdHJkRF9rR2t0R2RQNG00MkFFaHpkT2o1SnAwbDUtd0o2ek9fSGFmUjFCRllRYTJWVGJFUldJVHV5NTBtS2NfV0ZZUkw0Uk9Uc3ItR1JTWTIwemFlZVRtRzhpUzRESTVRN2ExbFBwQndtNHhRdTlTMGZwN2hPak1sUWVSbGE2RQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxOdlp0Qy1HLXF2MERjaFIwdkxnU2g0UDh5dUtWN2lZdHZ2ZF91cm05UHFoUVhjblZzbHdPV0kxU003WTBoWlZBUXN3aWtGVkdVVzIyODV4RWFiYnBUeHFDcS0ydkJQT0lPOW4wQ1Vra2pOQmFrWEVsUFZKdEVDbG9IYkdOVWhOdHJkRF9rR2t0R2RQNG00MkFFaHpkT2o1SnAwbDUtd0o2ek9fSGFmUjFCRllRYTJWVGJFUldJVHV5NTBtS2NfV0ZZUkw0Uk9Uc3ItR1JTWTIwemFlZVRtRzhpUzRESTVRN2ExbFBwQndtNHhRdTlTMGZwN2hPak1sUWVSbGE2RQ?oc=5\" target=\"_blank\">Queensland government blames police for overstated figures on drop in crime – as it happened | Australia news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Beijing's latest move shocked Trump but Australia sees an opportunity - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdVpMQTdnbmdxMkdiR1BkZHdnRXpRdmNTQU1ldlhlbkFFYkh0LVgyeFB5eW8xd2J4aGYwbTB6T3dMWGFvS2ZDZTdSVGZBaHgteExVbEQ3WUgzYm0yZVlwUWNseGtJOEVHeGJ1UjF1cGo4WkdTcjdkdGVjQVpOdGpnQWRqdWRJRlFvTlROUmVrR1pGQ1pKRGVhYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOdVpMQTdnbmdxMkdiR1BkZHdnRXpRdmNTQU1ldlhlbkFFYkh0LVgyeFB5eW8xd2J4aGYwbTB6T3dMWGFvS2ZDZTdSVGZBaHgteExVbEQ3WUgzYm0yZVlwUWNseGtJOEVHeGJ1UjF1cGo4WkdTcjdkdGVjQVpOdGpnQWRqdWRJRlFvTlROUmVrR1pGQ1pKRGVhYw?oc=5\" target=\"_blank\">Beijing's latest move shocked Trump but Australia sees an opportunity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Governor grants Rockliff’s request for early election – as it happened | Australia news - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNWm1lMVFpekV5TjRYRlQycHprc2MwRWdvYTF0RkhvV19Rb01TX3V1ZzJzMl9iU3QyV0pMQ29FUUtIVnhqVi1UWjUxeXlTc2VBN2RieTZSV2V3MVRweEZSckJvd2JEOFZaN253WTRzaGhENHhQM3VTdjdQcnZGTnRCZHRIUHRRdDQ3M19XOVh3M3RMdVEtX1hQTUJUWm5tbUZGNF85dzhBbTFZb2d0c1lrVUt4bVEwYTVLbThVZjVLNVhJNU1vMnkxSm0yQzl0c1BKUE5PRzZ6aTBZQUZlZ0VWSVFNMHhZR2hVM3VJcHdYdDc2dGl3U09rc1VlLUtRSm10a0dMTTBnRGlJck9WcVRTRGpvMA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwJBVV95cUxNWm1lMVFpekV5TjRYRlQycHprc2MwRWdvYTF0RkhvV19Rb01TX3V1ZzJzMl9iU3QyV0pMQ29FUUtIVnhqVi1UWjUxeXlTc2VBN2RieTZSV2V3MVRweEZSckJvd2JEOFZaN253WTRzaGhENHhQM3VTdjdQcnZGTnRCZHRIUHRRdDQ3M19XOVh3M3RMdVEtX1hQTUJUWm5tbUZGNF85dzhBbTFZb2d0c1lrVUt4bVEwYTVLbThVZjVLNVhJNU1vMnkxSm0yQzl0c1BKUE5PRzZ6aTBZQUZlZ0VWSVFNMHhZR2hVM3VJcHdYdDc2dGl3U09rc1VlLUtRSm10a0dMTTBnRGlJck9WcVRTRGpvMA?oc=5\" target=\"_blank\">Governor grants Rockliff’s request for early election – as it happened | Australia news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 11 Jun 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "News Corp Australia chair says social media platforms are ‘true monsters’ and ‘torment our children’ - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTTFKRk83OV9od3pNQnp3U3pNeFBnWXJBR0dORFZHTXo4clFtY2xQVEEzVEpRTGVxay16MnJ1VEN0dTUzdUJCNHJKeC05Vm90VnFRX3RBU2hPam5UdDd3Z1JXU2VSMVJjR1FoWkpGWkctVmltSEZER01HZ2dJeTZkZUdYN3FmVWdheS1TbkNrUWtDeUItMlVuR3BjRDMxLXZIc0ZIVmR3TjRPYlhzaHI0VGZCSkdDQ2FxQlZLeGx0enV5TjRkWjJOUHE2U0tweVJ5N25rQVJvVHdvY295?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTTFKRk83OV9od3pNQnp3U3pNeFBnWXJBR0dORFZHTXo4clFtY2xQVEEzVEpRTGVxay16MnJ1VEN0dTUzdUJCNHJKeC05Vm90VnFRX3RBU2hPam5UdDd3Z1JXU2VSMVJjR1FoWkpGWkctVmltSEZER01HZ2dJeTZkZUdYN3FmVWdheS1TbkNrUWtDeUItMlVuR3BjRDMxLXZIc0ZIVmR3TjRPYlhzaHI0VGZCSkdDQ2FxQlZLeGx0enV5TjRkWjJOUHE2U0tweVJ5N25rQVJvVHdvY295?oc=5\" target=\"_blank\">News Corp Australia chair says social media platforms are ‘true monsters’ and ‘torment our children’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "ABC not banned from Trump press conferences, managing director says – as it happened | Australia news - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQem5CeVcxZEt3WjBkeW54TDBmYl9mZWtSMWVlTnIwUkdNRUhPTjVVbnJMNUxDVHVDcjlpSFdDTDF5STVPbl82ZEVMY0hDaFY4dXZxdnNPUDZMbjBlRXlrUTBiU2dFZkU3TXJqVFlGN2VXRzZfc1FrMU5DaUhNaFBwNzl0MUtTTm9pUnJISVVVS0hEMEw3QnN5dEJiWWlfNHhoOUpzdFowRF9ueFREOGlSZy10clJYOUtDV0FucUJjRVBMYnFiUFd3YjdyRjhnOTNHS0drTmpvWHpCUFdBYUpxdU5wdFpIX3dGUi16NHg0M20tRGFOYm1lcDJuRkc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxQem5CeVcxZEt3WjBkeW54TDBmYl9mZWtSMWVlTnIwUkdNRUhPTjVVbnJMNUxDVHVDcjlpSFdDTDF5STVPbl82ZEVMY0hDaFY4dXZxdnNPUDZMbjBlRXlrUTBiU2dFZkU3TXJqVFlGN2VXRzZfc1FrMU5DaUhNaFBwNzl0MUtTTm9pUnJISVVVS0hEMEw3QnN5dEJiWWlfNHhoOUpzdFowRF9ueFREOGlSZy10clJYOUtDV0FucUJjRVBMYnFiUFd3YjdyRjhnOTNHS0drTmpvWHpCUFdBYUpxdU5wdFpIX3dGUi16NHg0M20tRGFOYm1lcDJuRkc?oc=5\" target=\"_blank\">ABC not banned from Trump press conferences, managing director says – as it happened | Australia news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "About Us - Herald Sun",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xLVgzbWtlR2FDZ0lyTER4T21PYUZuV0NzMU1HRjBaeEo0b3FlQU94NERoZmtSOU43cS1YbWs2WDhFNDJGTjkxS1c5dzVkcFMy?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xLVgzbWtlR2FDZ0lyTER4T21PYUZuV0NzMU1HRjBaeEo0b3FlQU94NERoZmtSOU43cS1YbWs2WDhFNDJGTjkxS1c5dzVkcFMy?oc=5\" target=\"_blank\">About Us</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Herald Sun</font>",
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Microsoft to refund customers over subscription price increase for AI add-on - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORG0xbXkxdnVQWUFHME1yRlZ2YjlTajZkY29tTzY1ODBzVDhNQ2ZfcGN0UHBVYTloTzBabmFqbjZrMlpScXlSWE5nOXZHeDZjNk5wQll0bHJrSTQ1SmpsYWxfbDI3eFRaZGc3NkNfY0tLMDVSbmp5YnRGNGFpNDdTaE4tMExWMG1LbV9OYXFYSUhwLXhkN2VINWNKMDluUE44VzdvLU5BMlN3dDY4OWZFYjI1QVNKcnRCbmtrN2Rn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxORG0xbXkxdnVQWUFHME1yRlZ2YjlTajZkY29tTzY1ODBzVDhNQ2ZfcGN0UHBVYTloTzBabmFqbjZrMlpScXlSWE5nOXZHeDZjNk5wQll0bHJrSTQ1SmpsYWxfbDI3eFRaZGc3NkNfY0tLMDVSbmp5YnRGNGFpNDdTaE4tMExWMG1LbV9OYXFYSUhwLXhkN2VINWNKMDluUE44VzdvLU5BMlN3dDY4OWZFYjI1QVNKcnRCbmtrN2Rn?oc=5\" target=\"_blank\">Microsoft to refund customers over subscription price increase for AI add-on</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 05 Nov 2025 23:36:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Monique Ryan urges Australia to fast-track medical innovation funding as Trump guts research - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVEhOOU1KOEtjcU93WG5DRHRYcHUzdWc5UG93YkRhZnl2bHpRLXFrMFpXNGhFbVNMOUMwc2MtNEZObDY4aFpIc2lFa05wV0RjNXdFZ0RNZm53UzNCQV9IMUxVVVJpV0ZHWk1ZY3drSWVtcC1WdlBzSkRuc21mNVlMeFhvYVVMM0ZMZXVDX1lFVDdXN3A3VUt5elJhT1Q2VFVBN0NVMEtvUWZYRFRLcHhoUGtqSERkM3EzUHhlT3d6SVAwTDRHOUFfWXVleDFBdUlXQ3p2YXBUQnRqbVB5VTg0ag?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVEhOOU1KOEtjcU93WG5DRHRYcHUzdWc5UG93YkRhZnl2bHpRLXFrMFpXNGhFbVNMOUMwc2MtNEZObDY4aFpIc2lFa05wV0RjNXdFZ0RNZm53UzNCQV9IMUxVVVJpV0ZHWk1ZY3drSWVtcC1WdlBzSkRuc21mNVlMeFhvYVVMM0ZMZXVDX1lFVDdXN3A3VUt5elJhT1Q2VFVBN0NVMEtvUWZYRFRLcHhoUGtqSERkM3EzUHhlT3d6SVAwTDRHOUFfWXVleDFBdUlXQ3p2YXBUQnRqbVB5VTg0ag?oc=5\" target=\"_blank\">Monique Ryan urges Australia to fast-track medical innovation funding as Trump guts research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 05 Nov 2025 21:28:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Confidential Western Australian government report warns gas exports risk slowing Asia’s move to clean energy - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNG1wLV9fQ1hoOUlCanpsRi1MajdpQVJrZjFVajNyUk1XNXY2dGwtX2N1Ym5RcG16cDloMzZCVXpDcEpqY1FQSjYtbnB5N2pHcS1kMzY5c3FyMkFYUUxickdqRVMxS1d5b29nYmxZaFJfSUk1UUpfYVRVcW05TnVyMU1KNS1ramNzTnh0LUUxNVl5eVBlMngzODRaeTUtQWJyX281WExMY1FwV0xkTlVYX3ZRZnZWNWkxMGlaYWUzZFRFeTFZb1BNc2V1bXNkMlBBbVV5VFhxUGZUWGJOX1RWcC13NzVMek53SzN6N0d2MWxmTW83?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNG1wLV9fQ1hoOUlCanpsRi1MajdpQVJrZjFVajNyUk1XNXY2dGwtX2N1Ym5RcG16cDloMzZCVXpDcEpqY1FQSjYtbnB5N2pHcS1kMzY5c3FyMkFYUUxickdqRVMxS1d5b29nYmxZaFJfSUk1UUpfYVRVcW05TnVyMU1KNS1ramNzTnh0LUUxNVl5eVBlMngzODRaeTUtQWJyX281WExMY1FwV0xkTlVYX3ZRZnZWNWkxMGlaYWUzZFRFeTFZb1BNc2V1bXNkMlBBbVV5VFhxUGZUWGJOX1RWcC13NzVMek53SzN6N0d2MWxmTW83?oc=5\" target=\"_blank\">Confidential Western Australian government report warns gas exports risk slowing Asia’s move to clean energy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 05 Nov 2025 20:35:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Fake claims about Australian road rules on headlights generated by AI and spread on Google - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFlqeGVmY2wzVE0yMC02OGd2Zk5yOGdJc0kzRXZwemh2M3VCNnE4cDkwUm52ZldheGx0bnFlX2g0M3BZbllFVjlVeERrWUJwcld0M3RkRkFDa0RRMDBITTRnOE9kSmFadWNXUkZ2dmxVNE5MNkRDcE05b1I2eDVkREhLODFiWGE0RVVmblBjdy1LMlFiTmo3dEdNeGt4Vk9lM3E0RDNqZlRiOWQxcUxqSVRYWC1GUFgwZWV0dVR3TEZ5b28?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbFlqeGVmY2wzVE0yMC02OGd2Zk5yOGdJc0kzRXZwemh2M3VCNnE4cDkwUm52ZldheGx0bnFlX2g0M3BZbllFVjlVeERrWUJwcld0M3RkRkFDa0RRMDBITTRnOE9kSmFadWNXUkZ2dmxVNE5MNkRDcE05b1I2eDVkREhLODFiWGE0RVVmblBjdy1LMlFiTmo3dEdNeGt4Vk9lM3E0RDNqZlRiOWQxcUxqSVRYWC1GUFgwZWV0dVR3TEZ5b28?oc=5\" target=\"_blank\">Fake claims about Australian road rules on headlights generated by AI and spread on Google</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 05 Nov 2025 06:34:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia could pay up to $2.5bn to Nauru over 30 years to take noncitizens, home affairs department says – as it happened - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNWxldDVtQ3VBU3p0VTNwQW1odGE3RmlmRzJMTFR2dUdvZnBxUDhGYkRmNnNfaVBOemJjbW50c1hfdUt1OUFYWmVacS1hZzRGYzAxUVZDY181MGk2R3dCaHpXczZkNEFwcHViNUg3cEJoUU15alNYTkI0MFZMUHlRUXAtWE1yT1h1a3drMVVoQ2N1akgzYUZQSlBNRk9sQ0RoT09fUTF1ZktTaGtHUUFmS3pvc2FVa0tEejIwSkRTYzdGaUVfUUY0VDk4TVNTM3ViaXVFZk8tNXNQUFp0Z0N3T2Jud0pNTUNDREFtN2gwZUwxME1ZY052V2p1eFVGOWI0MGI5eVg3aHJON3Nf?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxPNWxldDVtQ3VBU3p0VTNwQW1odGE3RmlmRzJMTFR2dUdvZnBxUDhGYkRmNnNfaVBOemJjbW50c1hfdUt1OUFYWmVacS1hZzRGYzAxUVZDY181MGk2R3dCaHpXczZkNEFwcHViNUg3cEJoUU15alNYTkI0MFZMUHlRUXAtWE1yT1h1a3drMVVoQ2N1akgzYUZQSlBNRk9sQ0RoT09fUTF1ZktTaGtHUUFmS3pvc2FVa0tEejIwSkRTYzdGaUVfUUY0VDk4TVNTM3ViaXVFZk8tNXNQUFp0Z0N3T2Jud0pNTUNDREFtN2gwZUwxME1ZY052V2p1eFVGOWI0MGI5eVg3aHJON3Nf?oc=5\" target=\"_blank\">Australia could pay up to $2.5bn to Nauru over 30 years to take noncitizens, home affairs department says – as it happened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Man in critical condition with lyssavirus after bat bite – as it happened | Australia news - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPVC1jRUNXS0x6dWJScGZHb20wUEtQNGNNSHU4dkkzUWJQcWRFa0FaMFlTYXUwT2FIMjdralJLWVQ0SDdyLVpTVTBhVUloZjRXNGplWk10UGdNNV9IQVVteVQ0Y1NGcjFiQTFhNTdWei1GSHlWMHlKS1praTNiYmRkOGQwdVJabGVzQWMwZDR6Sjgtb3hUdUxHaTBfRmhPeW9kb1J3WVM3Tk1UTFZoR1pHZ0l1WGViVHp0aHlrVUR4U0x2WUxrTEExMDBlaElBLVNUTlU0cVdvcjBzNlp1a3gyUll5a1ZHcVl5SjZLMmtoNGNidWdsWFV3TTJ6SG1DY0I2ckc0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxPVC1jRUNXS0x6dWJScGZHb20wUEtQNGNNSHU4dkkzUWJQcWRFa0FaMFlTYXUwT2FIMjdralJLWVQ0SDdyLVpTVTBhVUloZjRXNGplWk10UGdNNV9IQVVteVQ0Y1NGcjFiQTFhNTdWei1GSHlWMHlKS1praTNiYmRkOGQwdVJabGVzQWMwZDR6Sjgtb3hUdUxHaTBfRmhPeW9kb1J3WVM3Tk1UTFZoR1pHZ0l1WGViVHp0aHlrVUR4U0x2WUxrTEExMDBlaElBLVNUTlU0cVdvcjBzNlp1a3gyUll5a1ZHcVl5SjZLMmtoNGNidWdsWFV3TTJ6SG1DY0I2ckc0?oc=5\" target=\"_blank\">Man in critical condition with lyssavirus after bat bite – as it happened | Australia news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 02 Jul 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Police conduct ‘planned operation’ in Victorian town in hunt for Dezi Freeman – as it happened - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaGRSenpCX3h0YkQ3YkJGY2tJeXZZRmNmYVBYbl96WXc2RWZrOGN2bVI0TlhwdDY5cVpBbl9lRmVMQVFqeG9aVjRSTk5lQXh6azhFQVZoU2piaE5pY1ZfOW1pajcwQTd5MHNfVTZSYzlLTGYyaVlRSkdVa29UemdPQXRrVzVwQXZtMUhiQWhyVVk1THVZTDNxb19YX3pqSFJMS3JOTUpaOEhVbU9kVUsyYkQ0dGgzZ1lENmpzMjA1QjlFeUV3ZTNDMzFIOUlVVnRfSER4bUQyc2hlNHN5cGZZUEdGdEY0R1k0RVJ1Yl9aY0VDVFZfek1ualpEM1FPbXRkNmI2aE9oMm1ydWFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxQaGRSenpCX3h0YkQ3YkJGY2tJeXZZRmNmYVBYbl96WXc2RWZrOGN2bVI0TlhwdDY5cVpBbl9lRmVMQVFqeG9aVjRSTk5lQXh6azhFQVZoU2piaE5pY1ZfOW1pajcwQTd5MHNfVTZSYzlLTGYyaVlRSkdVa29UemdPQXRrVzVwQXZtMUhiQWhyVVk1THVZTDNxb19YX3pqSFJMS3JOTUpaOEhVbU9kVUsyYkQ0dGgzZ1lENmpzMjA1QjlFeUV3ZTNDMzFIOUlVVnRfSER4bUQyc2hlNHN5cGZZUEdGdEY0R1k0RVJ1Yl9aY0VDVFZfek1ualpEM1FPbXRkNmI2aE9oMm1ydWFE?oc=5\" target=\"_blank\">Police conduct ‘planned operation’ in Victorian town in hunt for Dezi Freeman – as it happened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 01 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "New MPs deliver first speeches – as it happened - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNaFNXQ29fNjctQ3l2ZnM5SEhTd3hCeWtRUUlES1Nob1A3TkZsSFI5NnMxWTJLWW5nOVFZb0taT1c1R3BRR2V5dG1LcDBjNldScnlEb0Z3b3dnTFBaQ2xRUl96MXpydXVRdVlfNGh5dU5Pc1dQcnZralpSMzhpTDBxMVRUWWpaX2ozcWxubzVSN29VdmtjZUE1aHNhaEdTek5kTGhQTkdWSko4RW1JUG50eEZqV0pjZ1R3b3FkOWpKMTE2MVNaWlFBZ282YVhFYlR4Zjh3cXNnYVdMMU5sM0tDTWROekVGalVxUENXYTBoZFYwNTgyWFVGazljV0hDLV92UTZ1MTBGU2RXdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxNaFNXQ29fNjctQ3l2ZnM5SEhTd3hCeWtRUUlES1Nob1A3TkZsSFI5NnMxWTJLWW5nOVFZb0taT1c1R3BRR2V5dG1LcDBjNldScnlEb0Z3b3dnTFBaQ2xRUl96MXpydXVRdVlfNGh5dU5Pc1dQcnZralpSMzhpTDBxMVRUWWpaX2ozcWxubzVSN29VdmtjZUE1aHNhaEdTek5kTGhQTkdWSko4RW1JUG50eEZqV0pjZ1R3b3FkOWpKMTE2MVNaWlFBZ282YVhFYlR4Zjh3cXNnYVdMMU5sM0tDTWROekVGalVxUENXYTBoZFYwNTgyWFVGazljV0hDLV92UTZ1MTBGU2RXdw?oc=5\" target=\"_blank\">New MPs deliver first speeches – as it happened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Tue, 22 Jul 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Pat Conroy says China’s claims RAAF aircraft illegally entered its airspace ‘factually incorrect’ – as it happened - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOaTVKb21LYWFXaENUSmJSZmlSaWNZdzd6WnZ6U3NIMW1UUWhKdGtzOVVLWVlUUVNOSmJGVmljNmtrd0RDQXlIRThtak5NSmNOM1VaY1NFaGE4MDJuZjhSX0dSNDdDV1BJeTlJQVJHNjlEeWlpWU9ZZjRjRlZmNTZObWRqWV9DbzdDQU5adXQ1RkdYVGowWjY3YVJrT1NPbXBmNnJWX3EyMFhCcHNBOTZ6RXQ0b0V6R3djWWVJR0FFRVZRNmFMWXpiZEhmemcya2ZUZ3dKdFIyTjhpbXNPWlA2NFZzWGhtbDZnclBfaHFPanpnMDNDdWZwSEkzejA2cUE1ZWtheWhSVFBzUDhpaHg0Nk1FckQ5Y0dncXBIazZaZkJkUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogJBVV95cUxOaTVKb21LYWFXaENUSmJSZmlSaWNZdzd6WnZ6U3NIMW1UUWhKdGtzOVVLWVlUUVNOSmJGVmljNmtrd0RDQXlIRThtak5NSmNOM1VaY1NFaGE4MDJuZjhSX0dSNDdDV1BJeTlJQVJHNjlEeWlpWU9ZZjRjRlZmNTZObWRqWV9DbzdDQU5adXQ1RkdYVGowWjY3YVJrT1NPbXBmNnJWX3EyMFhCcHNBOTZ6RXQ0b0V6R3djWWVJR0FFRVZRNmFMWXpiZEhmemcya2ZUZ3dKdFIyTjhpbXNPWlA2NFZzWGhtbDZnclBfaHFPanpnMDNDdWZwSEkzejA2cUE1ZWtheWhSVFBzUDhpaHg0Nk1FckQ5Y0dncXBIazZaZkJkUQ?oc=5\" target=\"_blank\">Pat Conroy says China’s claims RAAF aircraft illegally entered its airspace ‘factually incorrect’ – as it happened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "30yo with $80k in savings gets loan shock - News.com.au",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVmZxOXNMYWE0dVBqNGFlWGJQbHZMQ0dyMl9DMEt3cWUyaG5SSGZmZnM5b3oxc3dON2hzbGxzSlhiQ2sya05JREpoQWZRak1TRXNPRnEzY1U5VG95TzFnd0lUcWJjTFZFVFNEc0FCTFZPU1pmTEVHa2tWTHBOc3J5U2V0bXYxUmtVSDZuUFpjb3FGVHZOSHJpX2xJdklDMUlhTWh1TWhGLXVsSF9Vb3BudVd1bFVEa181aGhDZEd6dkdWZUVFckQwRl9uZkVxcHZER09hZ2s5MzlSRGJvVGJkYlhIZ05Pa182YmJjVVFhYznSAfYBQVVfeXFMTjY0NjZraTh2QTBTdkhKY2NxXzVjdUw0VlZRblVGNzlmYzRodDdxV1ZkdTUza2hMZGNmR3ZrX3JPTy1LcTlNX0haSVJVb1RZR3hhUThrWW10dHdhZEFHWTVnWGNCYmdhT2txUzM4dDV0dmVmTHptRWpjSjVMc25PYXY2WG54SGo4MnkzVHNGT0J1NTRPd3poMFZuU3VKZHh2THRTMXBDUWZZTlFnLXE4LWszbDEyRmVNa1ZteHVwanR4d1Y5djBkT3h1WW83YnQ1bjR2MEdvMWJxNDJqSDg5bG1YWF9GOFBwT2c3ZGI5Nl9hdmJKNlhn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVmZxOXNMYWE0dVBqNGFlWGJQbHZMQ0dyMl9DMEt3cWUyaG5SSGZmZnM5b3oxc3dON2hzbGxzSlhiQ2sya05JREpoQWZRak1TRXNPRnEzY1U5VG95TzFnd0lUcWJjTFZFVFNEc0FCTFZPU1pmTEVHa2tWTHBOc3J5U2V0bXYxUmtVSDZuUFpjb3FGVHZOSHJpX2xJdklDMUlhTWh1TWhGLXVsSF9Vb3BudVd1bFVEa181aGhDZEd6dkdWZUVFckQwRl9uZkVxcHZER09hZ2s5MzlSRGJvVGJkYlhIZ05Pa182YmJjVVFhYznSAfYBQVVfeXFMTjY0NjZraTh2QTBTdkhKY2NxXzVjdUw0VlZRblVGNzlmYzRodDdxV1ZkdTUza2hMZGNmR3ZrX3JPTy1LcTlNX0haSVJVb1RZR3hhUThrWW10dHdhZEFHWTVnWGNCYmdhT2txUzM4dDV0dmVmTHptRWpjSjVMc25PYXY2WG54SGo4MnkzVHNGT0J1NTRPd3poMFZuU3VKZHh2THRTMXBDUWZZTlFnLXE4LWszbDEyRmVNa1ZteHVwanR4d1Y5djBkT3h1WW83YnQ1bjR2MEdvMWJxNDJqSDg5bG1YWF9GOFBwT2c3ZGI5Nl9hdmJKNlhn?oc=5\" target=\"_blank\">30yo with $80k in savings gets loan shock</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News.com.au</font>",
+      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Companies could have profits from breaking environment laws stripped under Australian reforms - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMmZWdWlaZ3BIN09YSU5lUUlGVXdobVlyc3Q5SG15b0VHVmJNUXllZ2VRc1VwQjl2V1RBN0xCRzk3cVh4MzI2R0tvZEpFYWRNbTd6SDUwRlZ4enZpeFp5N0h4WjVnVENDcDdET05GNzJCcWZoVVBURklCRkNnNjA1Unc2TURoMmNpbGxxQjhIT0xaMDhScG1remtrdHpHX1pPeGx3RjNJWk5qcS1HV3V2UHNocmNKajFGZmo2ckFoMkl3cFFtUUxkdEU3N2s1dktFN3cxZGEwenNJQmtDUlZWeXlR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMmZWdWlaZ3BIN09YSU5lUUlGVXdobVlyc3Q5SG15b0VHVmJNUXllZ2VRc1VwQjl2V1RBN0xCRzk3cVh4MzI2R0tvZEpFYWRNbTd6SDUwRlZ4enZpeFp5N0h4WjVnVENDcDdET05GNzJCcWZoVVBURklCRkNnNjA1Unc2TURoMmNpbGxxQjhIT0xaMDhScG1remtrdHpHX1pPeGx3RjNJWk5qcS1HV3V2UHNocmNKajFGZmo2ckFoMkl3cFFtUUxkdEU3N2s1dktFN3cxZGEwenNJQmtDUlZWeXlR?oc=5\" target=\"_blank\">Companies could have profits from breaking environment laws stripped under Australian reforms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Two dead at Melbourne beach as wild wind batters state, while parts of Sydney hit by record-breaking heat - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFIzTHRDWUE5aEFiejdOd05qbjlJbnhZZHQ3UWtuOVBLdEFKUi1iY18xQTdkZmNhZFRnblZUc3RNQUdUMmw5UW42dGsxRzZNeEJzc08zeEF1Z2t3VEFtRXZuTGYzWVRHV1hEVHBVWjdrNXdKNE5rQW0tSkZuNzZGWWNMaVdYemdoY0RzQ2d5aGRkcW9BQ2NlVlVsZ24xWk9Cb0J6RXduSnJxd3ByZGlxenZR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFIzTHRDWUE5aEFiejdOd05qbjlJbnhZZHQ3UWtuOVBLdEFKUi1iY18xQTdkZmNhZFRnblZUc3RNQUdUMmw5UW42dGsxRzZNeEJzc08zeEF1Z2t3VEFtRXZuTGYzWVRHV1hEVHBVWjdrNXdKNE5rQW0tSkZuNzZGWWNMaVdYemdoY0RzQ2d5aGRkcW9BQ2NlVlVsZ24xWk9Cb0J6RXduSnJxd3ByZGlxenZR?oc=5\" target=\"_blank\">Two dead at Melbourne beach as wild wind batters state, while parts of Sydney hit by record-breaking heat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Tue, 21 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia breaking news\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ],
+  "sosyalist": [
+    {
+      "title": "How the Communist Party of Australia Built a Mass Movement - Jacobin",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRHhudDRsWkdUQWM2NXVUSW45WDNuRUg1YlIwNFdGeHM3YzB0N3V0bkd6TXBEakRGNWtaSmgxY1pRWFVFbmdxdDZZTXpDTWNZZkpobm8zeXpxUFFaSDNYakZXMWhzeEF3TldPTHZLQnRnMDVrMi1panRLOE56SkxoYQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPRHhudDRsWkdUQWM2NXVUSW45WDNuRUg1YlIwNFdGeHM3YzB0N3V0bkd6TXBEakRGNWtaSmgxY1pRWFVFbmdxdDZZTXpDTWNZZkpobm8zeXpxUFFaSDNYakZXMWhzeEF3TldPTHZLQnRnMDVrMi1panRLOE56SkxoYQ?oc=5\" target=\"_blank\">How the Communist Party of Australia Built a Mass Movement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jacobin</font>",
+      "published": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Vote 1 Socialist Equality Party in the Australian federal election! Take a stand against war, genocide, austerity and the assault on democratic rights! - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MUVNvRm5ud0xJdGw0TDRQOU9iZzBQZ0FkNTJEREpCM3lFY25XS0RiU3J6VXFkNjQ1dUZkNzVWSWZlTllKYTlWcG1lcUgxSl84eGJrRmwzMk1zV21qMkd0dWdVNktiNTV3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MUVNvRm5ud0xJdGw0TDRQOU9iZzBQZ0FkNTJEREpCM3lFY25XS0RiU3J6VXFkNjQ1dUZkNzVWSWZlTllKYTlWcG1lcUgxSl84eGJrRmwzMk1zV21qMkd0dWdVNktiNTV3?oc=5\" target=\"_blank\">Vote 1 Socialist Equality Party in the Australian federal election! Take a stand against war, genocide, austerity and the assault on democratic rights!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 30 Apr 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Happy 100th Birthday to the Communist Party of Australia - Jacobin",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rU2ctRkJfWF8zRndfUVJJYkx5cGZkQk1qNHdicXdwREtnYXVrdl9RTl82QVM1dHoxdjh2VGtxZzJGcUJuU0ZUc2hCS0c5UENJZ2YzZ01SNGlMMDRMMW9DT1o4cDFLZFdudVVwQUlKcE44YURWQ1I3WmtvSHFrOXM?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5rU2ctRkJfWF8zRndfUVJJYkx5cGZkQk1qNHdicXdwREtnYXVrdl9RTl82QVM1dHoxdjh2VGtxZzJGcUJuU0ZUc2hCS0c5UENJZ2YzZ01SNGlMMDRMMW9DT1o4cDFLZFdudVVwQUlKcE44YURWQ1I3WmtvSHFrOXM?oc=5\" target=\"_blank\">Happy 100th Birthday to the Communist Party of Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jacobin</font>",
+      "published": "Wed, 28 Oct 2020 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "A Palestinian Socialist Is Running for Office in Australia - Jacobin",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qcTNBNUF4SVdtNkxPLUhNZ1ZJQW1WVHUwbF8wMXh1OUx3N0lXYldmc1VVQ09rbTRVSExzWTZfTVJoVjNkWHlmRlJsNkVXX2xpdm80MW9uTklfcjlOM0VaSHNyMGJjQ3dRTDY3WTVtdVF5Tlk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5qcTNBNUF4SVdtNkxPLUhNZ1ZJQW1WVHUwbF8wMXh1OUx3N0lXYldmc1VVQ09rbTRVSExzWTZfTVJoVjNkWHlmRlJsNkVXX2xpdm80MW9uTklfcjlOM0VaSHNyMGJjQ3dRTDY3WTVtdVF5Tlk?oc=5\" target=\"_blank\">A Palestinian Socialist Is Running for Office in Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jacobin</font>",
+      "published": "Wed, 28 Feb 2024 08:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Defend the right to protest! Defeat the Victorian government’s proposed laws - Freedom Socialist Party",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkNoaXN2RXJHWFNndE5IWXo1WWRhZ2pjV1NTVWY5bVdNTEJXNlZLakYxb2NJeEMtdFp0M2thcnlhSUQ3bkFNeWpfdzZsNFJObGpvZUNuckQzTnVoVnQwRkdYeGd2UlpqcFcxc09SeUJWSnY2XzZvTThjMzNHQmRrUU40cXBxUkdUamd1dzV2U3pwOU0wNThZMm1qUE52Rm81Q1F0YXgxcWE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkNoaXN2RXJHWFNndE5IWXo1WWRhZ2pjV1NTVWY5bVdNTEJXNlZLakYxb2NJeEMtdFp0M2thcnlhSUQ3bkFNeWpfdzZsNFJObGpvZUNuckQzTnVoVnQwRkdYeGd2UlpqcFcxc09SeUJWSnY2XzZvTThjMzNHQmRrUU40cXBxUkdUamd1dzV2U3pwOU0wNThZMm1qUE52Rm81Q1F0YXgxcWE?oc=5\" target=\"_blank\">Defend the right to protest! Defeat the Victorian government’s proposed laws</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Freedom Socialist Party</font>",
+      "published": "Wed, 26 Feb 2025 23:05:14 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Formation of Socialist Alliance: A historic step forward for Left - Freedom Socialist Party",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVhlcDRFR0FDZXRnM2hrMHdZZ2NMMTJlWXJqa1lQYU5fSHQxZFp5eS13Z3FNYmh3TnZVeUt6U0FPUG5Na3k5ZWpDUV9FREFTbHNGNE5iZC1IMEpUaTdGSVBoaHdkRGh2RDNpazl2NlBTcTI1Z0NiRE8xSEJVNXpiNTM0TmF0NXJhNXNGakxXNlpocTBYeVZZTWdqMGNtTmo2?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVhlcDRFR0FDZXRnM2hrMHdZZ2NMMTJlWXJqa1lQYU5fSHQxZFp5eS13Z3FNYmh3TnZVeUt6U0FPUG5Na3k5ZWpDUV9FREFTbHNGNE5iZC1IMEpUaTdGSVBoaHdkRGh2RDNpazl2NlBTcTI1Z0NiRE8xSEJVNXpiNTM0TmF0NXJhNXNGakxXNlpocTBYeVZZTWdqMGNtTmo2?oc=5\" target=\"_blank\">Formation of Socialist Alliance: A historic step forward for Left</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Freedom Socialist Party</font>",
+      "published": "Wed, 23 Jan 2019 01:56:23 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Rescue plan needed for Socialist Alliance - Freedom Socialist Party",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRzV1LVJSYlVBZGt6WnowWjc4NTUwd2JwMVkyaF9MY1cxeEpZVE9saHJCeE1KdWRtZHBMTFZhTEdFU2F0SXVjZHQySWZTVnJEYzQxOE1WLUhlWC1HVnQzUVdjdEx5ME9KSkJkRTlyR3NfWW5feUdScG4xWFJRb3oySmd3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPRzV1LVJSYlVBZGt6WnowWjc4NTUwd2JwMVkyaF9MY1cxeEpZVE9saHJCeE1KdWRtZHBMTFZhTEdFU2F0SXVjZHQySWZTVnJEYzQxOE1WLUhlWC1HVnQzUVdjdEx5ME9KSkJkRTlyR3NfWW5feUdScG4xWFJRb3oySmd3?oc=5\" target=\"_blank\">Rescue plan needed for Socialist Alliance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Freedom Socialist Party</font>",
+      "published": "Wed, 23 Jan 2019 00:55:16 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "The climate change crisis and the Australian election - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xa2QtMzFNZzRrZXI1aEpic1BzdzdzemtmeHB6MW9hMHhlekI2MUhCaVVpclF6c19hTTN3elRSTFZqdVpQV3ZvYlZMVTVUbEpKRy1idm9xM29NZ3hhUk43NFNoRGZZUmNK?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xa2QtMzFNZzRrZXI1aEpic1BzdzdzemtmeHB6MW9hMHhlekI2MUhCaVVpclF6c19hTTN3elRSTFZqdVpQV3ZvYlZMVTVUbEpKRy1idm9xM29NZ3hhUk43NFNoRGZZUmNK?oc=5\" target=\"_blank\">The climate change crisis and the Australian election</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 23 Apr 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Popular opposition grows to “Australia Day” - Freedom Socialist Party",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PaUZCT3N2dXdGUWpuR05OdDNjNF9JRm1UMWlMRmdWaFZvV2EyVDM0WEVURGFBekZUMmFTMm54dHBNXzVCYWlweDNJQlBCYUswVVVNblhEM2tzY2l1MEpkSUtseHhzXzZST004Z2FuQzZGd1dvVkdaeFhLT2Vqdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5PaUZCT3N2dXdGUWpuR05OdDNjNF9JRm1UMWlMRmdWaFZvV2EyVDM0WEVURGFBekZUMmFTMm54dHBNXzVCYWlweDNJQlBCYUswVVVNblhEM2tzY2l1MEpkSUtseHhzXzZST004Z2FuQzZGd1dvVkdaeFhLT2Vqdw?oc=5\" target=\"_blank\">Popular opposition grows to “Australia Day”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Freedom Socialist Party</font>",
+      "published": "Wed, 21 Feb 2018 05:17:59 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australian electoral authorities reject Socialist Equality Party’s registration, despite it meeting membership requirements - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vVTNxNTRpWTJRU09zN0laaFluNmZXc2VuM3FnQVdLcTdGXzFpY2Z4aVVlcnh1cEp5bG5RdmRaQnFxS1JycWtlU3ZJeF9fZXVEdy0wSnZCc2Vja2dNb3Yyb3FkUVljOGtz?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vVTNxNTRpWTJRU09zN0laaFluNmZXc2VuM3FnQVdLcTdGXzFpY2Z4aVVlcnh1cEp5bG5RdmRaQnFxS1JycWtlU3ZJeF9fZXVEdy0wSnZCc2Vja2dNb3Yyb3FkUVljOGtz?oc=5\" target=\"_blank\">Australian electoral authorities reject Socialist Equality Party’s registration, despite it meeting membership requirements</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 19 Feb 2025 08:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Victorian Socialists expand across Australia: A political trap to corral mounting anti-capitalist sentiment - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yeUllaEU3bl9YdlhTTWdJRzVZcWtFem5aN0JfeXU2V3ZfLUsxZU9XeUU3N2EzeXk0LVJpUUt2bk02VUtnSERFMTdkb2ozSnpWZGRBZkN5NG5KMm5FUVdEeW8xTXh3M1Zn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yeUllaEU3bl9YdlhTTWdJRzVZcWtFem5aN0JfeXU2V3ZfLUsxZU9XeUU3N2EzeXk0LVJpUUt2bk02VUtnSERFMTdkb2ozSnpWZGRBZkN5NG5KMm5FUVdEeW8xTXh3M1Zn?oc=5\" target=\"_blank\">Victorian Socialists expand across Australia: A political trap to corral mounting anti-capitalist sentiment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 18 Jun 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australian election: A complicit silence on the Gaza genocide - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfM0R0X2xkX1lvUWZwSE12RDd0b3pGdlUwR3I3d1NRYWZMN2tUSl9lcTdCMjhKRjlSSklBR1hWNFpQWkJ6XzlNTlp6dFZDV3plcjZKUl91YUIwejU5c2NZV3FsTFBDMi05?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfM0R0X2xkX1lvUWZwSE12RDd0b3pGdlUwR3I3d1NRYWZMN2tUSl9lcTdCMjhKRjlSSklBR1hWNFpQWkJ6XzlNTlp6dFZDV3plcjZKUl91YUIwejU5c2NZV3FsTFBDMi05?oc=5\" target=\"_blank\">Australian election: A complicit silence on the Gaza genocide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 16 Apr 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "The rise of Australia’s ‘Dirtbag Left’: the digital generation turns to socialism - Crikey",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUlpNTTlJWi00X1hCejAtUlVwYlNuZTB3RHV6NkZ5bjJqQXIybnFpQml3MFJWRHg5MTdZdDNoTjRFeTlzQUw2TGhxV3A3RURKSzZLU0NIVlVuQzkwN2RwUlo5Y0NyRlNZNDVPdm9GU2k5YUx2OWNXam1EM21kbjRFeHNnSmE3YllyLXNnV19FZ2YtMDVfRmowb2F3V1dVUTNZTHdiODlHU2FGT1ZuV3VXSEFHc3oydw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOUlpNTTlJWi00X1hCejAtUlVwYlNuZTB3RHV6NkZ5bjJqQXIybnFpQml3MFJWRHg5MTdZdDNoTjRFeTlzQUw2TGhxV3A3RURKSzZLU0NIVlVuQzkwN2RwUlo5Y0NyRlNZNDVPdm9GU2k5YUx2OWNXam1EM21kbjRFeHNnSmE3YllyLXNnV19FZ2YtMDVfRmowb2F3V1dVUTNZTHdiODlHU2FGT1ZuV3VXSEFHc3oydw?oc=5\" target=\"_blank\">The rise of Australia’s ‘Dirtbag Left’: the digital generation turns to socialism</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crikey</font>",
+      "published": "Wed, 15 Nov 2017 08:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "VIDEO: The disturbing rise of the far-right movement in Australia - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVJOa1FWdEo3ajZzdmIzNS0zeWkzLTU2M1lUUTNjbGMybFI0RmJjQVhQUWp4VnI0cWpMMTlhQ2pVaWxxNl9MaHlPbW9SVjhGOFNMaEFSeGZPSVg3WE9KdVZBMG9uS2JxdGxySmp6SHg2VU5WWGdPYUN3dzJwY04zZkpwWGI4RXNXTUxwaHVWTC1KalIyNlAtMTZaX1pPc2ZNYW1weFNXNGlCcnc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVJOa1FWdEo3ajZzdmIzNS0zeWkzLTU2M1lUUTNjbGMybFI0RmJjQVhQUWp4VnI0cWpMMTlhQ2pVaWxxNl9MaHlPbW9SVjhGOFNMaEFSeGZPSVg3WE9KdVZBMG9uS2JxdGxySmp6SHg2VU5WWGdPYUN3dzJwY04zZkpwWGI4RXNXTUxwaHVWTC1KalIyNlAtMTZaX1pPc2ZNYW1weFNXNGlCcnc?oc=5\" target=\"_blank\">VIDEO: The disturbing rise of the far-right movement in Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 13 Nov 2024 08:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australian election debate marked by lies, banalities and evasions - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wbHJZWjhLMzI4S1pPRk9GVDloVmZ0Vkh2dEpHS0dOQWhoQmhlLU5UclRYRk5zaW5OVGFaOFQwbFptQzVLUE10ZF9aeXNwempfenNfTFc3SS1lbnZTRHNzQlhPRENJYjl4?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wbHJZWjhLMzI4S1pPRk9GVDloVmZ0Vkh2dEpHS0dOQWhoQmhlLU5UclRYRk5zaW5OVGFaOFQwbFptQzVLUE10ZF9aeXNwempfenNfTFc3SS1lbnZTRHNzQlhPRENJYjl4?oc=5\" target=\"_blank\">Australian election debate marked by lies, banalities and evasions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 09 Apr 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Right-wing resignation sharpens conflicts in Australia’s Liberal-National Coalition - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oY1BGWDJyM2hRR0pWWWZTc3ZwT1c4NEVQZ3VmeHprQlg0cGVlYU11VVo1MzdaaXNwWV9oU2luSERZTjRyalQwX3FiZXZFeUV6bmtVa2lZOVhmM2VVRzNscHg3aUdFbWdD?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oY1BGWDJyM2hRR0pWWWZTc3ZwT1c4NEVQZ3VmeHprQlg0cGVlYU11VVo1MzdaaXNwWV9oU2luSERZTjRyalQwX3FiZXZFeUV6bmtVa2lZOVhmM2VVRzNscHg3aUdFbWdD?oc=5\" target=\"_blank\">Right-wing resignation sharpens conflicts in Australia’s Liberal-National Coalition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "After the Australian election—The socialist alternative to Labor’s government of war and austerity - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RblJRZGd5U1NFamZQTEFzWTExTDVJTlNhUXA4a3RoZWd1UVBFQ0l1U3QzYmk0d0lRUUlVbm94TGkwRDdIVGx1bS16S3NJMlJJaUMtcHRUbkc5NDBDYnZocDFRSzIzNVV4?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RblJRZGd5U1NFamZQTEFzWTExTDVJTlNhUXA4a3RoZWd1UVBFQ0l1U3QzYmk0d0lRUUlVbm94TGkwRDdIVGx1bS16S3NJMlJJaUMtcHRUbkc5NDBDYnZocDFRSzIzNVV4?oc=5\" target=\"_blank\">After the Australian election—The socialist alternative to Labor’s government of war and austerity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Wed, 07 May 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Revolutionary organisations and the history of the DSP - Red Flag (AU)",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1BckY0Um4wd29DbG9VRFpIaEw0aHlfMkdrWTFQY2Q3U2JzWjlhV29lS0luUkhOZUc1Y0J6QXpndUFfam5KTTRr?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiR0FVX3lxTE1BckY0Um4wd29DbG9VRFpIaEw0aHlfMkdrWTFQY2Q3U2JzWjlhV29lS0luUkhOZUc1Y0J6QXpndUFfam5KTTRr?oc=5\" target=\"_blank\">Revolutionary organisations and the history of the DSP</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Red Flag (AU)</font>",
+      "published": "Wed, 06 Dec 2017 08:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Asia-Pacific socialist conference to confront the crises of capitalism - Socialist Alliance",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTQ1am9peUZsRXNsTzRwVTk4bmU1Q3kyTkhyWkxTTnJLUjg2RmRrLVVmVm9JekIxR0ZkT0hXS1N4NzU0d2xINXNaeTJwMlRvUmtvTzVvUExKaVl5ZUlUekhkcWEta21qM0RFLTJuWjcyLVJDOFlRN0k0cHhZY1FIelk1Q0cyOERIU1VGNFBtUEM0Mm42WHNVeFFPbGx6bG1YOHl3MEhGaFdxN1E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTQ1am9peUZsRXNsTzRwVTk4bmU1Q3kyTkhyWkxTTnJLUjg2RmRrLVVmVm9JekIxR0ZkT0hXS1N4NzU0d2xINXNaeTJwMlRvUmtvTzVvUExKaVl5ZUlUekhkcWEta21qM0RFLTJuWjcyLVJDOFlRN0k0cHhZY1FIelk1Q0cyOERIU1VGNFBtUEM0Mm42WHNVeFFPbGx6bG1YOHl3MEhGaFdxN1E?oc=5\" target=\"_blank\">Asia-Pacific socialist conference to confront the crises of capitalism</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Socialist Alliance</font>",
+      "published": "Wed, 03 Nov 2021 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Frustrated Australian oligarchs push for Trump-style regime - World Socialist Web Site",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qQ0w3RnRDRjNqYUFNNTFSUGFkRHVHZzdSQkM3NTVZZE5OdVlxRGlGaXV4cWFmR0FWR1hWcDhNV0RTc2p3YWh6MUpLVlIwV1lqNzNhOWxZc2g1QnRTR1NZRHJpZ2hDQWV0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qQ0w3RnRDRjNqYUFNNTFSUGFkRHVHZzdSQkM3NTVZZE5OdVlxRGlGaXV4cWFmR0FWR1hWcDhNV0RTc2p3YWh6MUpLVlIwV1lqNzNhOWxZc2g1QnRTR1NZRHJpZ2hDQWV0?oc=5\" target=\"_blank\">Frustrated Australian oligarchs push for Trump-style regime</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Socialist Web Site</font>",
+      "published": "Tue, 29 Apr 2025 07:00:00 GMT",
+      "source": "\"Australia socialist movement\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ],
+  "istihdam": [
+    {
+      "title": "AI is driving growth in jobs, research and innovation across Australia - Department of Industry Science and Resources",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU09IckluNEdmY1NuaUEyajF2T1RZeGxWTVQ1dlRBcUVFdU15VXlWQ1JyMTY0czhOSUxQZGZZUlNVME9iME1xOGU5alJhbm9qR1FTdExWOVp4UXFHZHIwSU40SE1SYzBpclIzZW9lWjM2YlRVRE5oY1dscnN6Q2dWVFpKU19MU2RHRE42d3Z4aXRHeFJJaUVkT3FkRmM?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNU09IckluNEdmY1NuaUEyajF2T1RZeGxWTVQ1dlRBcUVFdU15VXlWQ1JyMTY0czhOSUxQZGZZUlNVME9iME1xOGU5alJhbm9qR1FTdExWOVp4UXFHZHIwSU40SE1SYzBpclIzZW9lWjM2YlRVRE5oY1dscnN6Q2dWVFpKU19MU2RHRE42d3Z4aXRHeFJJaUVkT3FkRmM?oc=5\" target=\"_blank\">AI is driving growth in jobs, research and innovation across Australia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Department of Industry Science and Resources</font>",
+      "published": "Wed, 25 Jun 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "'Waiting for the axe to fall': Fears for jobs in AI boom - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVldjBFMEdVZzhMYjJsZ1h2Yk5aSExUNGJJR3YxWjY4YVJLbl82eW9mdVJXUXRoV1BYQ2ZvSmRiby05Y0MtWnFIYUpZbF9ZQTMyVG5xdVlXOVcxNlZJWTM3bFBFYm54YVNqRkRGZzRtc3ktYVliZXE2RUhZMktORXBTcUdSdWJZTHhZQzQzWGZsUTM0dy1oVmNtMjRNSkNVRXQw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDVldjBFMEdVZzhMYjJsZ1h2Yk5aSExUNGJJR3YxWjY4YVJLbl82eW9mdVJXUXRoV1BYQ2ZvSmRiby05Y0MtWnFIYUpZbF9ZQTMyVG5xdVlXOVcxNlZJWTM3bFBFYm54YVNqRkRGZzRtc3ktYVliZXE2RUhZMktORXBTcUdSdWJZTHhZQzQzWGZsUTM0dy1oVmNtMjRNSkNVRXQw?oc=5\" target=\"_blank\">'Waiting for the axe to fall': Fears for jobs in AI boom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 24 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "What are the future in-demand jobs in Australia? - UNSW Sydney",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONGxNdTZ3QXpvbzV2Y1prX1VLQUdxVEFWYWItM09LVTJUMEVMZUJQRGhPYjZVdTN3MG52LTdBb2RIMG45Z2FyNVFtZW03bUdZWXh2cm9uMzF5VG4wdnhzTm05MmE0N2xpX0NJUEV6aDFiU0I5MTVGcHNaUHNaRUFMSm1la3BCVUZMY19CM0hSZElBcUk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxONGxNdTZ3QXpvbzV2Y1prX1VLQUdxVEFWYWItM09LVTJUMEVMZUJQRGhPYjZVdTN3MG52LTdBb2RIMG45Z2FyNVFtZW03bUdZWXh2cm9uMzF5VG4wdnhzTm05MmE0N2xpX0NJUEV6aDFiU0I5MTVGcHNaUHNaRUFMSm1la3BCVUZMY19CM0hSZElBcUk?oc=5\" target=\"_blank\">What are the future in-demand jobs in Australia?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UNSW Sydney</font>",
+      "published": "Wed, 21 May 2025 06:53:36 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Top 10 Highest Paying IT Jobs in Australia (+ Salary Data) - Training.com.au",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBObWpzU1lQTDFSY0Y5QWh5c0NRajFQdS1Ea3F2Wi1kRWR6V1BsU28xMUZpcU9ybkhQV0pOdFlncWVvd1Y3TnlIUHlvMlRLaVp6bjdaQ19CNUlmTmEzYWtyVzR2YjNpNUlzQk1odjE0X1dJUm8zUlE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBObWpzU1lQTDFSY0Y5QWh5c0NRajFQdS1Ea3F2Wi1kRWR6V1BsU28xMUZpcU9ybkhQV0pOdFlncWVvd1Y3TnlIUHlvMlRLaVp6bjdaQ19CNUlmTmEzYWtyVzR2YjNpNUlzQk1odjE0X1dJUm8zUlE?oc=5\" target=\"_blank\">Top 10 Highest Paying IT Jobs in Australia (+ Salary Data)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Training.com.au</font>",
+      "published": "Wed, 20 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Jobs market 'running out of steam' despite steady unemployment rate - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFpTanB1OTRuWjZISGc1T29kYXd1dVdYM2NaeHJTMXpHX05hMlpMVE16WHRqTkNzYWRncFp5ZF9kTzV1dzFxM2d0WE9GRFpMejNjdDJWcS1wbkptMU84TFA0MFdaQnV6aXJ5V0RweWVnTDdyWWROLUhJaEZheXM3dzNSOVJZWkJrMHdKWHZLeTZXblVNakVHZkE2MzZ5d0tzVHMyZA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFpTanB1OTRuWjZISGc1T29kYXd1dVdYM2NaeHJTMXpHX05hMlpMVE16WHRqTkNzYWRncFp5ZF9kTzV1dzFxM2d0WE9GRFpMejNjdDJWcS1wbkptMU84TFA0MFdaQnV6aXJ5V0RweWVnTDdyWWROLUhJaEZheXM3dzNSOVJZWkJrMHdKWHZLeTZXblVNakVHZkE2MzZ5d0tzVHMyZA?oc=5\" target=\"_blank\">Jobs market 'running out of steam' despite steady unemployment rate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 17 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Jobs Blitz! Amazon Australia announces 1,800 seasonal jobs ahead of Christmas shopping season and Prime Big Deal Days - amazonau.gcs-web.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2N5TlNST3lUaGVNeXUzQkJzcHZOM3JuY281bE5lNVByVzRmRGhneHduS2Z5cnUyMWc2RXpILTkzSG1JZnRUdHdlZjB0VGM3SF9qQzJCQ2FUUktFQ01mNHBKSTdlRnVnVGJhMnZ0VFpHaTJES0xUcUNFSGwybTBXVUEwY012NjVoTmx6U1Bsb3YwVUFQUVpPdlI5OElwYkxsMXh3ZnBKd2FvLTh0VG1BdTVSV0NoZlBRUUxOYlVBRHZmX21oRmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQR2N5TlNST3lUaGVNeXUzQkJzcHZOM3JuY281bE5lNVByVzRmRGhneHduS2Z5cnUyMWc2RXpILTkzSG1JZnRUdHdlZjB0VGM3SF9qQzJCQ2FUUktFQ01mNHBKSTdlRnVnVGJhMnZ0VFpHaTJES0xUcUNFSGwybTBXVUEwY012NjVoTmx6U1Bsb3YwVUFQUVpPdlI5OElwYkxsMXh3ZnBKd2FvLTh0VG1BdTVSV0NoZlBRUUxOYlVBRHZmX21oRmc?oc=5\" target=\"_blank\">Jobs Blitz! Amazon Australia announces 1,800 seasonal jobs ahead of Christmas shopping season and Prime Big Deal Days</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">amazonau.gcs-web.com</font>",
+      "published": "Wed, 17 Sep 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "The new Remote Australia Employment Service (RAES) starts 1 November - Services Australia",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUxnakxHQ0o0VXpEVjZMdHdyckhEOEJZX2hWd01yU3ByZXB1NXVzLW01VlJyWnBrUm9hZzdleGFXdkl0dEhPOWlvT0h1UVFzbXVPNUhVU3BHV2hRRHcxcVNqdU12Ql9ZdzUxdUl6amxRMUd0ZGJaeURMTXBlQlc3SUU2NFAyR3M1ejNQUll2VTAyczFFT0s1ZVVkcV8tVmR3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPVUxnakxHQ0o0VXpEVjZMdHdyckhEOEJZX2hWd01yU3ByZXB1NXVzLW01VlJyWnBrUm9hZzdleGFXdkl0dEhPOWlvT0h1UVFzbXVPNUhVU3BHV2hRRHcxcVNqdU12Ql9ZdzUxdUl6amxRMUd0ZGJaeURMTXBlQlc3SUU2NFAyR3M1ejNQUll2VTAyczFFT0s1ZVVkcV8tVmR3?oc=5\" target=\"_blank\">The new Remote Australia Employment Service (RAES) starts 1 November</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Services Australia</font>",
+      "published": "Wed, 15 Oct 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "MCG Jobs - MCG",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1iVVBLeDQ1ZVp6bGpzanFqSmZaeWNRam1WZWU0YlRqUVMxUFgydVl4RjVYT01ic3hGUW03b1RlNW13UndvNlZpMWoyVGdHUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE1iVVBLeDQ1ZVp6bGpzanFqSmZaeWNRam1WZWU0YlRqUVMxUFgydVl4RjVYT01ic3hGUW03b1RlNW13UndvNlZpMWoyVGdHUQ?oc=5\" target=\"_blank\">MCG Jobs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MCG</font>",
+      "published": "Wed, 15 Oct 2025 00:06:28 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Careers at Tennis Australia | Jobs | Event Roles | Benefits - Tennis Australia",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByWDVfV0dXZHNoRVBBNUVxUlpYSVVZVk4ySlFBSWo2MGdDMk50TXJuMkMyQU1OSlR4aTBHRzFzVmY2U2pKX1JSeHdQa3k2U2sxNkhUeA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFByWDVfV0dXZHNoRVBBNUVxUlpYSVVZVk4ySlFBSWo2MGdDMk50TXJuMkMyQU1OSlR4aTBHRzFzVmY2U2pKX1JSeHdQa3k2U2sxNkhUeA?oc=5\" target=\"_blank\">Careers at Tennis Australia | Jobs | Event Roles | Benefits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tennis Australia</font>",
+      "published": "Wed, 08 Oct 2025 23:38:22 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "These jobs will thrive – but others may vanish – as AI transforms Australia’s workforce - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3FWRmdiWmRJcTdSTjVyeEo3U1VONWlWa3dSSURubGRxV2VHMUNwRmJsX1Ixb1hLckJUUWRNT3pSSV9ZT1JFNnNvQnVnci1pVFA5aEJ5M2lTaWdDZEp5RWRwVUswM1lPSm5pb2tKUmdYYzBGaEJjbWhEbGdmYWpkOHNyaGFIa2RWc3o4c2JRV0VlWkhEWnlwSzBzZUl1N3BjdV9XMXR1MjBORWptZmUxeE5WcEV1a0x3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3FWRmdiWmRJcTdSTjVyeEo3U1VONWlWa3dSSURubGRxV2VHMUNwRmJsX1Ixb1hLckJUUWRNT3pSSV9ZT1JFNnNvQnVnci1pVFA5aEJ5M2lTaWdDZEp5RWRwVUswM1lPSm5pb2tKUmdYYzBGaEJjbWhEbGdmYWpkOHNyaGFIa2RWc3o4c2JRV0VlWkhEWnlwSzBzZUl1N3BjdV9XMXR1MjBORWptZmUxeE5WcEV1a0x3?oc=5\" target=\"_blank\">These jobs will thrive – but others may vanish – as AI transforms Australia’s workforce</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "published": "Wed, 06 Aug 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "More than a million Australians looking for a job, new data shows - 9News.com.au",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTnhVT2d4dnVOZmZ6OThWYWRackNmUHYtVFNaemg2eENUWmRHaE9za0hUQ2hMa1Q4NUxhQUduTU5Gcnc1bjBhUGFaSHhPVmstMTY4TFpQYmxmSC01dDhXQUhFbDhLc1J3Mm5rNU9DaFVBcEJQanY2REFBWllZeVQxLUM4aHJpZXpHTTk3SzRjbUlCV1NPcl9WZUg4RThDUnlHWnhmdXptcUowRGNLZFZRV25ERGx3aHFBd3A1dGhZQdIBeEFVX3lxTFA0UUFLdk1OeV9GemJyYS1xUnBzQmZjYmgtaE5SSE9mRzVNZjhlSTJRREUxekpFRUdqVXlpZGdxaEFRQks3OGVKMDJBcFNKY0JMVl9GWGlkLWFsei1lYkJyNU9RQUV4SEZENXV2ZENuTFNnNWFwQzJNcQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPTnhVT2d4dnVOZmZ6OThWYWRackNmUHYtVFNaemg2eENUWmRHaE9za0hUQ2hMa1Q4NUxhQUduTU5Gcnc1bjBhUGFaSHhPVmstMTY4TFpQYmxmSC01dDhXQUhFbDhLc1J3Mm5rNU9DaFVBcEJQanY2REFBWllZeVQxLUM4aHJpZXpHTTk3SzRjbUlCV1NPcl9WZUg4RThDUnlHWnhmdXptcUowRGNLZFZRV25ERGx3aHFBd3A1dGhZQdIBeEFVX3lxTFA0UUFLdk1OeV9GemJyYS1xUnBzQmZjYmgtaE5SSE9mRzVNZjhlSTJRREUxekpFRUdqVXlpZGdxaEFRQks3OGVKMDJBcFNKY0JMVl9GWGlkLWFsei1lYkJyNU9RQUV4SEZENXV2ZENuTFNnNWFwQzJNcQ?oc=5\" target=\"_blank\">More than a million Australians looking for a job, new data shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">9News.com.au</font>",
+      "published": "Wed, 05 Nov 2025 22:49:02 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Latrobe Valley manufacturer moves from coal to wind amid energy shift - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNIQlZfbnVUVVhYS3dkNXdxRzhjQ0I4ZXB6NVNvbE41RHBQOWo2eTNDWTJQSWJTLVg0UE5YUldQN0FDTjZMR1gwenk3WDdVanpxYWo4R3AtRFotaVhwZktJeW5PWGxYdVQ0Yk1ZTHBDd1laeFNsM1Z0RGtDUXhkanpXcTNDSnVWMXN3SXNEdERpdTN5OGxVc1pCOWRwbWZXRlE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmNIQlZfbnVUVVhYS3dkNXdxRzhjQ0I4ZXB6NVNvbE41RHBQOWo2eTNDWTJQSWJTLVg0UE5YUldQN0FDTjZMR1gwenk3WDdVanpxYWo4R3AtRFotaVhwZktJeW5PWGxYdVQ0Yk1ZTHBDd1laeFNsM1Z0RGtDUXhkanpXcTNDSnVWMXN3SXNEdERpdTN5OGxVc1pCOWRwbWZXRlE?oc=5\" target=\"_blank\">Latrobe Valley manufacturer moves from coal to wind amid energy shift</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 19:14:45 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "'My $40K degree is worthless now': How AI is erasing jobs once thought safe - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWFJTWEtnU1k4blpoY0lFTC1YaTFqWUtJenNLTjlielRtOFY4eTJFQWpEeld6UVdlanFqRjJzcmZucngweXdab2I2aENwQzR3bXk2MlNNWFJWTlp2N2RRUVJtUl9IOTROaGoyM29XNGJ2MTRlcnNmUE9aM1lDSmlJaWJraW5YY0dZRWQzRXdjcGMtNEU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPWFJTWEtnU1k4blpoY0lFTC1YaTFqWUtJenNLTjlielRtOFY4eTJFQWpEeld6UVdlanFqRjJzcmZucngweXdab2I2aENwQzR3bXk2MlNNWFJWTlp2N2RRUVJtUl9IOTROaGoyM29XNGJ2MTRlcnNmUE9aM1lDSmlJaWJraW5YY0dZRWQzRXdjcGMtNEU?oc=5\" target=\"_blank\">'My $40K degree is worthless now': How AI is erasing jobs once thought safe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 18:44:40 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "‘It’s like the future is happening without us’ - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcER0RGthWUktZy1mM19hVDNDalUzUDBxS0szc21rNmlJZEt1a2lhcTlPR1JMMlVDZWZiLXFqWmdRaXg2eXdRcXpjUEVGaDNGN1p4SjlDTXNwQjRST2ZPT0UwUF9GWTVIWEh3cV9SMDRhX1VPQU1sNUw4MGpHdmtPZnphRGplMXg4TzJHN1dOOUpsOGQyMHpGSDZlZTZUZ2Mza19XZXBPYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOcER0RGthWUktZy1mM19hVDNDalUzUDBxS0szc21rNmlJZEt1a2lhcTlPR1JMMlVDZWZiLXFqWmdRaXg2eXdRcXpjUEVGaDNGN1p4SjlDTXNwQjRST2ZPT0UwUF9GWTVIWEh3cV9SMDRhX1VPQU1sNUw4MGpHdmtPZnphRGplMXg4TzJHN1dOOUpsOGQyMHpGSDZlZTZUZ2Mza19XZXBPYw?oc=5\" target=\"_blank\">‘It’s like the future is happening without us’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian Broadcasting Corporation</font>",
+      "published": "Wed, 05 Nov 2025 18:44:40 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia to miss 2030 tech jobs target, projections reveal - InnovationAus.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdnNjeDBiVDdkMGU3SzJaN2dYQWMzbXVXMXEydHF3N0ZIbHZHZTBPb3cwRTNMZzlmYWoyb1JJbjZUNjBBNkdsZTNWTFh2Ukxsa0NrV3Z6Z1hGTzBUd0hZZU90aG5MeG1sVkJRTV9XdHZuWHcza3ZsWnR4ZHlzdFkxR2NNWWdHZWpLb0xlaGU5Z29nTWM?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOdnNjeDBiVDdkMGU3SzJaN2dYQWMzbXVXMXEydHF3N0ZIbHZHZTBPb3cwRTNMZzlmYWoyb1JJbjZUNjBBNkdsZTNWTFh2Ukxsa0NrV3Z6Z1hGTzBUd0hZZU90aG5MeG1sVkJRTV9XdHZuWHcza3ZsWnR4ZHlzdFkxR2NNWWdHZWpLb0xlaGU5Z29nTWM?oc=5\" target=\"_blank\">Australia to miss 2030 tech jobs target, projections reveal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">InnovationAus.com</font>",
+      "published": "Wed, 05 Nov 2025 11:31:14 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Henderson defence job winning the battle against FIFO mining - The West Australian",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdnJNMnA5UTNWdGZZNkdfcDJMbVl2UmdJMl8yMjUxNGV0elh2bV9IdjVLckhYSWFockZFMnNtVEk5cFJxZTlnWnFfb2NIdkNXZWdxSmF5MkFHM19vc0JkOFdiMFdoS1Vnb01yeG5WWU9QemNxMWFGZUxQaUR4bzhtLWZiMzd3MGJmUlc5d2x1NGJ1U3JOaV95MTExUVExM3AyVkJUUnlWc2tVQWY1c2t6RE1iZ3pKZFNwOHZUaklqUTV5bktCX0ZHMDhCS3NPM3p1aG1ha1k1WDYwN2s?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdnJNMnA5UTNWdGZZNkdfcDJMbVl2UmdJMl8yMjUxNGV0elh2bV9IdjVLckhYSWFockZFMnNtVEk5cFJxZTlnWnFfb2NIdkNXZWdxSmF5MkFHM19vc0JkOFdiMFdoS1Vnb01yeG5WWU9QemNxMWFGZUxQaUR4bzhtLWZiMzd3MGJmUlc5d2x1NGJ1U3JOaV95MTExUVExM3AyVkJUUnlWc2tVQWY1c2t6RE1iZ3pKZFNwOHZUaklqUTV5bktCX0ZHMDhCS3NPM3p1aG1ha1k1WDYwN2s?oc=5\" target=\"_blank\">Henderson defence job winning the battle against FIFO mining</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The West Australian</font>",
+      "published": "Wed, 05 Nov 2025 11:31:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Labor accused of ‘burying’ controversial jobs for mates report after going to extraordinary lengths to keep secret - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaWViOFgwT2VtajdXT203MmVWVy1XY1ZBNU05QUpsMVlRNks3T1dGdmEtVzBwVE9PODVKNF9TdE9NeWpNdTJ6SWwySF9CcWdtRE9JMFVOU0pvbEhEdU1yQWF1YWdiSk80dkxrR0Z4MlF0Smp0akZfUUJFV3NKNzYxakRVYVFSREZvaG56UUNZZHBBclpFVFNPUGZtWlJHQnc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPaWViOFgwT2VtajdXT203MmVWVy1XY1ZBNU05QUpsMVlRNks3T1dGdmEtVzBwVE9PODVKNF9TdE9NeWpNdTJ6SWwySF9CcWdtRE9JMFVOU0pvbEhEdU1yQWF1YWdiSk80dkxrR0Z4MlF0Smp0akZfUUJFV3NKNzYxakRVYVFSREZvaG56UUNZZHBBclpFVFNPUGZtWlJHQnc?oc=5\" target=\"_blank\">Labor accused of ‘burying’ controversial jobs for mates report after going to extraordinary lengths to keep secret</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "published": "Wed, 05 Nov 2025 01:08:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Australia’s ‘divorce capital’ revealed — and it comes down to this job - realestate.com.au",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWlmSjZVd3d3OXFsel9aTEg1MDJKVGtEY3RIM04xOS1OcWprSUJyZFJWYzBRdkJvMzA2eUlIMWZUMUZmZG1ZQWRTQzNqU2dqbTlFdzUwR1A5LWhaLTJNUDE5WHFfS203QUJfdk9Fdjc2VFlIU3VUOHZsRDVuNHVpcFFNV1NwVkVyVWFrdHNkZGJlbGw4cTlyeTItaFJoUlBl?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWlmSjZVd3d3OXFsel9aTEg1MDJKVGtEY3RIM04xOS1OcWprSUJyZFJWYzBRdkJvMzA2eUlIMWZUMUZmZG1ZQWRTQzNqU2dqbTlFdzUwR1A5LWhaLTJNUDE5WHFfS203QUJfdk9Fdjc2VFlIU3VUOHZsRDVuNHVpcFFNV1NwVkVyVWFrdHNkZGJlbGw4cTlyeTItaFJoUlBl?oc=5\" target=\"_blank\">Australia’s ‘divorce capital’ revealed — and it comes down to this job</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">realestate.com.au</font>",
+      "published": "Wed, 05 Nov 2025 00:45:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "AI Jobs Barometer - PwC Australia",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWkySzhBYWxOUThVZkVYdkRwTEljOWNQdTFsVjhWdElMbXdkc1M3TUtHU2JlVHlpZC1HakZQM1RaWlNGUFNGZTF0WWNtS0FXMmo5OHNOWVpZSEtaY1ZXQVZnWWFETFVLZ0dvcWFBVEpZVEpXZjI3ZEgwQWxjdE1hZ3lLU3k?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWkySzhBYWxOUThVZkVYdkRwTEljOWNQdTFsVjhWdElMbXdkc1M3TUtHU2JlVHlpZC1HakZQM1RaWlNGUFNGZTF0WWNtS0FXMmo5OHNOWVpZSEtaY1ZXQVZnWWFETFVLZ0dvcWFBVEpZVEpXZjI3ZEgwQWxjdE1hZ3lLU3k?oc=5\" target=\"_blank\">AI Jobs Barometer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PwC Australia</font>",
+      "published": "Wed, 04 Jun 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    },
+    {
+      "title": "Employment at the Memorial - Australian War Memorial",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWRV9rVWVPeEtfZEFyZFJYVXhDNjFibUxocW44SVFZRnVKaFZ0NFg3eHhia2RyT0EtRjl2dWg5ek5uOUhFT3BQSkhibHhmeWxGRW5hU2k0MHl1UQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWRV9rVWVPeEtfZEFyZFJYVXhDNjFibUxocW44SVFZRnVKaFZ0NFg3eHhia2RyT0EtRjl2dWg5ek5uOUhFT3BQSkhibHhmeWxGRW5hU2k0MHl1UQ?oc=5\" target=\"_blank\">Employment at the Memorial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Australian War Memorial</font>",
+      "published": "Tue, 29 Jul 2025 07:00:00 GMT",
+      "source": "\"Australia jobs\" - Google News",
+      "image": "https://via.placeholder.com/600x400?text=Haber"
+    }
+  ]
 }
