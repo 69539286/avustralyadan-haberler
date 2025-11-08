@@ -6,7 +6,6 @@ import html
 from datetime import datetime
 import urllib.parse
 
-# Kategoriler ve RSS adresleri
 RSS_FEEDS = {
     "ekonomi": [
         "https://news.google.com/rss/search?q=Australia+economy&hl=en-AU&gl=AU&ceid=AU:en"
@@ -31,99 +30,105 @@ RSS_FEEDS = {
     ],
     "istihdam": [
         "https://news.google.com/rss/search?q=Australia+employment&hl=en-AU&gl=AU&ceid=AU:en"
-    ],
+    ]
 }
 
-# Çeviri API (MyMemory ücretsiz)
+# ✅ ÜCRETSİZ ÇEVİRİ (MyMemory)
 def translate(text):
     if not text:
         return ""
     try:
-        url = (
-            "https://api.mymemory.translated.net/get?q="
-            + urllib.parse.quote(text)
-            + "&langpair=en|tr"
-        )
-        r = requests.get(url, timeout=5).json()
+        api = "https://api.mymemory.translated.net/get?q=" + urllib.parse.quote(text) + "&langpair=en|tr"
+        r = requests.get(api, timeout=7).json()
         return r["responseData"]["translatedText"]
     except:
         return text
 
-
-# Başlığı temizle
+# ✅ Title temizleme
 def clean_title(raw):
-    if not raw:
-        return ""
-
-    raw = html.unescape(raw)
-    soup = BeautifulSoup(raw, "html.parser")
-    txt = soup.get_text()
-
-    # Google News bazen encoded oluyor
     try:
-        txt = urllib.parse.unquote(txt)
+        raw = html.unescape(raw)
+        soup = BeautifulSoup(raw, "html.parser")
+        txt = soup.get_text()
+        return txt.strip()
+    except:
+        return raw
+
+# ✅ Özet yapay olarak site içeriğinden çıkarılıyor
+def extract_summary(url):
+    try:
+        real = requests.get(url, timeout=7)
+        soup = BeautifulSoup(real.text, "html.parser")
+
+        p = soup.find("p")
+        if p:
+            return p.get_text().strip()
+
+    except:
+        pass
+    return ""
+
+# ✅ Google News URL → gerçek URL çözümü
+def resolve_url(gn_url):
+    try:
+        r = requests.get(gn_url, allow_redirects=True, timeout=7)
+        return r.url
+    except:
+        return gn_url
+
+# ✅ Görsel bulma
+def get_image_from_page(url):
+    try:
+        r = requests.get(url, timeout=7)
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        og = soup.find("meta", property="og:image")
+        if og:
+            return og["content"]
+
+        img = soup.find("img")
+        if img and img.get("src"):
+            return img["src"]
+
     except:
         pass
 
-    return txt.strip()
-
-
-# Summary’yi temizle
-def clean_summary(summary):
-    if not summary:
-        return ""
-    summary = html.unescape(summary)
-    soup = BeautifulSoup(summary, "html.parser")
-    return soup.get_text().strip()
-
-
-# Görsel alma
-def get_image(entry):
-    if "media_content" in entry:
-        try:
-            return entry.media_content[0]["url"]
-        except:
-            pass
-    if "media_thumbnail" in entry:
-        try:
-            return entry.media_thumbnail[0]["url"]
-        except:
-            pass
     return "https://via.placeholder.com/600x400?text=Haber"
 
-
-# RSS kategori oku
+# ✅ Tek kategori oku
 def fetch_category(urls):
-    all_items = []
+    out = []
 
-    for feed_url in urls:
-        f = feedparser.parse(feed_url)
+    for feed in urls:
+        f = feedparser.parse(feed)
 
-        for e in f.entries:
-            # İngilizce başlık temizle
+        for e in f.entries[:15]:
+
             original_title = clean_title(e.title)
             tr_title = translate(original_title)
 
-            # İngilizce özet temizle
-            original_summary = clean_summary(e.get("summary", ""))
-            tr_summary = translate(original_summary)
+            final_url = resolve_url(e.link)
 
-            img = get_image(e)
+            summary = extract_summary(final_url)
+            tr_summary = translate(summary) if summary else ""
 
-            all_items.append({
+            image = get_image_from_page(final_url)
+
+            out.append({
                 "title": tr_title,
                 "summary": tr_summary,
-                "link": e.link,
+                "link": final_url,
                 "published": e.get("published", ""),
-                "image": img
+                "image": image
             })
 
-    return all_items[:20]
+    return out
 
-
-# JSON dosyası oluştur
+# ✅ JSON oluştur
 def build_json():
-    data = {"updated_at": datetime.utcnow().isoformat()}
+    data = {
+        "updated_at": datetime.utcnow().isoformat()
+    }
 
     for cat, urls in RSS_FEEDS.items():
         print("Kategori işleniyor:", cat)
@@ -132,8 +137,7 @@ def build_json():
     with open("data/news.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("✓ Güncellendi: data/news.json")
-
+    print("✅ Tamamlandı → data/news.json")
 
 if __name__ == "__main__":
     build_json()
