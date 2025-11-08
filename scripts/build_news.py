@@ -5,123 +5,81 @@ import json
 import os
 from datetime import datetime
 
-# ---------------------------------------------------------
-#  RSS KAYNAKLARI (Kategori kategori)
-# ---------------------------------------------------------
-RSS_MAP = {
+# --- RSS KAYNAKLARI (GARANTİ ÇALIŞANLAR) ---
+RSS = {
     "ekonomi": [
-        "https://www.abc.net.au/news/feed/45918/rss.xml",
-        "https://www.afr.com/rss",
+        "https://www.abc.net.au/news/business/feed/2942/rss.xml",
+        "https://www.reuters.com/business/australia/rss"
     ],
     "hukumet": [
-        "https://www.abc.net.au/news/politics/feed/2940/rss.xml",
+        "https://www.abc.net.au/news/politics/feed/53120/rss.xml"
     ],
     "emlak": [
-        "https://www.domain.com.au/news/feed/",
-        "https://www.realestate.com.au/news/feed/",
+        "https://www.abc.net.au/news/topic/real-estate/feed/rss"
     ],
     "goc": [
-        "https://immi.homeaffairs.gov.au/news-media/archive?format=feed&type=rss",
+        "https://www.sbs.com.au/language/english/topic/migration?view=trt&format=rss"
     ],
     "spor": [
         "https://www.trtspor.com.tr/manset.rss",
-        "https://www.fanatik.com.tr/rss",
+        "https://www.haberturk.com/rss/manset.xml"
     ],
     "gelismeler": [
-        "https://www.abc.net.au/news/justin/rss",
+        "https://www.abc.net.au/news/justin/rss"
     ],
     "sosyalist": [
-        "https://redflag.org.au/rss.xml",
+        "https://redflag.org.au/rss.xml"
     ],
     "istihdam": [
-        "https://www.abc.net.au/news/business/jobs/feed/286/rss.xml",
+        "https://www.abc.net.au/news/business/jobs/feed/286/rss.xml"
     ]
 }
 
-# ---------------------------------------------------------
-# Sabitler
-# ---------------------------------------------------------
 OUTPUT_FILE = os.path.join("data", "news.json")
-MAX_ITEMS = 15
-USER_AGENT = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"
-}
-PLACEHOLDER = "https://via.placeholder.com/600x400?text=Haber"
+PLACEHOLDER_IMAGE = "https://via.placeholder.com/600x400?text=Haber"
 
-# ---------------------------------------------------------
-def fetch_feed(url):
-    try:
-        r = requests.get(url, headers=USER_AGENT, timeout=10)
-        return feedparser.parse(r.content)
-    except:
-        return {"entries": []}
-
-# ---------------------------------------------------------
 def extract_image(entry):
-    try:
-        if "media_thumbnail" in entry:
-            return entry.media_thumbnail[0]["url"]
-        if "media_content" in entry:
-            return entry.media_content[0]["url"]
-        if "image" in entry:
-            return entry.image.get("url")
-        if "links" in entry:
-            for l in entry.links:
-                if l.get("type", "").startswith("image"):
-                    return l.get("href")
-    except:
-        pass
-    return PLACEHOLDER
+    if 'media_thumbnail' in entry:
+        return entry.media_thumbnail[0]['url']
+    if 'media_content' in entry:
+        return entry.media_content[0]['url']
+    if 'image' in entry:
+        return entry.image.get('url')
+    if 'links' in entry:
+        for link in entry.links:
+            if link.get("type", "").startswith("image"):
+                return link.get("href")
+    return PLACEHOLDER_IMAGE
 
-# ---------------------------------------------------------
-def process_feed(entries, source_name):
+def fetch_category(feeds):
     items = []
-    for e in entries[:MAX_ITEMS]:
-        img = extract_image(e)
-        published = e.get("published", "") or e.get("updated", "")
+    for url in feeds:
+        feed = feedparser.parse(url)
+        for entry in feed.entries:
+            items.append({
+                "title": entry.get("title", ""),
+                "link": entry.get("link", ""),
+                "summary": entry.get("summary", ""),
+                "published": entry.get("published", ""),
+                "source": feed.feed.get("title", ""),
+                "image": extract_image(entry)
+            })
+    items.sort(key=lambda x: x["published"], reverse=True)
+    return items[:30]  # max 30
 
-        item = {
-            "title": e.get("title", "Başlıksız Haber"),
-            "link": e.get("link", ""),
-            "summary": e.get("summary", "")[:350],
-            "published": published,
-            "image": img,
-            "source": source_name,
-            "slug": e.get("title", "").lower().replace(" ", "-")[:40]
-        }
-        items.append(item)
-
-    return items
-
-# ---------------------------------------------------------
 def build():
-    all_data = {}
-    
-    for category, feeds in RSS_MAP.items():
-        merged = []
-        for url in feeds:
-            f = fetch_feed(url)
-            source_name = url.split("/")[2]
-            merged.extend(process_feed(f.get("entries", []), source_name))
+    data = {}
+    for cat, feeds in RSS.items():
+        print(f"Kategori işleniyor: {cat}")
+        data[cat] = fetch_category(feeds)
 
-        # En yeni haberler üste
-        merged.sort(key=lambda x: x["published"], reverse=True)
+    data["generated_at"] = datetime.utcnow().isoformat() + "Z"
 
-        # JSON'a ekle
-        all_data[category] = merged
-
-    # Son metadata
-    all_data["generated_at"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-
-    # Klasör yoksa oluştur
-    os.makedirs("data", exist_ok=True)
-
-    # Kaydet
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(all_data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
     print("✅ Haber JSON üretildi:", OUTPUT_FILE)
 
-# ---------------------------------------------------------
 if __name__ == "__main__":
     build()
