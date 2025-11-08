@@ -1,260 +1,186 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Avustralyadan Haberler</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Avustralyadan Haberler – Avustralya Günlük Haber Özeti</title>
+  <meta name="description" content="Avustralya ekonomi, hükümet, emlak, göçmenlik, iş-işsizlik, sosyal hareketler ve Türkiye spor haberleri — günlük özet.">
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f8f8f8;
-      color: #222;
+    :root{
+      --bg:#0b5ba1; --ink:#111; --muted:#555; --card:#fff; --wash:#f7f8fa; --ring:#e6eef7
     }
-    header {
-      background: #0b5ba1;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      font-size: 1.6rem;
-      font-weight: bold;
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+         background:var(--wash);color:var(--ink)}
+    header{background:var(--bg);color:#fff;padding:22px 16px}
+    header h1{margin:0;font-size:1.6rem}
+    header p{margin:.4rem 0 0;opacity:.9}
+    .wrap{max-width:1200px;margin:0 auto;padding:16px}
+    /* 2 kolon: A (geniş) + B (yan) */
+    .grid{
+      display:grid; gap:16px;
+      grid-template-columns: 2fr 1fr;
     }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
+    @media (max-width: 900px){
+      .grid{grid-template-columns: 1fr}
     }
-    h2 {
-      border-left: 6px solid #0b5ba1;
-      padding-left: 10px;
-      margin-top: 40px;
-      font-size: 1.4rem;
+    .card{
+      background:var(--card);border:1px solid var(--ring);
+      border-radius:14px;padding:14px 14px 8px; box-shadow:0 2px 6px rgba(0,0,0,.04)
     }
-    .news-block {
-      background: white;
-      padding: 15px;
-      margin-top: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    .news-item {
-      margin-bottom: 20px;
-    }
-    .news-item h3 {
-      margin: 0;
-      font-size: 1.2rem;
-      color: #0b5ba1;
-    }
-    .news-item p {
-      margin: 5px 0 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      color: #555;
-    }
+    h2.section{margin:12px 0 10px;font-size:1.2rem;border-left:6px solid var(--bg);
+               padding-left:10px}
+    .item{display:grid;grid-template-columns:110px 1fr;gap:10px;align-items:start;margin:10px 0;padding:10px;border-radius:12px;background:#fff}
+    .item img{width:110px;height:78px;object-fit:cover;border-radius:8px;border:1px solid var(--ring);background:#eee}
+    .item h3{margin:0 0 6px;font-size:1.02rem}
+    .item p{margin:0;color:var(--muted);line-height:1.35}
+    .meta{font-size:.85rem;color:var(--muted);margin-top:6px}
+    .pill{display:inline-block;font-size:.72rem;background:#eef6ff;color:#0b5ba1;
+          padding:2px 8px;border-radius:999px;border:1px solid var(--ring);margin-right:6px}
+    .flex{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    .toolbar{display:flex;gap:8px;align-items:center;margin-top:10px}
+    .btn{background:#fff;border:1px solid var(--ring);border-radius:10px;padding:8px 10px;cursor:pointer}
+    .btn:hover{background:#f2f6fb}
+    aside .card h3{margin:8px 0 10px}
+    .thumb{display:grid;grid-template-columns:64px 1fr;gap:8px;margin:8px 0}
+    .thumb img{width:64px;height:48px;object-fit:cover;border-radius:6px;border:1px solid var(--ring)}
+    footer{color:var(--muted);text-align:center;padding:24px}
   </style>
 </head>
 <body>
-
-  <header>Avustralya Günlük Haber Özeti</header>
-
-  <div class="container">
-
-    <!-- EKONOMİ -->
-    <h2>Avustralya Ekonomi Haberleri</h2>
-    <div class="news-block" id="ekonomi">
-
-      <div class="news-item">
-        <h3>RBA faizleri sabit tuttu</h3>
-        <p>Avustralya Merkez Bankası son toplantısında faiz oranlarını değiştirmedi. Enflasyonun yıl sonunda düşeceği öngörülüyor.</p>
-        <hr>
+  <header>
+    <div class="wrap">
+      <h1>Avustralyadan Haberler</h1>
+      <p>Başlık: <strong>Avustralya Günlük Haber Özeti</strong></p>
+      <div class="toolbar">
+        <button class="btn" id="refreshBtn">Yenile</button>
+        <span id="updatedAt" class="pill">Yükleniyor…</span>
       </div>
-
-      <div class="news-item">
-        <h3>Avustralya doları güçlendi</h3>
-        <p>Madencilik sektöründeki fiyat artışları AUD’yi ABD dolarına karşı yukarı çekti.</p>
-        <hr>
-      </div>
-
-    </div>
-
-    <!-- HÜKÜMET -->
-    <h2>Avustralya Hükümet ve Devlet Haberleri</h2>
-    <div class="news-block" id="hukumet">
-
-      <div class="news-item">
-        <h3>Federal hükümet enerji reformunu duyurdu</h3>
-        <p>Yeni paket yenilenebilir enerjiye geçişi hızlandırmayı hedefliyor.</p>
-        <hr>
-      </div>
-
-    </div>
-
-    <!-- EMLAK -->
-    <h2>Avustralya Emlak Piyasa Haberleri</h2>
-    <div class="news-block" id="emlak">
-
-      <div class="news-item">
-        <h3>Sydney konut fiyatlarında artış sürüyor</h3>
-        <p>2025’in ilk çeyreğinde fiyatlar yüzde 2.3 yükseldi.</p>
-        <hr>
-      </div>
-
-    </div>
-
-    <!-- GÖÇMENLİK -->
-    <h2>Avustralya Göçmenlik Haberleri</h2>
-    <div class="news-block" id="goc">
-
-      <div class="news-item">
-        <h3>Yeni göçmenlik düzenlemeleri açıklandı</h3>
-        <p>Skilled visa kategorisinde puanlama sisteminde değişiklik yapıldı.</p>
-        <hr>
-      </div>
-
-    </div>
-
-    <!-- SPOR -->
-    <h2>Türkiye Spor Haberleri</h2>
-    <div class="news-block" id="spor">
-
-      <div class="news-item">
-        <h3>Galatasaray derbiyi kazandı</h3>
-        <p>Ülker Stadyumu'nda oynanan maç 2-1 sarı kırmızılıların galibiyetiyle sonuçlandı.</p>
-        <hr>
-      </div>
-
-    </div>
-
-    <!-- GELİŞMELER -->
-    <h2>Avustralyadaki Yeni Gelişmeler</h2>
-    <div class="news-block" id="gelismeler">
-
-      <div class="news-item">
-        <h3>Melbourne’da toplu taşıma yenileniyor</h3>
-        <p>Yeni tramvay hattı 2026 sonunda açılacak.</p>
-        <hr>
-      </div>
-
-    </div>
-
-    <!-- SOSYALİST HAREKETLER -->
-    <h2>Avustralya Sosyalist Hareketleri Haberleri</h2>
-    <div class="news-block" id="sosyalist">
-
-      <div class="news-item">
-        <h3>Sosyalist ittifak yeni bildiri yayınladı</h3>
-        <p>Bildiri ekonomik eşitsizlik ve işçi haklarına odaklanıyor.</p>
-        <hr>
-      </div>
-
-    </div>
-
-    <!-- İSTİHDAM -->
-    <h2>Avustralya İş ve İşsizlik Haberleri</h2>
-    <div class="news-block" id="istihdam">
-
-      <div class="news-item">
-        <h3>İşsizlik oranı yüzde 3.9 olarak açıklandı</h3>
-        <p>Yeni verilere göre istihdam piyasası güçlü görünümünü koruyor.</p>
-        <hr>
-      </div>
-
-    </div>
-
-  </div>
-
-  <footer>
-    Avustralyadan Haberler © 2025
-  </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Avustralyadan Haberler</title>
-  <meta name="description" content="Avustralya Günlük Haber Özeti – Ekonomi, Hükümet, Emlak, Göçmenlik, İşsizlik ve daha fazlası." />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="preload" href="data/news.json" as="fetch" crossorigin="anonymous" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Avustralya Günlük Haber Özeti</h1>
-      <p class="tagline">“Avustralyadan Haberler” – Her gün tek sayfada özet.</p>
-      <nav class="tabs" id="tabs">
-        <button class="tab active" data-target="ekonomi">Ekonomi</button>
-        <button class="tab" data-target="hukumet">Hükümet & Devlet</button>
-        <button class="tab" data-target="emlak">Emlak</button>
-        <button class="tab" data-target="goc">Göçmenlik</button>
-        <button class="tab" data-target="spor">Türkiye Spor</button>
-        <button class="tab" data-target="gelismeler">Yeni Gelişmeler</button>
-        <button class="tab" data-target="sosyalist">Sosyalist Hareketler</button>
-        <button class="tab" data-target="istihdam">İş & İşsizlik</button>
-      </nav>
     </div>
   </header>
 
-  <main class="container">
-    <div class="meta">
-      <span id="last-updated">Yükleniyor…</span>
-      <button id="refresh" class="refresh">Yenile</button>
-    </div>
-
-    <!-- Bölümler -->
-    <section id="ekonomi" class="section is-active">
-      <h2>Avustralya Ekonomi Haberleri</h2>
-      <div class="grid" data-section="ekonomi"></div>
+  <main class="wrap grid">
+    <!-- A KOLONU (GENİŞ) -->
+    <section id="colA">
+      <div class="card">
+        <h2 class="section">Avustralya Ekonomi Haberleri</h2>
+        <div id="ekonomi"></div>
+      </div>
+      <div class="card">
+        <h2 class="section">Avustralya Hükümet ve Devlet Haberleri</h2>
+        <div id="hukumet"></div>
+      </div>
+      <div class="card">
+        <h2 class="section">Avustralya Emlak Piyasa Haberleri</h2>
+        <div id="emlak"></div>
+      </div>
+      <div class="card">
+        <h2 class="section">Avustralya Göçmenlik Haberleri</h2>
+        <div id="goc"></div>
+      </div>
+      <div class="card">
+        <h2 class="section">Avustralya İş ve İşsizlik Haberleri</h2>
+        <div id="istihdam"></div>
+      </div>
     </section>
 
-    <section id="hukumet" class="section">
-      <h2>Avustralya Hükümet ve Devlet Haberleri</h2>
-      <div class="grid" data-section="hukumet"></div>
-    </section>
-
-    <section id="emlak" class="section">
-      <h2>Avustralya Emlak Piyasa Haberleri</h2>
-      <div class="grid" data-section="emlak"></div>
-    </section>
-
-    <section id="goc" class="section">
-      <h2>Avustralya Göçmenlik Haberleri</h2>
-      <div class="grid" data-section="goc"></div>
-    </section>
-
-    <section id="spor" class="section">
-      <h2>Türkiye Spor Haberleri</h2>
-      <div class="grid" data-section="spor"></div>
-    </section>
-
-    <section id="gelismeler" class="section">
-      <h2>Avustralya’daki Yeni Gelişmeler</h2>
-      <div class="grid" data-section="gelismeler"></div>
-    </section>
-
-    <section id="sosyalist" class="section">
-      <h2>Avustralya Sosyalist Hareketleri Haberleri</h2>
-      <div class="grid" data-section="sosyalist"></div>
-    </section>
-
-    <section id="istihdam" class="section">
-      <h2>Avustralya İş ve İşsizlik Haberleri</h2>
-      <div class="grid" data-section="istihdam"></div>
-    </section>
+    <!-- B KOLONU (YAN) -->
+    <aside id="colB">
+      <div class="card">
+        <h3>Günün Manşetleri</h3>
+        <div id="mansetler"></div>
+      </div>
+      <div class="card">
+        <h3>Türkiye Spor Haberleri</h3>
+        <div id="spor"></div>
+      </div>
+      <div class="card">
+        <h3>Avustralya’daki Yeni Gelişmeler</h3>
+        <div id="gelismeler"></div>
+      </div>
+      <div class="card">
+        <h3>Avustralya Sosyalist Hareketleri</h3>
+        <div id="sosyalist"></div>
+      </div>
+    </aside>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>Avustralyadan Haberler © <span id="year"></span> · Mobil uyumlu ve reklamsız</p>
-      <p class="hint">İpucu: JSON güncellenince sayfa otomatik yenileniyor. “Yenile” butonu zorla tazeler.</p>
-    </div>
-  </footer>
+  <footer>Avustralyadan Haberler © 2025 · Mobil uyumlu ve reklamsız</footer>
 
-  <script src="app.js" defer></script>
+  <script>
+    const JSON_URL = 'data/news.json?ts=' + Date.now();
+
+    function el(html){ const t=document.createElement('template'); t.innerHTML=html.trim(); return t.content.firstChild; }
+
+    function itemView(n){
+      const img = n.image || 'images/generated/' + (n.slug || 'placeholder') + '.png';
+      const src = img;
+      const h = `
+        <article class="item">
+          <img loading="lazy" src="${src}" alt="">
+          <div>
+            <h3><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a></h3>
+            <p>${n.summary || ''}</p>
+            <div class="meta">
+              <span class="pill">${n.source || ''}</span>
+              <span>${n.published || ''}</span>
+            </div>
+          </div>
+        </article>
+      `;
+      return el(h);
+    }
+
+    function renderList(targetId, arr){
+      const box = document.getElementById(targetId);
+      box.innerHTML = '';
+      (arr || []).forEach(n => box.appendChild(itemView(n)));
+      if(!arr || arr.length===0){
+        box.appendChild(el('<p class="meta">Bu bölümde şimdilik haber yok.</p>'));
+      }
+    }
+
+    async function load(){
+      document.getElementById('updatedAt').textContent = 'Yükleniyor…';
+      const res = await fetch(JSON_URL);
+      const data = await res.json();
+
+      // A kolon (geniş)
+      renderList('ekonomi',   data.ekonomi);
+      renderList('hukumet',   data.hukumet);
+      renderList('emlak',     data.emlak);
+      renderList('goc',       data.goc);
+      renderList('istihdam',  data.istihdam);
+
+      // B kolon (yan)
+      renderList('spor',        data.spor);
+      renderList('gelismeler',  data.gelismeler);
+      renderList('sosyalist',   data.sosyalist);
+
+      // Manşetler (ilk 6 haber, karışık havuz)
+      const headlines = []
+        .concat(data.ekonomi, data.hukumet, data.emlak, data.goc, data.istihdam, data.gelismeler, data.sosyalist, data.spor)
+        .filter(Boolean)
+        .slice(0, 6);
+      const mRoot = document.getElementById('mansetler');
+      mRoot.innerHTML = '';
+      headlines.forEach(n=>{
+        const h = `
+          <div class="thumb">
+            <img loading="lazy" src="${n.image || 'images/generated/' + (n.slug || 'placeholder') + '.png'}" alt="">
+            <div>
+              <a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
+              <div class="meta">${n.source || ''}</div>
+            </div>
+          </div>`;
+        mRoot.appendChild(el(h));
+      });
+
+      document.getElementById('updatedAt').textContent = 'Güncellendi: ' + (data.generated_at || '');
+    }
+
+    document.getElementById('refreshBtn').addEventListener('click', load);
+    load();
+  </script>
 </body>
 </html>
