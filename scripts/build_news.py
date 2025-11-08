@@ -1,129 +1,126 @@
-# build_news.py
-
 import feedparser
 import requests
 import json
-import os
+from bs4 import BeautifulSoup
+import urllib.parse
 from datetime import datetime
 
-# ------------------------------------------------
-#   RSS KAYNAKLARI (KATEGORİLİ)
-# ------------------------------------------------
-
-RSS_SOURCES = {
+# -------------------------------
+# AYARLAR
+# -------------------------------
+RSS_FEEDS = {
     "ekonomi": [
-        "https://news.google.com/rss/search?q=Australia+economy&hl=en-AU&gl=AU&ceid=AU:en",
-        "https://www.reuters.com/markets/australia/rss",
-        "https://www.abc.net.au/news/feed/51120/rss.xml"
+        "https://news.google.com/rss/search?q=Australia+economy&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "hukumet": [
-        "https://news.google.com/rss/search?q=Australia+government&hl=en-AU&gl=AU&ceid=AU:en",
-        "https://www.reuters.com/world/asia-pacific/rss",
-        "https://www.abc.net.au/news/politics/feed.xml"
+        "https://news.google.com/rss/search?q=Australia+government&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "emlak": [
-        "https://news.google.com/rss/search?q=Australia+housing+market&hl=en-AU&gl=AU&ceid=AU:en"
+        "https://news.google.com/rss/search?q=Australia+real+estate&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "goc": [
-        "https://news.google.com/rss/search?q=Australia+immigration&hl=en-AU&gl=AU&ceid=AU:en",
-        "https://www.abc.net.au/news/topic/migration/feed.xml"
+        "https://news.google.com/rss/search?q=Australia+immigration&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "spor": [
-        "https://www.trtspor.com.tr/rss/anasayfa.rss"
+        "https://news.google.com/rss/search?q=Australia+sport&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "gelismeler": [
         "https://news.google.com/rss/search?q=Australia+breaking+news&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "sosyalist": [
-        "https://news.google.com/rss/search?q=Australia+socialist+movement&hl=en-AU&gl=AU&ceid=AU:en"
+        "https://news.google.com/rss/search?q=Australia+socialist+movements&hl=en-AU&gl=AU&ceid=AU:en"
     ],
     "istihdam": [
-        "https://news.google.com/rss/search?q=Australia+jobs&hl=en-AU&gl=AU&ceid=AU:en"
+        "https://news.google.com/rss/search?q=Australia+employment&hl=en-AU&gl=AU&ceid=AU:en"
     ]
 }
 
-OUTPUT_FILE = "data/news.json"
 PLACEHOLDER_IMAGE = "https://via.placeholder.com/600x400?text=Haber"
-MAX_ITEMS = 20
 
 
-# ------------------------------
-#   GÖRSEL ALMA FONKSİYONU
-# ------------------------------
-
-def get_image(entry):
+# ----------------------------------------
+# METİN TÜRKÇE ÇEVİRİ (MyMemory API)
+# ----------------------------------------
+def translate_tr(text):
+    if not text:
+        return ""
     try:
-        if "media_thumbnail" in entry:
-            return entry.media_thumbnail[0]["url"]
-        if "media_content" in entry:
-            return entry.media_content[0]["url"]
-        if "links" in entry:
-            for l in entry.links:
-                if l.get("type", "").startswith("image/"):
-                    return l.get("href", PLACEHOLDER_IMAGE)
+        url = (
+            "https://api.mymemory.translated.net/get?q="
+            + urllib.parse.quote(text)
+            + "&langpair=en|tr"
+        )
+        r = requests.get(url, timeout=5).json()
+        return r["responseData"]["translatedText"]
+    except:
+        return text
+
+
+# ----------------------------------------
+# OpenGraph Görsel Alma
+# ----------------------------------------
+def get_opengraph_image(url):
+    try:
+        html = requests.get(url, timeout=5).text
+        soup = BeautifulSoup(html, "html.parser")
+        og = soup.find("meta", property="og:image")
+        if og and og.get("content"):
+            return og["content"]
     except:
         pass
+    return None
+
+
+# ----------------------------------------
+# RSS İÇERİSİNDEN GÖRSEL ALMA
+# ----------------------------------------
+def extract_image(entry):
+    if "media_content" in entry and len(entry.media_content) > 0:
+        return entry.media_content[0].get("url", PLACEHOLDER_IMAGE)
+
+    if "media_thumbnail" in entry and len(entry.media_thumbnail) > 0:
+        return entry.media_thumbnail[0].get("url", PLACEHOLDER_IMAGE)
+
     return PLACEHOLDER_IMAGE
 
 
-# ------------------------------
-#   TEK FEED OKUMA
-# ------------------------------
+# ----------------------------------------
+# RSS TOPLA – ÇEVİR – GÖRSEL EKLE
+# ----------------------------------------
+def fetch_category(feed_list):
+    items = []
 
-def fetch_feed(url):
-    try:
-        feed = feedparser.parse(url)
-        return feed.entries
-    except:
-        return []
+    for url in feed_list:
+        parsed = feedparser.parse(url)
 
+        for entry in parsed.entries:
+            image = extract_image(entry)
+            if image == PLACEHOLDER_IMAGE:
+                og = get_opengraph_image(entry.link)
+                if og:
+                    image = og
 
-# ------------------------------
-#   TÜM KATEGORİLERİ İŞLE
-# ------------------------------
-
-def build():
-    output = {}
-
-    for kategori, urls in RSS_SOURCES.items():
-        all_items = []
-
-        print(f"Kategori işleniyor: {kategori}")
-
-        for url in urls:
-            try:
-                entries = fetch_feed(url)
-                for e in entries:
-                    item = {
-                        "title": e.get("title", ""),
-                        "link": e.get("link", ""),
-                        "published": e.get("published", ""),
-                        "summary": e.get("summary", "")[:300],
-                        "image": get_image(e),
-                        "source": url
-                    }
-                    all_items.append(item)
-            except Exception as err:
-                print("Feed hatası:", err)
-
-        # En yeni haberler önde
-        all_items.sort(key=lambda x: x.get("published", ""), reverse=True)
-        output[kategori] = all_items[:MAX_ITEMS]
-
-    # JSON ek bilgisi
-    output["generated_at"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-
-    # Kayıt
-    os.makedirs("data", exist_ok=True)
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print("✅ Haber JSON üretildi:", OUTPUT_FILE)
+            items.append(
+                {
+                    "title": translate_tr(entry.title),
+                    "summary": translate_tr(entry.get("summary", "")),
+                    "link": entry.link,
+                    "published": entry.get("published", ""),
+                    "image": image,
+                }
+            )
+    return items[:20]
 
 
-# ------------------------------
-#   ÇALIŞTIR
-# ------------------------------
+# ----------------------------------------
+# ANA JSON DOSYASINI OLUŞTUR
+# ----------------------------------------
+def build_news_json():
+    data = {"updated_at": datetime.utcnow().isoformat()}
 
-if __name__ == "__main__":
-    build()
+    for category, feeds in RSS_FEEDS.items():
+        print(f"Kategori işleniyor: {category}")
+        data[category] = fetch_category(feeds)
+
+    with open("data/news.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure
